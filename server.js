@@ -13,7 +13,6 @@ const morgan = require("morgan");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 
-// const baseRouter = require("./routes/baseRouter");
 const authRouter = require("./routes/authRouter");
 const coinRouter = require("./routes/coinRouter");
 const cryptofolioRouter = require("./routes/cryptofolioRouter");
@@ -45,7 +44,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use("/api", coinRouter);
 app.use("/api/auth", authRouter);
-// app.use("/api/coin", coinRouter);
 app.use("/api/cryptofolio", cryptofolioRouter);
 
 app.use((req, res, next) => {

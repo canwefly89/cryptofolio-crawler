@@ -6,6 +6,7 @@ const UserSchema = new Schema({
   email: {
     type: String,
     trim: true,
+    unique: true,
     required: true,
   },
   name: {
@@ -16,7 +17,6 @@ const UserSchema = new Schema({
   },
   password: {
     type: String,
-    required: true,
   },
   cryptofolios: {
     type: [ObjectId],
