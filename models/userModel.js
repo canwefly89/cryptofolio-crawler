@@ -30,6 +30,10 @@ const UserSchema = new Schema({
 UserSchema.pre("save", function (next) {
   const user = this;
 
+  if (!user.password) {
+    return next();
+  }
+
   bcrypt.genSalt(SALT_ROUNDS, (err, salt) => {
     if (err) {
       return next(err);

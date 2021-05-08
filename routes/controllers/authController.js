@@ -7,7 +7,7 @@ exports.checkAuthDB = async (req, res, next) => {
 
     if (!user) {
       return res.status(200).json({
-        message: "Unauthorized",
+        message: "unauthorized",
       });
     }
 
@@ -27,6 +27,7 @@ exports.loginDB = async (req, res, next) => {
   try {
     return res.status(200).json();
   } catch (err) {
+    console.log(err);
     next(err);
   }
 };
@@ -37,13 +38,18 @@ exports.socialLoginDB = async (req, res, next) => {
     let user = await User.findOne({ email });
 
     if (!user) {
-      user = await User.create({
+      user = new User({
         email,
         name,
       });
+
+      await user.save();
     }
 
+    console.log(user);
+
     const token = createToken(user._id);
+    console.log(token);
 
     res.status(200).json({
       message: "success",
@@ -53,6 +59,7 @@ exports.socialLoginDB = async (req, res, next) => {
       },
     });
   } catch (err) {
+    console.log(err);
     next(err);
   }
 };
@@ -74,6 +81,7 @@ exports.sigininDB = async (req, res, next) => {
       },
     });
   } catch (err) {
+    console.log(err);
     next(err);
   }
 };
