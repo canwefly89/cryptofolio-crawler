@@ -9,7 +9,7 @@ exports.createToken = (userId) => {
 
 exports.verifyToken = async (clientToken) => {
   const decoded = jwt.verify(clientToken, process.env.JWT_SECRET);
-  const user = await User.findOne({ userId: decoded.userId });
+  const user = await User.findById(decoded.userId);
   const now = Date.now();
   const isExpired = decoded.exp * 1000 - now < 0;
 

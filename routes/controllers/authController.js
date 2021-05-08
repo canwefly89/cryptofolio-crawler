@@ -11,7 +11,7 @@ exports.checkAuthDB = async (req, res, next) => {
       });
     }
 
-    res.status(200).json({
+    return res.status(200).json({
       message: "success",
       data: {
         user,
@@ -36,8 +36,6 @@ exports.socialLoginDB = async (req, res, next) => {
     const { email, name } = req.body;
     let user = await User.findOne({ email });
 
-    console.log(user);
-
     if (!user) {
       user = await User.create({
         email,
@@ -61,16 +59,21 @@ exports.socialLoginDB = async (req, res, next) => {
 
 exports.sigininDB = async (req, res, next) => {
   try {
-    return res.status(200).json();
+    const user = new User(req.body);
+    await user.save();
+
+    const token = createToken(user._id);
+
+    delete user.password;
+
+    return res.status(200).json({
+      message: "success",
+      data: {
+        user,
+        token,
+      },
+    });
   } catch (err) {
     next(err);
   }
 };
-
-// exports.logoutDB = async (req, res, next) => {
-//   try {
-//     return res.status(200).json();
-//   } catch (err) {
-//     next(err);
-//   }
-// };
