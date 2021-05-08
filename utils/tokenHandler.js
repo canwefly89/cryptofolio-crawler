@@ -8,10 +8,6 @@ exports.createToken = (userId) => {
 };
 
 exports.verifyToken = async (clientToken) => {
-  if (!clientToken || clientToken === "undefined") {
-    return null;
-  }
-
   const decoded = jwt.verify(clientToken, process.env.JWT_SECRET);
   const user = await User.findOne({ userId: decoded.userId });
   const now = Date.now();

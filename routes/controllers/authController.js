@@ -3,8 +3,22 @@ const { createToken, verifyToken } = require("../../utils/tokenHandler");
 
 exports.checkAuthDB = async (req, res, next) => {
   try {
-    return res.status(200).json();
+    const user = await verifyToken(req.body.token);
+
+    if (!user) {
+      return res.status(200).json({
+        message: "Unauthorized",
+      });
+    }
+
+    res.status(200).json({
+      message: "success",
+      data: {
+        user,
+      },
+    });
   } catch (err) {
+    console.log(err);
     next(err);
   }
 };
