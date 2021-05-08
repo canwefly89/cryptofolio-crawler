@@ -25,7 +25,38 @@ exports.checkAuthDB = async (req, res, next) => {
 
 exports.loginDB = async (req, res, next) => {
   try {
-    return res.status(200).json();
+    const { email, password } = req.body;
+    const user = await User.findOne({ email });
+
+    if (!user) {
+      return res.status(200).json({
+        message: "fail",
+        data: {
+          errMessage: "사용자가 없습니다.",
+        },
+      });
+    }
+
+    user.comparePassword(password, (err, isMatch) => {
+      if (!isMatch) {
+        return res.status(200).json({
+          message: "fail",
+          data: {
+            errMessage: "잘못된 비밀번호입니다.",
+          },
+        });
+      }
+
+      const token = createToken(user._id);
+
+      return res.status(200).json({
+        message: "success",
+        data: {
+          user,
+          token,
+        },
+      });
+    });
   } catch (err) {
     console.log(err);
     next(err);
@@ -46,12 +77,9 @@ exports.socialLoginDB = async (req, res, next) => {
       await user.save();
     }
 
-    console.log(user);
-
     const token = createToken(user._id);
-    console.log(token);
 
-    res.status(200).json({
+    return res.status(200).json({
       message: "success",
       data: {
         user,
