@@ -92,7 +92,7 @@ exports.socialLoginDB = async (req, res, next) => {
   }
 };
 
-exports.sigininDB = async (req, res, next) => {
+exports.signupDB = async (req, res, next) => {
   try {
     const user = new User(req.body);
     await user.save();
