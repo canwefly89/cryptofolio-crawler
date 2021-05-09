@@ -1,15 +1,10 @@
-const upbitCrawled = require(`./crawledData/upbit_${new Date()
-  .toISOString()
-  .slice(0, 10)}.json`);
-const binanceCrawled = require(`./crawledData/binance_${new Date()
-  .toISOString()
-  .slice(0, 10)}.json`);
 const categoryData = require("./baseData/category.json");
+const { upbitTickers } = require("./baseList/upbitList");
+const { binanceTickers } = require("./baseList/binanceList");
 
-const fixCrawledData = (data, exchange) => {
+exports.fixCrawledData = (data, exchange) => {
   const fixedData = { ...data };
-  const binanceTickers = Object.values(binanceCrawled).map((v) => v.ticker);
-  const upbitTickers = Object.values(upbitCrawled).map((v) => v.ticker);
+  const NANRegex = /[^0-9.]/g;
 
   // 1. put in categories
   Object.entries(fixedData).forEach(([dkey, dvalue]) => {
@@ -21,22 +16,6 @@ const fixCrawledData = (data, exchange) => {
   });
 
   // 1-1. fix empty data
-  if (exchange === "binance") {
-    Object.entries(fixedData).forEach(([key, value]) => {
-      if (!value.ticker) {
-        delete fixedData[key];
-      }
-
-      if (value.ticker?.indexOf("UP") !== -1) {
-        delete fixedData[key];
-      }
-
-      if (value.ticker?.indexOf("DOWN") !== -1) {
-        delete fixedData[key];
-      }
-    });
-  }
-
   Object.entries(fixedData).forEach(([key, value]) => {
     if (value.categories.length === 0) {
       fixedData[key].categories.push("etc");
@@ -62,8 +41,9 @@ const fixCrawledData = (data, exchange) => {
       circulatingSupply,
       totalSupply,
       maxSupply,
-      marketCap,
-      volumeDollar,
+      date,
+      marketCap: { marketCap },
+      price: { price },
       dominance,
     } = value;
 
@@ -74,29 +54,25 @@ const fixCrawledData = (data, exchange) => {
     const parsedTotalSupply = parseInt(totalSupply?.replace(NANRegex, ""), 10);
     const parsedMaxSupply = parseInt(maxSupply?.replace(NANRegex, ""), 10);
     const parsedMarketCap = parseInt(marketCap?.replace(NANRegex, ""), 10);
-    const parsedVolumeDollar = parseInt(
-      volumeDollar?.replace(NANRegex, ""),
-      10
-    );
+    const parsedPrice = parseFloat(price?.replace(NANRegex, ""));
     const parsedDominance = parseFloat(dominance);
 
-    data[key] = {
-      ...handledUpbit[key],
+    fixedData[key] = {
+      ...fixedData[key],
       circulatingSupply: parsedCirculatingSupply,
       totalSupply: parsedTotalSupply,
       maxSupply: parsedMaxSupply,
-      marketCap: parsedMarketCap,
-      volumeDollar: parsedVolumeDollar,
+      marketCap: {
+        marketCap: parsedMarketCap,
+        date,
+      },
+      price: {
+        price: parsedPrice,
+        date,
+      },
       dominance: parsedDominance,
     };
   });
 
-  // 4. save to folder
-  fs.writeFileSync(
-    `./finalData/${exchange}_${new Date().toISOString().slice(0, 10)}.json`,
-    JSON.stringify(handledUpbit)
-  );
+  return fixedData;
 };
-
-fixCrawledData(upbitCrawled, "upbit");
-// fixCrawledData(binanceCrawled, "binance");

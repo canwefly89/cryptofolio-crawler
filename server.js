@@ -12,10 +12,16 @@ const port = process.env.PORT || 5000;
 const morgan = require("morgan");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
+const schedule = require("node-schedule");
 
 const authRouter = require("./routes/authRouter");
 const coinRouter = require("./routes/coinRouter");
 const cryptofolioRouter = require("./routes/cryptofolioRouter");
+const { priceCrawler } = require("./crawler/priceCrawler");
+
+schedule.scheduleJob("*/30 * * * *", () => {
+  priceCrawler();
+});
 
 const mongoURL = process.env.MONGO_URL.replace(
   "<PASSWORD>",
