@@ -1,16 +1,23 @@
 {
-  "0x": {
+  "ZRX": {
     "name": "0x",
     "ticker": "ZRX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1896.png",
     "circulatingSupply": 781547659,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 1524265218,
+    "marketCap": {
+      "2021-05-06T09:03": {
+        "date": "2021-05-06T09:03",
+        "marketCap": 1524265218
+      }
+    },
     "volumeDollar": 221005740,
     "dominance": 0.145,
     "date": "2021-05-06T09:03",
-    "price": { "price": "$1.95", "date": "2021-05-06T09:03" },
+    "price": {
+      "2021-05-06T09:03": { "date": "2021-05-06T09:03", "price": 1.95 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "blockchain-capital-portfolio",
@@ -27,18 +34,25 @@
       "platform"
     ]
   },
-  "zilliqa": {
+  "ZIL": {
     "name": "zilliqa",
     "ticker": "ZIL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2469.png",
     "circulatingSupply": 11251792400,
     "totalSupply": 14543259553,
     "maxSupply": 21000000000,
-    "marketCap": 2424290360,
+    "marketCap": {
+      "2021-05-06T09:03": {
+        "date": "2021-05-06T09:03",
+        "marketCap": 2424290360
+      }
+    },
     "volumeDollar": 247939847,
     "dominance": 0.1023,
     "date": "2021-05-06T09:03",
-    "price": { "price": "$0.2155", "date": "2021-05-06T09:03" },
+    "price": {
+      "2021-05-06T09:03": { "date": "2021-05-06T09:03", "price": 0.2155 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "smart-contracts",
@@ -49,18 +63,25 @@
       "payments"
     ]
   },
-  "horizen": {
+  "ZEN": {
     "name": "horizen",
     "ticker": "ZEN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1698.png",
     "circulatingSupply": 11050650,
     "totalSupply": 11050650,
     "maxSupply": 21000000,
-    "marketCap": 1257564574,
+    "marketCap": {
+      "2021-05-06T09:03": {
+        "date": "2021-05-06T09:03",
+        "marketCap": 1257564574
+      }
+    },
     "volumeDollar": 106941032,
     "dominance": 0.08504,
     "date": "2021-05-06T09:03",
-    "price": { "price": "$113.80", "date": "2021-05-06T09:03" },
+    "price": {
+      "2021-05-06T09:03": { "date": "2021-05-06T09:03", "price": 113.8 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "content-creation",
@@ -70,18 +91,25 @@
       "mineable"
     ]
   },
-  "zcash": {
+  "ZEC": {
     "name": "zcash",
     "ticker": "ZEC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1437.png",
     "circulatingSupply": 11708838,
     "totalSupply": 11708838,
     "maxSupply": 21000000,
-    "marketCap": 3276498476,
+    "marketCap": {
+      "2021-05-06T09:03": {
+        "date": "2021-05-06T09:03",
+        "marketCap": 3276498476
+      }
+    },
     "volumeDollar": 1418043731,
     "dominance": 0.4328,
     "date": "2021-05-06T09:03",
-    "price": { "price": "$279.83", "date": "2021-05-06T09:03" },
+    "price": {
+      "2021-05-06T09:03": { "date": "2021-05-06T09:03", "price": 279.83 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "fenbushi-capital-portfolio",
@@ -97,33 +125,44 @@
       "electric-capital-portfolio"
     ]
   },
-  "yearn-finance-ii": {
+  "YFII": {
     "name": "yearn-finance-ii",
     "ticker": "YFII",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5957.png",
     "circulatingSupply": 105566859,
     "totalSupply": 39375,
     "maxSupply": 39375,
-    "marketCap": 104484444,
+    "marketCap": {
+      "2021-05-06T09:03": { "date": "2021-05-06T09:03", "marketCap": 104484444 }
+    },
     "volumeDollar": 106593299,
     "dominance": null,
     "date": "2021-05-06T09:03",
-    "price": { "price": "$2,707.13", "date": "2021-05-06T09:03" },
+    "price": {
+      "2021-05-06T09:03": { "date": "2021-05-06T09:03", "price": 2707.13 }
+    },
     "exchanges": ["binance"],
     "categories": ["yield-farming", "dao", "yield-aggregator"]
   },
-  "yearn-finance": {
+  "YFI": {
     "name": "yearn-finance",
     "ticker": "YFI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5864.png",
     "circulatingSupply": 424532496,
     "totalSupply": 36666,
     "maxSupply": 36666,
-    "marketCap": 1955989465,
+    "marketCap": {
+      "2021-05-06T09:03": {
+        "date": "2021-05-06T09:03",
+        "marketCap": 1955989465
+      }
+    },
     "volumeDollar": 1957647767,
     "dominance": null,
     "date": "2021-05-06T09:03",
-    "price": { "price": "$53,391.36", "date": "2021-05-06T09:03" },
+    "price": {
+      "2021-05-06T09:03": { "date": "2021-05-06T09:03", "price": 53391.36 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "yield-farming",
@@ -138,18 +177,25 @@
       "yearn-partnerships"
     ]
   },
-  "venus": {
+  "XVS": {
     "name": "venus",
     "ticker": "XVS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7288.png",
     "circulatingSupply": 228882377,
     "totalSupply": 30000000,
     "maxSupply": 30000000,
-    "marketCap": 1134722206,
+    "marketCap": {
+      "2021-05-06T09:03": {
+        "date": "2021-05-06T09:03",
+        "marketCap": 1134722206
+      }
+    },
     "volumeDollar": 3477970188,
     "dominance": null,
     "date": "2021-05-06T09:03",
-    "price": { "price": "$115.93", "date": "2021-05-06T09:03" },
+    "price": {
+      "2021-05-06T09:03": { "date": "2021-05-06T09:03", "price": 115.93 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -159,18 +205,25 @@
       "lending-borowing"
     ]
   },
-  "tezos": {
+  "XTZ": {
     "name": "tezos",
     "ticker": "XTZ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2011.png",
     "circulatingSupply": 773974944,
     "totalSupply": 773974944,
     "maxSupply": null,
-    "marketCap": 5162350095,
+    "marketCap": {
+      "2021-05-06T09:04": {
+        "date": "2021-05-06T09:04",
+        "marketCap": 5162350095
+      }
+    },
     "volumeDollar": 680277363,
     "dominance": 0.1318,
     "date": "2021-05-06T09:04",
-    "price": { "price": "$6.67", "date": "2021-05-06T09:04" },
+    "price": {
+      "2021-05-06T09:04": { "date": "2021-05-06T09:04", "price": 6.67 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "winklevoss-capital",
@@ -180,18 +233,25 @@
       "platform"
     ]
   },
-  "xrp": {
+  "XRP": {
     "name": "xrp",
     "ticker": "XRP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
     "circulatingSupply": 45404028640,
     "totalSupply": 99990831162,
     "maxSupply": 100000000000,
-    "marketCap": 74214049512,
+    "marketCap": {
+      "2021-05-06T09:04": {
+        "date": "2021-05-06T09:04",
+        "marketCap": 74214049512
+      }
+    },
     "volumeDollar": 16666219440,
     "dominance": 0.2246,
     "date": "2021-05-06T09:04",
-    "price": { "price": "$1.63", "date": "2021-05-06T09:04" },
+    "price": {
+      "2021-05-06T09:04": { "date": "2021-05-06T09:04", "price": 1.63 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "galaxy-digital-portfolio",
@@ -199,18 +259,25 @@
       "a16z-portfolio"
     ]
   },
-  "monero": {
+  "XMR": {
     "name": "monero",
     "ticker": "XMR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/328.png",
     "circulatingSupply": 17903150,
     "totalSupply": 17903150,
     "maxSupply": null,
-    "marketCap": 7338195013,
+    "marketCap": {
+      "2021-05-06T09:04": {
+        "date": "2021-05-06T09:04",
+        "marketCap": 7338195013
+      }
+    },
     "volumeDollar": 507379096,
     "dominance": 0.06914,
     "date": "2021-05-06T09:04",
-    "price": { "price": "$409.88", "date": "2021-05-06T09:04" },
+    "price": {
+      "2021-05-06T09:04": { "date": "2021-05-06T09:04", "price": 409.88 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "galaxy-digital-portfolio",
@@ -221,18 +288,25 @@
       "electric-capital-portfolio"
     ]
   },
-  "stellar": {
+  "XLM": {
     "name": "stellar",
     "ticker": "XLM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/512.png",
     "circulatingSupply": 23032185834,
     "totalSupply": 50001803222,
     "maxSupply": 50001806812,
-    "marketCap": 13975819113,
+    "marketCap": {
+      "2021-05-06T09:04": {
+        "date": "2021-05-06T09:04",
+        "marketCap": 13975819113
+      }
+    },
     "volumeDollar": 3965955938,
     "dominance": 0.2838,
     "date": "2021-05-06T09:04",
-    "price": { "price": "$0.6068", "date": "2021-05-06T09:04" },
+    "price": {
+      "2021-05-06T09:04": { "date": "2021-05-06T09:04", "price": 0.6068 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "smart-contracts",
@@ -240,153 +314,202 @@
       "hashkey-capital-portfolio"
     ]
   },
-  "nem": {
+  "XEM": {
     "name": "nem",
     "ticker": "XEM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/873.png",
     "circulatingSupply": 8999999999,
     "totalSupply": 8999999999,
     "maxSupply": 8999999999,
-    "marketCap": 3401762242,
+    "marketCap": {
+      "2021-05-06T09:04": {
+        "date": "2021-05-06T09:04",
+        "marketCap": 3401762242
+      }
+    },
     "volumeDollar": 623693993,
     "dominance": 0.1833,
     "date": "2021-05-06T09:04",
-    "price": { "price": "$0.378", "date": "2021-05-06T09:04" },
+    "price": {
+      "2021-05-06T09:04": { "date": "2021-05-06T09:04", "price": 0.378 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["smart-contracts", "payments"]
   },
-  "waltonchain": {
+  "WTC": {
     "name": "waltonchain",
     "ticker": "WTC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1925.png",
     "circulatingSupply": 72133493,
     "totalSupply": 100000000,
     "maxSupply": 100000000,
-    "marketCap": 119628421,
+    "marketCap": {
+      "2021-05-06T09:04": { "date": "2021-05-06T09:04", "marketCap": 119628421 }
+    },
     "volumeDollar": 17362201,
     "dominance": 0.1451,
     "date": "2021-05-06T09:04",
-    "price": { "price": "$1.66", "date": "2021-05-06T09:04" },
+    "price": {
+      "2021-05-06T09:04": { "date": "2021-05-06T09:04", "price": 1.66 }
+    },
     "exchanges": ["binance"],
     "categories": ["logistics", "iot"]
   },
-  "wazirx": {
+  "WRX": {
     "name": "wazirx",
     "ticker": "WRX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5161.png",
     "circulatingSupply": 293763596,
     "totalSupply": 985546668,
     "maxSupply": null,
-    "marketCap": 695872034,
+    "marketCap": {
+      "2021-05-06T09:04": { "date": "2021-05-06T09:04", "marketCap": 695872034 }
+    },
     "volumeDollar": 109031578,
     "dominance": 0.1567,
     "date": "2021-05-06T09:04",
-    "price": { "price": "$2.37", "date": "2021-05-06T09:04" },
+    "price": {
+      "2021-05-06T09:04": { "date": "2021-05-06T09:04", "price": 2.37 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-launchpad"]
   },
-  "wrapped-nxm": {
+  "WNXM": {
     "name": "wrapped-nxm",
     "ticker": "WNXM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5939.png",
     "circulatingSupply": 1676964,
     "totalSupply": 1676964,
     "maxSupply": 1676964,
-    "marketCap": 173265217,
+    "marketCap": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "marketCap": 173265217 }
+    },
     "volumeDollar": 31875594,
     "dominance": 0.184,
     "date": "2021-05-06T09:05",
-    "price": { "price": "$103.32", "date": "2021-05-06T09:05" },
+    "price": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "price": 103.32 }
+    },
     "exchanges": ["binance"],
     "categories": ["insurance", "wrapped-tokens"]
   },
-  "wing": {
+  "WING": {
     "name": "wing",
     "ticker": "WING",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7048.png",
     "circulatingSupply": 14806392,
     "totalSupply": 2689779,
     "maxSupply": null,
-    "marketCap": 70083901,
+    "marketCap": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "marketCap": 70083901 }
+    },
     "volumeDollar": 120470811,
     "dominance": null,
     "date": "2021-05-06T09:05",
-    "price": { "price": "$44.79", "date": "2021-05-06T09:05" },
+    "price": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "price": 44.79 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-launchpool"]
   },
-  "waves": {
+  "WAVES": {
     "name": "waves",
     "ticker": "WAVES",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1274.png",
     "circulatingSupply": 105029266,
     "totalSupply": 105029266,
     "maxSupply": null,
-    "marketCap": 3677709168,
+    "marketCap": {
+      "2021-05-06T09:05": {
+        "date": "2021-05-06T09:05",
+        "marketCap": 3677709168
+      }
+    },
     "volumeDollar": 496701456,
     "dominance": 0.1351,
     "date": "2021-05-06T09:05",
-    "price": { "price": "$35.02", "date": "2021-05-06T09:05" },
+    "price": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "price": 35.02 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["smart-contracts", "solana-ecosystem", "platform"]
   },
-  "wanchain": {
+  "WAN": {
     "name": "wanchain",
     "ticker": "WAN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2606.png",
     "circulatingSupply": 169028581,
     "totalSupply": 192128581,
     "maxSupply": 210000000,
-    "marketCap": 299659553,
+    "marketCap": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "marketCap": 299659553 }
+    },
     "volumeDollar": 17009434,
     "dominance": 0.05676,
     "date": "2021-05-06T09:05",
-    "price": { "price": "$1.77", "date": "2021-05-06T09:05" },
+    "price": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "price": 1.77 }
+    },
     "exchanges": ["binance"],
     "categories": ["defi", "interoperability"]
   },
-  "vethor-token": {
+  "VTHO": {
     "name": "vethor-token",
     "ticker": "VTHO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3012.png",
     "circulatingSupply": 35085327506,
     "totalSupply": 35085327506,
     "maxSupply": null,
-    "marketCap": 620643456,
+    "marketCap": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "marketCap": 620643456 }
+    },
     "volumeDollar": 69118535,
     "dominance": 0.1114,
     "date": "2021-05-06T09:05",
-    "price": { "price": "$0.01769", "date": "2021-05-06T09:05" },
+    "price": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "price": 0.01769 }
+    },
     "exchanges": ["binance"],
     "categories": ["etc"]
   },
-  "vite": {
+  "VITE": {
     "name": "vite",
     "ticker": "VITE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2937.png",
     "circulatingSupply": 481567255,
     "totalSupply": 1014138365,
     "maxSupply": null,
-    "marketCap": 88943671,
+    "marketCap": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "marketCap": 88943671 }
+    },
     "volumeDollar": 16614761,
     "dominance": 0.1868,
     "date": "2021-05-06T09:05",
-    "price": { "price": "$0.1847", "date": "2021-05-06T09:05" },
+    "price": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "price": 0.1847 }
+    },
     "exchanges": ["binance"],
     "categories": ["scaling", "decentralized-exchange", "platform"]
   },
-  "vechain": {
+  "VET": {
     "name": "vechain",
     "ticker": "VET",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3077.png",
     "circulatingSupply": 64315576989,
     "totalSupply": 86712634466,
     "maxSupply": 86712634466,
-    "marketCap": 13209592401,
+    "marketCap": {
+      "2021-05-06T09:05": {
+        "date": "2021-05-06T09:05",
+        "marketCap": 13209592401
+      }
+    },
     "volumeDollar": 2179866533,
     "dominance": 0.165,
     "date": "2021-05-06T09:05",
-    "price": { "price": "$0.2054", "date": "2021-05-06T09:05" },
+    "price": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "price": 0.2054 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "fenbushi-capital-portfolio",
@@ -395,63 +518,84 @@
       "iot"
     ]
   },
-  "utrust": {
+  "UTK": {
     "name": "utrust",
     "ticker": "UTK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2320.png",
     "circulatingSupply": 450000000,
     "totalSupply": 500000000,
     "maxSupply": 500000000,
-    "marketCap": 417597152,
+    "marketCap": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "marketCap": 417597152 }
+    },
     "volumeDollar": 395109487,
     "dominance": 0.9461,
     "date": "2021-05-06T09:05",
-    "price": { "price": "$0.928", "date": "2021-05-06T09:05" },
+    "price": {
+      "2021-05-06T09:05": { "date": "2021-05-06T09:05", "price": 0.928 }
+    },
     "exchanges": ["binance"],
     "categories": ["smart-contracts", "cybersecurity", "payments"]
   },
-  "tether": {
+  "USDT": {
     "name": "tether",
     "ticker": "USDT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
     "circulatingSupply": 53558187415,
     "totalSupply": 56446291004,
     "maxSupply": null,
-    "marketCap": 53563136873,
+    "marketCap": {
+      "2021-05-06T09:05": {
+        "date": "2021-05-06T09:05",
+        "marketCap": 53563136873
+      }
+    },
     "volumeDollar": 184185976212,
     "dominance": 3.44,
     "date": "2021-05-06T09:05",
-    "price": { "price": "$1.00", "date": "2021-05-06T09:05" },
+    "price": { "2021-05-06T09:05": { "date": "2021-05-06T09:05", "price": 1 } },
     "exchanges": ["binance"],
     "categories": ["stablecoin", "solana-ecosystem", "payments"]
   },
-  "usd-coin": {
+  "USDC": {
     "name": "usd-coin",
     "ticker": "USDC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
     "circulatingSupply": 14380157844,
     "totalSupply": 14380157844,
     "maxSupply": null,
-    "marketCap": 14380587823,
+    "marketCap": {
+      "2021-05-06T09:05": {
+        "date": "2021-05-06T09:05",
+        "marketCap": 14380587823
+      }
+    },
     "volumeDollar": 2435553181,
     "dominance": 0.1694,
     "date": "2021-05-06T09:05",
-    "price": { "price": "$1.00", "date": "2021-05-06T09:05" },
+    "price": { "2021-05-06T09:05": { "date": "2021-05-06T09:05", "price": 1 } },
     "exchanges": ["binance"],
     "categories": ["stablecoin"]
   },
-  "uniswap": {
+  "UNI": {
     "name": "uniswap",
     "ticker": "UNI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
     "circulatingSupply": 1220748779,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 21861317893,
+    "marketCap": {
+      "2021-05-06T09:06": {
+        "date": "2021-05-06T09:06",
+        "marketCap": 21861317893
+      }
+    },
     "volumeDollar": 41769155565,
     "dominance": null,
     "date": "2021-05-06T09:06",
-    "price": { "price": "$41.77", "date": "2021-05-06T09:06" },
+    "price": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "price": 41.77 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "yield-farming",
@@ -470,33 +614,44 @@
       "defiance-capital"
     ]
   },
-  "unifi-protocol-dao": {
+  "UNFI": {
     "name": "unifi-protocol-dao",
     "ticker": "UNFI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7672.png",
     "circulatingSupply": 3596667,
     "totalSupply": 10000000,
     "maxSupply": 10000000,
-    "marketCap": 95078372,
+    "marketCap": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "marketCap": 95078372 }
+    },
     "volumeDollar": 11267229,
     "dominance": 0.1185,
     "date": "2021-05-06T09:06",
-    "price": { "price": "$26.44", "date": "2021-05-06T09:06" },
+    "price": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "price": 26.44 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-smart-chain", "binance-launchpool"]
   },
-  "uma": {
+  "UMA": {
     "name": "uma",
     "ticker": "UMA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5617.png",
     "circulatingSupply": 63557018,
     "totalSupply": 102089750,
     "maxSupply": 101172570,
-    "marketCap": 1538682525,
+    "marketCap": {
+      "2021-05-06T09:06": {
+        "date": "2021-05-06T09:06",
+        "marketCap": 1538682525
+      }
+    },
     "volumeDollar": 2591144118,
     "dominance": null,
     "date": "2021-05-06T09:06",
-    "price": { "price": "$25.61", "date": "2021-05-06T09:06" },
+    "price": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "price": 25.61 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dragonfly-capital-portfolio",
@@ -510,153 +665,202 @@
       "coinbase-ventures-portfolio"
     ]
   },
-  "trust-wallet-token": {
+  "TWT": {
     "name": "trust-wallet-token",
     "ticker": "TWT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5964.png",
     "circulatingSupply": 250926200,
     "totalSupply": 1000000000,
     "maxSupply": null,
-    "marketCap": 246053600,
+    "marketCap": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "marketCap": 246053600 }
+    },
     "volumeDollar": 38020955,
     "dominance": 0.1545,
     "date": "2021-05-06T09:06",
-    "price": { "price": "$0.9806", "date": "2021-05-06T09:06" },
+    "price": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "price": 0.9806 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-smart-chain"]
   },
-  "trueusd": {
+  "TUSD": {
     "name": "trueusd",
     "ticker": "TUSD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2563.png",
     "circulatingSupply": 1125523285,
     "totalSupply": 1125523285,
     "maxSupply": null,
-    "marketCap": 1124228588,
+    "marketCap": {
+      "2021-05-06T09:06": {
+        "date": "2021-05-06T09:06",
+        "marketCap": 1124228588
+      }
+    },
     "volumeDollar": 158032892,
     "dominance": 0.1406,
     "date": "2021-05-06T09:06",
-    "price": { "price": "$0.9988", "date": "2021-05-06T09:06" },
+    "price": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "price": 0.9988 }
+    },
     "exchanges": ["binance"],
     "categories": ["avalanche-ecosystem", "stablecoin"]
   },
-  "tron": {
+  "TRX": {
     "name": "tron",
     "ticker": "TRX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png",
     "circulatingSupply": 71659657369,
     "totalSupply": 100850743812,
     "maxSupply": null,
-    "marketCap": 10072697988,
+    "marketCap": {
+      "2021-05-06T09:06": {
+        "date": "2021-05-06T09:06",
+        "marketCap": 10072697988
+      }
+    },
     "volumeDollar": 5646089977,
     "dominance": 0.5605,
     "date": "2021-05-06T09:06",
-    "price": { "price": "$0.1406", "date": "2021-05-06T09:06" },
+    "price": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "price": 0.1406 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["media", "payments"]
   },
-  "truefi": {
+  "TRU": {
     "name": "truefi",
     "ticker": "TRU",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7725.png",
     "circulatingSupply": 12383791,
     "totalSupply": 1446312655,
     "maxSupply": 1450000000,
-    "marketCap": 62593913,
+    "marketCap": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "marketCap": 62593913 }
+    },
     "volumeDollar": 645488599,
     "dominance": null,
     "date": "2021-05-06T09:06",
-    "price": { "price": "$0.4452", "date": "2021-05-06T09:06" },
+    "price": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "price": 0.4452 }
+    },
     "exchanges": ["binance"],
     "categories": ["yield-farming", "lending-borowing"]
   },
-  "troy": {
+  "TROY": {
     "name": "troy",
     "ticker": "TROY",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5007.png",
     "circulatingSupply": 9405660523,
     "totalSupply": 10000000000,
     "maxSupply": null,
-    "marketCap": 210713840,
+    "marketCap": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "marketCap": 210713840 }
+    },
     "volumeDollar": 16956406,
     "dominance": 0.08047,
     "date": "2021-05-06T09:06",
-    "price": { "price": "$0.0224", "date": "2021-05-06T09:06" },
+    "price": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "price": 0.0224 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-launchpad"]
   },
-  "tellor": {
+  "TRB": {
     "name": "tellor",
     "ticker": "TRB",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4944.png",
     "circulatingSupply": 1547777,
     "totalSupply": 1624143,
     "maxSupply": 1707842,
-    "marketCap": 196397864,
+    "marketCap": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "marketCap": 196397864 }
+    },
     "volumeDollar": 261991426,
     "dominance": 1.33,
     "date": "2021-05-06T09:06",
-    "price": { "price": "$126.89", "date": "2021-05-06T09:06" },
+    "price": {
+      "2021-05-06T09:06": { "date": "2021-05-06T09:06", "price": 126.89 }
+    },
     "exchanges": ["binance"],
     "categories": ["framework-ventures", "defi", "oracles", "mineable"]
   },
-  "tomochain": {
+  "TOMO": {
     "name": "tomochain",
     "ticker": "TOMO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2570.png",
     "circulatingSupply": 81289350,
     "totalSupply": 100000000,
     "maxSupply": null,
-    "marketCap": 232160307,
+    "marketCap": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "marketCap": 232160307 }
+    },
     "volumeDollar": 32413705,
     "dominance": 0.1396,
     "date": "2021-05-06T09:07",
-    "price": { "price": "$2.86", "date": "2021-05-06T09:07" },
+    "price": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "price": 2.86 }
+    },
     "exchanges": ["binance"],
     "categories": ["alameda-research-portfolio", "platform"]
   },
-  "alien-worlds": {
+  "TLM": {
     "name": "alien-worlds",
     "ticker": "TLM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/9119.png",
     "circulatingSupply": 853324854,
     "totalSupply": 5159449833,
     "maxSupply": 10000000000,
-    "marketCap": 505312658,
+    "marketCap": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "marketCap": 505312658 }
+    },
     "volumeDollar": 151075198,
     "dominance": 0.299,
     "date": "2021-05-06T09:07",
-    "price": { "price": "$0.5922", "date": "2021-05-06T09:07" },
+    "price": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "price": 0.5922 }
+    },
     "exchanges": ["binance"],
     "categories": ["entertainment", "dao", "collectibles-nfts", "gaming"]
   },
-  "toko-token": {
+  "TKO": {
     "name": "toko-token",
     "ticker": "TKO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/9020.png",
     "circulatingSupply": 108500000,
     "totalSupply": 500000000,
     "maxSupply": 500000000,
-    "marketCap": 431678385,
+    "marketCap": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "marketCap": 431678385 }
+    },
     "volumeDollar": 121645682,
     "dominance": 0.2818,
     "date": "2021-05-06T09:07",
-    "price": { "price": "$3.98", "date": "2021-05-06T09:07" },
+    "price": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "price": 3.98 }
+    },
     "exchanges": ["binance"],
     "categories": ["centralized-exchange", "binance-launchpad"]
   },
-  "theta": {
+  "THETA": {
     "name": "theta",
     "ticker": "THETA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2416.png",
     "circulatingSupply": 1000000000,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 11015956912,
+    "marketCap": {
+      "2021-05-06T09:07": {
+        "date": "2021-05-06T09:07",
+        "marketCap": 11015956912
+      }
+    },
     "volumeDollar": 357266015,
     "dominance": 0.03243,
     "date": "2021-05-06T09:07",
-    "price": { "price": "$11.02", "date": "2021-05-06T09:07" },
+    "price": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "price": 11.02 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "media",
@@ -666,48 +870,63 @@
       "collectibles-nfts"
     ]
   },
-  "theta-fuel": {
+  "TFUEL": {
     "name": "theta-fuel",
     "ticker": "TFUEL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3822.png",
     "circulatingSupply": 5270590400,
     "totalSupply": 5270590400,
     "maxSupply": null,
-    "marketCap": 2045150976,
+    "marketCap": {
+      "2021-05-06T09:07": {
+        "date": "2021-05-06T09:07",
+        "marketCap": 2045150976
+      }
+    },
     "volumeDollar": 71536593,
     "dominance": 0.03498,
     "date": "2021-05-06T09:07",
-    "price": { "price": "$0.388", "date": "2021-05-06T09:07" },
+    "price": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "price": 0.388 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["media", "content-creation", "payments"]
   },
-  "tokenclub": {
+  "TCT": {
     "name": "tokenclub",
     "ticker": "TCT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2364.png",
     "circulatingSupply": 733102279,
     "totalSupply": 995239500,
     "maxSupply": null,
-    "marketCap": 55618999,
+    "marketCap": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "marketCap": 55618999 }
+    },
     "volumeDollar": 34308212,
     "dominance": 0.6168,
     "date": "2021-05-06T09:07",
-    "price": { "price": "$0.07587", "date": "2021-05-06T09:07" },
+    "price": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "price": 0.07587 }
+    },
     "exchanges": ["binance"],
     "categories": ["asset-management"]
   },
-  "swipe": {
+  "SXP": {
     "name": "swipe",
     "ticker": "SXP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4279.png",
     "circulatingSupply": 584433997,
     "totalSupply": 239612084,
     "maxSupply": 239612084,
-    "marketCap": 465930638,
+    "marketCap": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "marketCap": 465930638 }
+    },
     "volumeDollar": 1219054641,
     "dominance": null,
     "date": "2021-05-06T09:07",
-    "price": { "price": "$5.09", "date": "2021-05-06T09:07" },
+    "price": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "price": 5.09 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "binance-smart-chain",
@@ -717,18 +936,25 @@
       "payments"
     ]
   },
-  "sushiswap": {
+  "SUSHI": {
     "name": "sushiswap",
     "ticker": "SUSHI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
     "circulatingSupply": 634532362,
     "totalSupply": 214097742,
     "maxSupply": 250000000,
-    "marketCap": 1963879526,
+    "marketCap": {
+      "2021-05-06T09:07": {
+        "date": "2021-05-06T09:07",
+        "marketCap": 1963879526
+      }
+    },
     "volumeDollar": 3858477981,
     "dominance": null,
     "date": "2021-05-06T09:07",
-    "price": { "price": "$15.43", "date": "2021-05-06T09:07" },
+    "price": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "price": 15.43 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "yield-farming",
@@ -743,48 +969,63 @@
       "defiance-capital"
     ]
   },
-  "susd": {
+  "SUSD": {
     "name": "susd",
     "ticker": "SUSD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2927.png",
     "circulatingSupply": 142399574,
     "totalSupply": 142399574,
     "maxSupply": 142399574,
-    "marketCap": 145455803,
+    "marketCap": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "marketCap": 145455803 }
+    },
     "volumeDollar": 15727558,
     "dominance": 0.1081,
     "date": "2021-05-06T09:07",
-    "price": { "price": "$1.02", "date": "2021-05-06T09:07" },
+    "price": {
+      "2021-05-06T09:07": { "date": "2021-05-06T09:07", "price": 1.02 }
+    },
     "exchanges": ["binance"],
     "categories": ["defi", "synthetics", "stablecoin"]
   },
-  "sun": {
+  "SUN": {
     "name": "sun",
     "ticker": "SUN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6990.png",
     "circulatingSupply": 5005168,
     "totalSupply": 19900730,
     "maxSupply": 19900730,
-    "marketCap": 172468146,
+    "marketCap": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "marketCap": 172468146 }
+    },
     "volumeDollar": 350006746,
     "dominance": 2.03,
     "date": "2021-05-06T09:08",
-    "price": { "price": "$34.46", "date": "2021-05-06T09:08" },
+    "price": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "price": 34.46 }
+    },
     "exchanges": ["binance"],
     "categories": ["etc"]
   },
-  "stacks": {
+  "STX": {
     "name": "stacks",
     "ticker": "STX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4847.png",
     "circulatingSupply": 1118288783,
     "totalSupply": 1352464600,
     "maxSupply": 1818000000,
-    "marketCap": 2294266133,
+    "marketCap": {
+      "2021-05-06T09:08": {
+        "date": "2021-05-06T09:08",
+        "marketCap": 2294266133
+      }
+    },
     "volumeDollar": 26563491,
     "dominance": 0.01158,
     "date": "2021-05-06T09:08",
-    "price": { "price": "$2.05", "date": "2021-05-06T09:08" },
+    "price": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "price": 2.05 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "blockchain-capital-portfolio",
@@ -795,33 +1036,41 @@
       "hashkey-capital-portfolio"
     ]
   },
-  "stratis": {
+  "STRAX": {
     "name": "stratis",
     "ticker": "STRAX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1343.png",
     "circulatingSupply": 130947056,
     "totalSupply": 130947056,
     "maxSupply": null,
-    "marketCap": 412306225,
+    "marketCap": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "marketCap": 412306225 }
+    },
     "volumeDollar": 78978440,
     "dominance": 0.1916,
     "date": "2021-05-06T09:08",
-    "price": { "price": "$3.15", "date": "2021-05-06T09:08" },
+    "price": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "price": 3.15 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["platform"]
   },
-  "standard-tokenization-protocol": {
+  "STPT": {
     "name": "standard-tokenization-protocol",
     "ticker": "STPT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4006.png",
     "circulatingSupply": 1025143223,
     "totalSupply": 1942420283,
     "maxSupply": 1942420283,
-    "marketCap": 82964238,
+    "marketCap": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "marketCap": 82964238 }
+    },
     "volumeDollar": 9958530,
     "dominance": 0.12,
     "date": "2021-05-06T09:08",
-    "price": { "price": "$0.08093", "date": "2021-05-06T09:08" },
+    "price": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "price": 0.08093 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "derivatives",
@@ -830,18 +1079,22 @@
       "payments"
     ]
   },
-  "storj": {
+  "STORJ": {
     "name": "storj",
     "ticker": "STORJ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1772.png",
     "circulatingSupply": 287149025,
     "totalSupply": 424999998,
     "maxSupply": null,
-    "marketCap": 569678524,
+    "marketCap": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "marketCap": 569678524 }
+    },
     "volumeDollar": 81095227,
     "dominance": 0.1424,
     "date": "2021-05-06T09:08",
-    "price": { "price": "$1.98", "date": "2021-05-06T09:08" },
+    "price": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "price": 1.98 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "storage",
@@ -850,33 +1103,41 @@
       "platform"
     ]
   },
-  "stormx": {
+  "STMX": {
     "name": "stormx",
     "ticker": "STMX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2297.png",
     "circulatingSupply": 8412333047,
     "totalSupply": 10000000000,
     "maxSupply": 10000000000,
-    "marketCap": 433095862,
+    "marketCap": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "marketCap": 433095862 }
+    },
     "volumeDollar": 58296835,
     "dominance": 0.1346,
     "date": "2021-05-06T09:08",
-    "price": { "price": "$0.05148", "date": "2021-05-06T09:08" },
+    "price": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "price": 0.05148 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["media", "loyalty"]
   },
-  "serum": {
+  "SRM": {
     "name": "serum",
     "ticker": "SRM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6187.png",
     "circulatingSupply": 1045682371,
     "totalSupply": 161000001,
     "maxSupply": 10000000000,
-    "marketCap": 527858719,
+    "marketCap": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "marketCap": 527858719 }
+    },
     "volumeDollar": 105571743887,
     "dominance": null,
     "date": "2021-05-06T09:08",
-    "price": { "price": "$10.56", "date": "2021-05-06T09:08" },
+    "price": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "price": 10.56 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "smart-contracts",
@@ -891,18 +1152,25 @@
       "solana-ecosystem"
     ]
   },
-  "solana": {
+  "SOL": {
     "name": "solana",
     "ticker": "SOL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
     "circulatingSupply": 272637428,
     "totalSupply": 494519162,
     "maxSupply": null,
-    "marketCap": 11835179908,
+    "marketCap": {
+      "2021-05-06T09:08": {
+        "date": "2021-05-06T09:08",
+        "marketCap": 11835179908
+      }
+    },
     "volumeDollar": 445917735,
     "dominance": 0.03768,
     "date": "2021-05-06T09:08",
-    "price": { "price": "$43.41", "date": "2021-05-06T09:08" },
+    "price": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "price": 43.41 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "kinetic-capital",
@@ -913,18 +1181,25 @@
       "platform"
     ]
   },
-  "synthetix-network-token": {
+  "SNX": {
     "name": "synthetix-network-token",
     "ticker": "SNX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2586.png",
     "circulatingSupply": 152332076,
     "totalSupply": 215258834,
     "maxSupply": 212424133,
-    "marketCap": 2087998926,
+    "marketCap": {
+      "2021-05-06T12:47": {
+        "date": "2021-05-06T12:47",
+        "marketCap": 2087998926
+      }
+    },
     "volumeDollar": 3862203421,
     "dominance": null,
     "date": "2021-05-06T12:47",
-    "price": { "price": "$18.18", "date": "2021-05-06T12:47" },
+    "price": {
+      "2021-05-06T12:47": { "date": "2021-05-06T12:47", "price": 18.18 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "yield-farming",
@@ -941,33 +1216,41 @@
       "services"
     ]
   },
-  "small-love-potion": {
+  "SLP": {
     "name": "small-love-potion",
     "ticker": "SLP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5824.png",
     "circulatingSupply": 352878396,
     "totalSupply": 352878396,
     "maxSupply": null,
-    "marketCap": 96503573,
+    "marketCap": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "marketCap": 96503573 }
+    },
     "volumeDollar": 89890056,
     "dominance": 0.9315,
     "date": "2021-05-06T09:08",
-    "price": { "price": "$0.2735", "date": "2021-05-06T09:08" },
+    "price": {
+      "2021-05-06T09:08": { "date": "2021-05-06T09:08", "price": 0.2735 }
+    },
     "exchanges": ["binance"],
     "categories": ["collectibles-nfts"]
   },
-  "skale-network": {
+  "SKL": {
     "name": "skale-network",
     "ticker": "SKL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5691.png",
     "circulatingSupply": 660416667,
     "totalSupply": 4072194681,
     "maxSupply": 7000000000,
-    "marketCap": 448855753,
+    "marketCap": {
+      "2021-05-06T09:11": { "date": "2021-05-06T09:11", "marketCap": 448855753 }
+    },
     "volumeDollar": 106582145,
     "dominance": 0.2375,
     "date": "2021-05-06T09:11",
-    "price": { "price": "$0.6797", "date": "2021-05-06T09:11" },
+    "price": {
+      "2021-05-06T09:11": { "date": "2021-05-06T09:11", "price": 0.6797 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "galaxy-digital-portfolio",
@@ -977,33 +1260,44 @@
       "platform"
     ]
   },
-  "safepal": {
+  "SFP": {
     "name": "safepal",
     "ticker": "SFP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8119.png",
     "circulatingSupply": 108166667,
     "totalSupply": 500000000,
     "maxSupply": 500000000,
-    "marketCap": 280763999,
+    "marketCap": {
+      "2021-05-06T09:11": { "date": "2021-05-06T09:11", "marketCap": 280763999 }
+    },
     "volumeDollar": 35444865,
     "dominance": 0.1262,
     "date": "2021-05-06T09:11",
-    "price": { "price": "$2.60", "date": "2021-05-06T09:11" },
+    "price": {
+      "2021-05-06T09:11": { "date": "2021-05-06T09:11", "price": 2.6 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-smart-chain", "binance-launchpad"]
   },
-  "siacoin": {
+  "SC": {
     "name": "siacoin",
     "ticker": "SC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1042.png",
     "circulatingSupply": 47623552992,
     "totalSupply": 47623552992,
     "maxSupply": null,
-    "marketCap": 1989320736,
+    "marketCap": {
+      "2021-05-06T09:11": {
+        "date": "2021-05-06T09:11",
+        "marketCap": 1989320736
+      }
+    },
     "volumeDollar": 560172312,
     "dominance": 0.2816,
     "date": "2021-05-06T09:11",
-    "price": { "price": "$0.04177", "date": "2021-05-06T09:11" },
+    "price": {
+      "2021-05-06T09:11": { "date": "2021-05-06T09:11", "price": 0.04177 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "dragonfly-capital-portfolio",
@@ -1017,18 +1311,22 @@
       "mineable"
     ]
   },
-  "the-sandbox": {
+  "SAND": {
     "name": "the-sandbox",
     "ticker": "SAND",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6210.png",
     "circulatingSupply": 686821749,
     "totalSupply": 3000000000,
     "maxSupply": 3000000000,
-    "marketCap": 395306864,
+    "marketCap": {
+      "2021-05-06T09:11": { "date": "2021-05-06T09:11", "marketCap": 395306864 }
+    },
     "volumeDollar": 80929399,
     "dominance": 0.2047,
     "date": "2021-05-06T09:11",
-    "price": { "price": "$0.5756", "date": "2021-05-06T09:11" },
+    "price": {
+      "2021-05-06T09:11": { "date": "2021-05-06T09:11", "price": 0.5756 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "content-creation",
@@ -1038,33 +1336,47 @@
       "metaverse"
     ]
   },
-  "ravencoin": {
+  "RVN": {
     "name": "ravencoin",
     "ticker": "RVN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2577.png",
     "circulatingSupply": 8709695000,
     "totalSupply": 8709695000,
     "maxSupply": 21000000000,
-    "marketCap": 1514768198,
+    "marketCap": {
+      "2021-05-06T09:12": {
+        "date": "2021-05-06T09:12",
+        "marketCap": 1514768198
+      }
+    },
     "volumeDollar": 143600214,
     "dominance": 0.0948,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$0.1739", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 0.1739 }
+    },
     "exchanges": ["binance"],
     "categories": ["platform", "mineable"]
   },
-  "thorchain": {
+  "RUNE": {
     "name": "thorchain",
     "ticker": "RUNE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4157.png",
     "circulatingSupply": 163695589,
     "totalSupply": 500000000,
     "maxSupply": null,
-    "marketCap": 4278208303,
+    "marketCap": {
+      "2021-05-06T09:12": {
+        "date": "2021-05-06T09:12",
+        "marketCap": 4278208303
+      }
+    },
     "volumeDollar": 9078319153,
     "dominance": null,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$18.16", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 18.16 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "cosmos-ecosystem",
@@ -1075,18 +1387,25 @@
       "wrapped-tokens"
     ]
   },
-  "reserve-rights": {
+  "RSR": {
     "name": "reserve-rights",
     "ticker": "RSR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3964.png",
     "circulatingSupply": 13159999000,
     "totalSupply": 100000000000,
     "maxSupply": 100000000000,
-    "marketCap": 1079336708,
+    "marketCap": {
+      "2021-05-06T09:12": {
+        "date": "2021-05-06T09:12",
+        "marketCap": 1079336708
+      }
+    },
     "volumeDollar": 87046412,
     "dominance": 0.08065,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$0.08202", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 0.08202 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dcg-portfolio",
@@ -1095,33 +1414,41 @@
       "stablecoin"
     ]
   },
-  "oasis-network": {
+  "ROSE": {
     "name": "oasis-network",
     "ticker": "ROSE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7653.png",
     "circulatingSupply": 1500000000,
     "totalSupply": 10000000000,
     "maxSupply": 10000000000,
-    "marketCap": 246008684,
+    "marketCap": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "marketCap": 246008684 }
+    },
     "volumeDollar": 17675621,
     "dominance": 0.07185,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$0.164", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 0.164 }
+    },
     "exchanges": ["binance"],
     "categories": ["etc"]
   },
-  "rlc": {
+  "RLC": {
     "name": "rlc",
     "ticker": "RLC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1637.png",
     "circulatingSupply": 80070793,
     "totalSupply": 86999785,
     "maxSupply": null,
-    "marketCap": 401480658,
+    "marketCap": {
+      "2021-05-06T12:47": { "date": "2021-05-06T12:47", "marketCap": 401480658 }
+    },
     "volumeDollar": 207779619,
     "dominance": 0.5175,
     "date": "2021-05-06T12:47",
-    "price": { "price": "$5.01", "date": "2021-05-06T12:47" },
+    "price": {
+      "2021-05-06T12:47": { "date": "2021-05-06T12:47", "price": 5.01 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "distributed-computing",
@@ -1133,33 +1460,41 @@
       "ai-big-data"
     ]
   },
-  "rsk-infrastructure-framework": {
+  "RIF": {
     "name": "rsk-infrastructure-framework",
     "ticker": "RIF",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3701.png",
     "circulatingSupply": 721033343,
     "totalSupply": 1000000000,
     "maxSupply": null,
-    "marketCap": 237946554,
+    "marketCap": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "marketCap": 237946554 }
+    },
     "volumeDollar": 12045710,
     "dominance": 0.05062,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$0.33", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 0.33 }
+    },
     "exchanges": ["binance"],
     "categories": ["filesharing", "services", "payments"]
   },
-  "augur": {
+  "REP": {
     "name": "augur",
     "ticker": "REP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1104.png",
     "circulatingSupply": 64289480,
     "totalSupply": 11000000,
     "maxSupply": null,
-    "marketCap": 522672783,
+    "marketCap": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "marketCap": 522672783 }
+    },
     "volumeDollar": 522672783,
     "dominance": null,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$47.52", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 47.52 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "1confirmation-portfolio",
@@ -1171,18 +1506,22 @@
       "platform"
     ]
   },
-  "ren": {
+  "REN": {
     "name": "ren",
     "ticker": "REN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2539.png",
     "circulatingSupply": 997163051,
     "totalSupply": 999999633,
     "maxSupply": 1000000000,
-    "marketCap": 986657969,
+    "marketCap": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "marketCap": 986657969 }
+    },
     "volumeDollar": 101380729,
     "dominance": 0.1028,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$0.9895", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 0.9895 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "kinetic-capital",
@@ -1193,18 +1532,22 @@
       "solana-ecosystem"
     ]
   },
-  "reef": {
+  "REEF": {
     "name": "reef",
     "ticker": "REEF",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6951.png",
     "circulatingSupply": 12666667338,
     "totalSupply": 15934019762,
     "maxSupply": 20000000000,
-    "marketCap": 509142361,
+    "marketCap": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "marketCap": 509142361 }
+    },
     "volumeDollar": 113203323,
     "dominance": 0.2223,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$0.0402", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 0.0402 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -1214,18 +1557,22 @@
       "exnetwork-capital-portfolio"
     ]
   },
-  "ramp": {
+  "RAMP": {
     "name": "ramp",
     "ticker": "RAMP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7463.png",
     "circulatingSupply": 286763738,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 192105024,
+    "marketCap": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "marketCap": 192105024 }
+    },
     "volumeDollar": 27392457,
     "dominance": 0.1426,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$0.6699", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 0.6699 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -1238,93 +1585,120 @@
       "lending-borowing"
     ]
   },
-  "qtum": {
+  "QTUM": {
     "name": "qtum",
     "ticker": "QTUM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1684.png",
     "circulatingSupply": 98342604,
     "totalSupply": 103376407,
     "maxSupply": 107822406,
-    "marketCap": 1797555228,
+    "marketCap": {
+      "2021-05-06T09:12": {
+        "date": "2021-05-06T09:12",
+        "marketCap": 1797555228
+      }
+    },
     "volumeDollar": 1412353113,
     "dominance": 0.7857,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$18.28", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 18.28 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["smart-contracts", "kinetic-capital", "platform"]
   },
-  "pundix-new": {
+  "PUNDIX": {
     "name": "pundix-new",
     "ticker": "PUNDIX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/9040.png",
     "circulatingSupply": 258491637,
     "totalSupply": 258491637,
     "maxSupply": 258526640,
-    "marketCap": 781966108,
+    "marketCap": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "marketCap": 781966108 }
+    },
     "volumeDollar": 40476857,
     "dominance": 0.05176,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$3.03", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 3.03 }
+    },
     "exchanges": ["binance"],
     "categories": ["etc"]
   },
-  "paris-saint-germain-fan-token": {
+  "PSG": {
     "name": "paris-saint-germain-fan-token",
     "ticker": "PSG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5226.png",
     "circulatingSupply": 1288396,
     "totalSupply": 20000000,
     "maxSupply": 20000000,
-    "marketCap": 44293857,
+    "marketCap": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "marketCap": 44293857 }
+    },
     "volumeDollar": 50270560,
     "dominance": 1.13,
     "date": "2021-05-06T09:12",
-    "price": { "price": "$34.38", "date": "2021-05-06T09:12" },
+    "price": {
+      "2021-05-06T09:12": { "date": "2021-05-06T09:12", "price": 34.38 }
+    },
     "exchanges": ["binance"],
     "categories": ["fan-token", "sports"]
   },
-  "marlin": {
+  "POND": {
     "name": "marlin",
     "ticker": "POND",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7497.png",
     "circulatingSupply": 736908424,
     "totalSupply": 3184000001,
     "maxSupply": 10000000000,
-    "marketCap": 128395699,
+    "marketCap": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "marketCap": 128395699 }
+    },
     "volumeDollar": 15713210,
     "dominance": 0.1224,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$0.1742", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 0.1742 }
+    },
     "exchanges": ["binance"],
     "categories": ["scaling"]
   },
-  "pnetwork": {
+  "PNT": {
     "name": "pnetwork",
     "ticker": "PNT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5794.png",
     "circulatingSupply": 28622997,
     "totalSupply": 74780474,
     "maxSupply": 87984177,
-    "marketCap": 81935679,
+    "marketCap": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "marketCap": 81935679 }
+    },
     "volumeDollar": 448341481,
     "dominance": 5.47,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$2.86", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 2.86 }
+    },
     "exchanges": ["binance"],
     "categories": ["etc"]
   },
-  "perpetual-protocol": {
+  "PERP": {
     "name": "perpetual-protocol",
     "ticker": "PERP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6950.png",
     "circulatingSupply": 21795505,
     "totalSupply": 150000000,
     "maxSupply": null,
-    "marketCap": 186095840,
+    "marketCap": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "marketCap": 186095840 }
+    },
     "volumeDollar": 14505648,
     "dominance": 0.07795,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$8.54", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 8.54 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "decentralized-exchange",
@@ -1337,63 +1711,79 @@
       "amm"
     ]
   },
-  "perlin": {
+  "PERL": {
     "name": "perlin",
     "ticker": "PERL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4293.png",
     "circulatingSupply": 9732953,
     "totalSupply": 1033200000,
     "maxSupply": null,
-    "marketCap": 73065983,
+    "marketCap": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "marketCap": 73065983 }
+    },
     "volumeDollar": 153770198,
     "dominance": null,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$0.1488", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 0.1488 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-launchpad"]
   },
-  "pax-gold": {
+  "PAXG": {
     "name": "pax-gold",
     "ticker": "PAXG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4705.png",
     "circulatingSupply": 60161,
     "totalSupply": 84150,
     "maxSupply": null,
-    "marketCap": 108547762,
+    "marketCap": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "marketCap": 108547762 }
+    },
     "volumeDollar": 15480150,
     "dominance": 0.1426,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$1,804.29", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 1804.29 }
+    },
     "exchanges": ["binance"],
     "categories": ["etc"]
   },
-  "paxos-standard": {
+  "PAX": {
     "name": "paxos-standard",
     "ticker": "PAX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3330.png",
     "circulatingSupply": 909804609,
     "totalSupply": 909804609,
     "maxSupply": null,
-    "marketCap": 908612659,
+    "marketCap": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "marketCap": 908612659 }
+    },
     "volumeDollar": 93794430,
     "dominance": 0.1032,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$0.9987", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 0.9987 }
+    },
     "exchanges": ["binance"],
     "categories": ["stablecoin"]
   },
-  "orchid": {
+  "OXT": {
     "name": "orchid",
     "ticker": "OXT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5026.png",
     "circulatingSupply": 367584352,
     "totalSupply": 1000000000,
     "maxSupply": null,
-    "marketCap": 246992693,
+    "marketCap": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "marketCap": 246992693 }
+    },
     "volumeDollar": 59168898,
     "dominance": 0.2396,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$0.6719", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 0.6719 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "blockchain-capital-portfolio",
@@ -1403,33 +1793,44 @@
       "a16z-portfolio"
     ]
   },
-  "orion-protocol": {
+  "ORN": {
     "name": "orion-protocol",
     "ticker": "ORN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5631.png",
     "circulatingSupply": 21124000,
     "totalSupply": 100000000,
     "maxSupply": 100000000,
-    "marketCap": 329900635,
+    "marketCap": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "marketCap": 329900635 }
+    },
     "volumeDollar": 27382943,
     "dominance": 0.083,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$15.62", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 15.62 }
+    },
     "exchanges": ["binance"],
     "categories": ["defi", "exnetwork-capital-portfolio", "dao-maker"]
   },
-  "ontology": {
+  "ONT": {
     "name": "ontology",
     "ticker": "ONT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2566.png",
     "circulatingSupply": 819335767,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 1755136019,
+    "marketCap": {
+      "2021-05-06T09:13": {
+        "date": "2021-05-06T09:13",
+        "marketCap": 1755136019
+      }
+    },
     "volumeDollar": 857606912,
     "dominance": 0.4886,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$2.14", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 2.14 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "binance-smart-chain",
@@ -1438,33 +1839,44 @@
       "identity"
     ]
   },
-  "ontology-gas": {
+  "ONG": {
     "name": "ontology-gas",
     "ticker": "ONG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3217.png",
     "circulatingSupply": 260261476,
     "totalSupply": 1000000000,
     "maxSupply": null,
-    "marketCap": 248640563,
+    "marketCap": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "marketCap": 248640563 }
+    },
     "volumeDollar": 28267157,
     "dominance": 0.1137,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$0.9553", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 0.9553 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["media", "content-creation"]
   },
-  "harmony": {
+  "ONE": {
     "name": "harmony",
     "ticker": "ONE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3945.png",
     "circulatingSupply": 9507132552,
     "totalSupply": 13016029552,
     "maxSupply": 12600000000,
-    "marketCap": 1228709744,
+    "marketCap": {
+      "2021-05-06T09:13": {
+        "date": "2021-05-06T09:13",
+        "marketCap": 1228709744
+      }
+    },
     "volumeDollar": 102043300,
     "dominance": 0.08305,
     "date": "2021-05-06T09:13",
-    "price": { "price": "$0.1292", "date": "2021-05-06T09:13" },
+    "price": {
+      "2021-05-06T09:13": { "date": "2021-05-06T09:13", "price": 0.1292 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "scaling",
@@ -1476,33 +1888,44 @@
       "platform"
     ]
   },
-  "omg": {
+  "OMG": {
     "name": "omg",
     "ticker": "OMG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1808.png",
     "circulatingSupply": 140245398,
     "totalSupply": 140245398,
     "maxSupply": 140245399,
-    "marketCap": 1428498323,
+    "marketCap": {
+      "2021-05-06T12:47": {
+        "date": "2021-05-06T12:47",
+        "marketCap": 1428498323
+      }
+    },
     "volumeDollar": 791932499,
     "dominance": 0.5544,
     "date": "2021-05-06T12:47",
-    "price": { "price": "$10.19", "date": "2021-05-06T12:47" },
+    "price": {
+      "2021-05-06T12:47": { "date": "2021-05-06T12:47", "price": 10.19 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["pantera-capital-portfolio", "payments"]
   },
-  "mantra-dao": {
+  "OM": {
     "name": "mantra-dao",
     "ticker": "OM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6536.png",
     "circulatingSupply": 14468369,
     "totalSupply": 888888888,
     "maxSupply": 888888888,
-    "marketCap": 105441603,
+    "marketCap": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "marketCap": 105441603 }
+    },
     "volumeDollar": 324798265,
     "dominance": null,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$0.3654", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 0.3654 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dao",
@@ -1511,18 +1934,22 @@
       "exnetwork-capital-portfolio"
     ]
   },
-  "origin-protocol": {
+  "OGN": {
     "name": "origin-protocol",
     "ticker": "OGN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5117.png",
     "circulatingSupply": 282875718,
     "totalSupply": 1000000000,
     "maxSupply": null,
-    "marketCap": 480262231,
+    "marketCap": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "marketCap": 480262231 }
+    },
     "volumeDollar": 164261871,
     "dominance": 0.342,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$1.70", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 1.7 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "kinetic-capital",
@@ -1531,33 +1958,41 @@
       "collectibles-nfts"
     ]
   },
-  "og-fan-token": {
+  "OG": {
     "name": "og-fan-token",
     "ticker": "OG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5309.png",
     "circulatingSupply": 1274535,
     "totalSupply": 5000000,
     "maxSupply": null,
-    "marketCap": 11428611,
+    "marketCap": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "marketCap": 11428611 }
+    },
     "volumeDollar": 2310875,
     "dominance": 0.2022,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$8.97", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 8.97 }
+    },
     "exchanges": ["binance"],
     "categories": ["fan-token"]
   },
-  "ocean-protocol": {
+  "OCEAN": {
     "name": "ocean-protocol",
     "ticker": "OCEAN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3911.png",
     "circulatingSupply": 426026837,
     "totalSupply": 613099141,
     "maxSupply": 1410000000,
-    "marketCap": 585039189,
+    "marketCap": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "marketCap": 585039189 }
+    },
     "volumeDollar": 54294192,
     "dominance": 0.0928,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$1.37", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 1.37 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "storage",
@@ -1570,48 +2005,60 @@
       "platform"
     ]
   },
-  "nuls": {
+  "NULS": {
     "name": "nuls",
     "ticker": "NULS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2092.png",
     "circulatingSupply": 99620739,
     "totalSupply": 111697638,
     "maxSupply": 210000000,
-    "marketCap": 110776280,
+    "marketCap": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "marketCap": 110776280 }
+    },
     "volumeDollar": 93075671,
     "dominance": 0.8402,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$1.11", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 1.11 }
+    },
     "exchanges": ["binance"],
     "categories": ["platform", "mineable"]
   },
-  "pundi-x": {
+  "NPXS": {
     "name": "pundi-x",
     "ticker": "NPXS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2603.png",
     "circulatingSupply": null,
     "totalSupply": 258498693019,
     "maxSupply": 258526640301,
-    "marketCap": null,
+    "marketCap": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "marketCap": null }
+    },
     "volumeDollar": 459118,
     "dominance": null,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$0.003439", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 0.003439 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["etc"]
   },
-  "numeraire": {
+  "NMR": {
     "name": "numeraire",
     "ticker": "NMR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1732.png",
     "circulatingSupply": 35204213,
     "totalSupply": 10972592,
     "maxSupply": 11000000,
-    "marketCap": 348629243,
+    "marketCap": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "marketCap": 348629243 }
+    },
     "volumeDollar": 780803413,
     "dominance": null,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$70.98", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 70.98 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "asset-management",
@@ -1625,48 +2072,66 @@
       "payments"
     ]
   },
-  "nkn": {
+  "NKN": {
     "name": "nkn",
     "ticker": "NKN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2780.png",
     "circulatingSupply": 583666666,
     "totalSupply": 700000000,
     "maxSupply": 1000000000,
-    "marketCap": 401460284,
+    "marketCap": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "marketCap": 401460284 }
+    },
     "volumeDollar": 77131555,
     "dominance": 0.1921,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$0.6878", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 0.6878 }
+    },
     "exchanges": ["binance"],
     "categories": ["distributed-computing", "iot", "platform", "mineable"]
   },
-  "neo": {
+  "NEO": {
     "name": "neo",
     "ticker": "NEO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1376.png",
     "circulatingSupply": 70538831,
     "totalSupply": 100000000,
     "maxSupply": 100000000,
-    "marketCap": 7936019894,
+    "marketCap": {
+      "2021-05-06T09:14": {
+        "date": "2021-05-06T09:14",
+        "marketCap": 7936019894
+      }
+    },
     "volumeDollar": 2647644596,
     "dominance": 0.3336,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$112.51", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 112.51 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["smart-contracts", "platform"]
   },
-  "near-protocol": {
+  "NEAR": {
     "name": "near-protocol",
     "ticker": "NEAR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6535.png",
     "circulatingSupply": 368874973,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 1919153175,
+    "marketCap": {
+      "2021-05-06T09:14": {
+        "date": "2021-05-06T09:14",
+        "marketCap": 1919153175
+      }
+    },
     "volumeDollar": 81170137,
     "dominance": 0.04229,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$5.20", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 5.2 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "fabric-ventures-portfolio",
@@ -1677,63 +2142,85 @@
       "electric-capital-portfolio"
     ]
   },
-  "new-bitshares": {
+  "NBS": {
     "name": "new-bitshares",
     "ticker": "NBS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7110.png",
     "circulatingSupply": null,
     "totalSupply": 3600000000,
     "maxSupply": 3600000000,
-    "marketCap": null,
+    "marketCap": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "marketCap": null }
+    },
     "volumeDollar": 9005034,
     "dominance": null,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$0.0352", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 0.0352 }
+    },
     "exchanges": ["binance"],
     "categories": ["etc"]
   },
-  "nano": {
+  "NANO": {
     "name": "nano",
     "ticker": "NANO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1567.png",
     "circulatingSupply": 133248297,
     "totalSupply": 133248297,
     "maxSupply": 133248298,
-    "marketCap": 1342353151,
+    "marketCap": {
+      "2021-05-06T09:14": {
+        "date": "2021-05-06T09:14",
+        "marketCap": 1342353151
+      }
+    },
     "volumeDollar": 145769100,
     "dominance": 0.1086,
     "date": "2021-05-06T09:14",
-    "price": { "price": "$10.07", "date": "2021-05-06T09:14" },
+    "price": {
+      "2021-05-06T09:14": { "date": "2021-05-06T09:14", "price": 10.07 }
+    },
     "exchanges": ["binance"],
     "categories": ["pow", "payments"]
   },
-  "metal": {
+  "MTL": {
     "name": "metal",
     "ticker": "MTL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1788.png",
     "circulatingSupply": 65588845,
     "totalSupply": 66588888,
     "maxSupply": 66588888,
-    "marketCap": 258183752,
+    "marketCap": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "marketCap": 258183752 }
+    },
     "volumeDollar": 30477247,
     "dominance": 0.118,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$3.94", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 3.94 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["payments"]
   },
-  "maker": {
+  "MKR": {
     "name": "maker",
     "ticker": "MKR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1518.png",
     "circulatingSupply": 504987622,
     "totalSupply": 995239,
     "maxSupply": 1005577,
-    "marketCap": 5104739708,
+    "marketCap": {
+      "2021-05-06T09:15": {
+        "date": "2021-05-06T09:15",
+        "marketCap": 5104739708
+      }
+    },
     "volumeDollar": 5157766110,
     "dominance": null,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$5,129.16", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 5129.16 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dragonfly-capital-portfolio",
@@ -1749,33 +2236,41 @@
       "electric-capital-portfolio"
     ]
   },
-  "mithril": {
+  "MITH": {
     "name": "mithril",
     "ticker": "MITH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2608.png",
     "circulatingSupply": 1000000000,
     "totalSupply": 1000000000,
     "maxSupply": null,
-    "marketCap": 118967254,
+    "marketCap": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "marketCap": 118967254 }
+    },
     "volumeDollar": 43427146,
     "dominance": 0.365,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$0.119", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 0.119 }
+    },
     "exchanges": ["binance"],
     "categories": ["media", "content-creation", "smart-contracts"]
   },
-  "mirror-protocol": {
+  "MIR": {
     "name": "mirror-protocol",
     "ticker": "MIR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7857.png",
     "circulatingSupply": 83543181,
     "totalSupply": 370575000,
     "maxSupply": null,
-    "marketCap": 678041918,
+    "marketCap": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "marketCap": 678041918 }
+    },
     "volumeDollar": 4062934554,
     "dominance": null,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$10.96", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 10.96 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "cosmos-ecosystem",
@@ -1785,33 +2280,44 @@
       "synthetics"
     ]
   },
-  "iota": {
+  "MIOTA": {
     "name": "iota",
     "ticker": "MIOTA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1720.png",
     "circulatingSupply": 2779530283,
     "totalSupply": 2779530283,
     "maxSupply": 2779530283,
-    "marketCap": 5995822210,
+    "marketCap": {
+      "2021-05-06T09:15": {
+        "date": "2021-05-06T09:15",
+        "marketCap": 5995822210
+      }
+    },
     "volumeDollar": 269235723,
     "dominance": 0.0449,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$2.16", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 2.16 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["sharing-economy", "iot"]
   },
-  "hifi-finance": {
+  "MFT": {
     "name": "hifi-finance",
     "ticker": "MFT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2896.png",
     "circulatingSupply": 10000000000,
     "totalSupply": 10000000000,
     "maxSupply": 10000000000,
-    "marketCap": 177093913,
+    "marketCap": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "marketCap": 177093913 }
+    },
     "volumeDollar": 22965447,
     "dominance": 0.1297,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$0.01771", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 0.01771 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "content-creation",
@@ -1820,48 +2326,63 @@
       "platform"
     ]
   },
-  "measurable-data-token": {
+  "MDT": {
     "name": "measurable-data-token",
     "ticker": "MDT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2348.png",
     "circulatingSupply": 666990346,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 46861566,
+    "marketCap": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "marketCap": 46861566 }
+    },
     "volumeDollar": 10963957,
     "dominance": 0.234,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$0.07026", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 0.07026 }
+    },
     "exchanges": ["binance"],
     "categories": ["ai-big-data"]
   },
-  "moviebloc": {
+  "MBL": {
     "name": "moviebloc",
     "ticker": "MBL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4038.png",
     "circulatingSupply": 6402212268,
     "totalSupply": 30000000000,
     "maxSupply": 30000000000,
-    "marketCap": 97563494,
+    "marketCap": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "marketCap": 97563494 }
+    },
     "volumeDollar": 15944962,
     "dominance": 0.1634,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$0.01524", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 0.01524 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["media", "content-creation", "video"]
   },
-  "polygon": {
+  "MATIC": {
     "name": "polygon",
     "ticker": "MATIC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png",
     "circulatingSupply": 851928119,
     "totalSupply": 10000000000,
     "maxSupply": 10000000000,
-    "marketCap": 4038546142,
+    "marketCap": {
+      "2021-05-06T09:15": {
+        "date": "2021-05-06T09:15",
+        "marketCap": 4038546142
+      }
+    },
     "volumeDollar": 7783816554,
     "dominance": null,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$0.7784", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 0.7784 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-labs-portfolio",
@@ -1870,18 +2391,25 @@
       "platform"
     ]
   },
-  "decentraland": {
+  "MANA": {
     "name": "decentraland",
     "ticker": "MANA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1966.png",
     "circulatingSupply": 1578089913,
     "totalSupply": 2194460527,
     "maxSupply": null,
-    "marketCap": 2244886913,
+    "marketCap": {
+      "2021-05-06T09:15": {
+        "date": "2021-05-06T09:15",
+        "marketCap": 2244886913
+      }
+    },
     "volumeDollar": 251691256,
     "dominance": 0.1121,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$1.42", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 1.42 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "fabric-ventures-portfolio",
@@ -1895,18 +2423,25 @@
       "payments"
     ]
   },
-  "terra": {
+  "LUNA": {
     "name": "terra",
     "ticker": "LUNA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4172.png",
     "circulatingSupply": 388655812,
     "totalSupply": 958321288,
     "maxSupply": null,
-    "marketCap": 6712520688,
+    "marketCap": {
+      "2021-05-06T09:15": {
+        "date": "2021-05-06T09:15",
+        "marketCap": 6712520688
+      }
+    },
     "volumeDollar": 456252330,
     "dominance": 0.06797,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$17.27", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 17.27 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "cosmos-ecosystem",
@@ -1921,93 +2456,123 @@
       "payments"
     ]
   },
-  "lto-network": {
+  "LTO": {
     "name": "lto-network",
     "ticker": "LTO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3714.png",
     "circulatingSupply": 282634027,
     "totalSupply": 403250135,
     "maxSupply": 403393276,
-    "marketCap": 173342400,
+    "marketCap": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "marketCap": 173342400 }
+    },
     "volumeDollar": 25395445,
     "dominance": 0.1465,
     "date": "2021-05-06T09:15",
-    "price": { "price": "$0.6133", "date": "2021-05-06T09:15" },
+    "price": {
+      "2021-05-06T09:15": { "date": "2021-05-06T09:15", "price": 0.6133 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-smart-chain", "dao-maker", "platform"]
   },
-  "litecoin": {
+  "LTC": {
     "name": "litecoin",
     "ticker": "LTC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2.png",
     "circulatingSupply": 66752415,
     "totalSupply": 66752415,
     "maxSupply": 84000000,
-    "marketCap": 22521548334,
+    "marketCap": {
+      "2021-05-06T09:16": {
+        "date": "2021-05-06T09:16",
+        "marketCap": 22521548334
+      }
+    },
     "volumeDollar": 11086886803,
     "dominance": 0.4923,
     "date": "2021-05-06T09:16",
-    "price": { "price": "$337.39", "date": "2021-05-06T09:16" },
+    "price": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "price": 337.39 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["pow", "mineable"]
   },
-  "lisk": {
+  "LSK": {
     "name": "lisk",
     "ticker": "LSK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1214.png",
     "circulatingSupply": 127970895,
     "totalSupply": 143901163,
     "maxSupply": null,
-    "marketCap": 806999096,
+    "marketCap": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "marketCap": 806999096 }
+    },
     "volumeDollar": 105310693,
     "dominance": 0.1305,
     "date": "2021-05-06T09:16",
-    "price": { "price": "$6.31", "date": "2021-05-06T09:16" },
+    "price": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "price": 6.31 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["smart-contracts", "platform"]
   },
-  "loopring": {
+  "LRC": {
     "name": "loopring",
     "ticker": "LRC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1934.png",
     "circulatingSupply": 115959899,
     "totalSupply": 1373873440,
     "maxSupply": 1374513896,
-    "marketCap": 702758174,
+    "marketCap": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "marketCap": 702758174 }
+    },
     "volumeDollar": 789970875,
     "dominance": null,
     "date": "2021-05-06T09:16",
-    "price": { "price": "$0.5747", "date": "2021-05-06T09:16" },
+    "price": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "price": 0.5747 }
+    },
     "exchanges": ["binance"],
     "categories": ["decentralized-exchange", "defi"]
   },
-  "litentry": {
+  "LIT": {
     "name": "litentry",
     "ticker": "LIT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6833.png",
     "circulatingSupply": 18311958,
     "totalSupply": 100000000,
     "maxSupply": 100000000,
-    "marketCap": 157219350,
+    "marketCap": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "marketCap": 157219350 }
+    },
     "volumeDollar": 27352873,
     "dominance": 0.174,
     "date": "2021-05-06T09:16",
-    "price": { "price": "$8.59", "date": "2021-05-06T09:16" },
+    "price": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "price": 8.59 }
+    },
     "exchanges": ["binance"],
     "categories": ["polkadot-ecosystem"]
   },
-  "chainlink": {
+  "LINK": {
     "name": "chainlink",
     "ticker": "LINK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
     "circulatingSupply": 419009556,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 19828079121,
+    "marketCap": {
+      "2021-05-06T09:16": {
+        "date": "2021-05-06T09:16",
+        "marketCap": 19828079121
+      }
+    },
     "volumeDollar": 3337924681,
     "dominance": 0.1683,
     "date": "2021-05-06T09:16",
-    "price": { "price": "$47.32", "date": "2021-05-06T09:16" },
+    "price": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "price": 47.32 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "framework-ventures",
@@ -2019,18 +2584,22 @@
       "platform"
     ]
   },
-  "linear": {
+  "LINA": {
     "name": "linear",
     "ticker": "LINA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7102.png",
     "circulatingSupply": 3544804757,
     "totalSupply": 10000000000,
     "maxSupply": 10000000000,
-    "marketCap": 388259886,
+    "marketCap": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "marketCap": 388259886 }
+    },
     "volumeDollar": 68813048,
     "dominance": 0.1772,
     "date": "2021-05-06T09:16",
-    "price": { "price": "$0.1095", "date": "2021-05-06T09:16" },
+    "price": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "price": 0.1095 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -2044,18 +2613,25 @@
       "services"
     ]
   },
-  "kusama": {
+  "KSM": {
     "name": "kusama",
     "ticker": "KSM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5034.png",
     "circulatingSupply": 8470098,
     "totalSupply": 9651217,
     "maxSupply": null,
-    "marketCap": 3544312592,
+    "marketCap": {
+      "2021-05-06T09:16": {
+        "date": "2021-05-06T09:16",
+        "marketCap": 3544312592
+      }
+    },
     "volumeDollar": 207790949,
     "dominance": 0.05863,
     "date": "2021-05-06T09:16",
-    "price": { "price": "$418.45", "date": "2021-05-06T09:16" },
+    "price": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "price": 418.45 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "1confirmation-portfolio",
@@ -2064,18 +2640,22 @@
       "polkadot-ecosystem"
     ]
   },
-  "kyber-network-crystal-legacy": {
+  "KNC": {
     "name": "kyber-network-crystal-legacy",
     "ticker": "KNC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1982.png",
     "circulatingSupply": 124888604,
     "totalSupply": 210252944,
     "maxSupply": 226000000,
-    "marketCap": 665736426,
+    "marketCap": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "marketCap": 665736426 }
+    },
     "volumeDollar": 733772415,
     "dominance": null,
     "date": "2021-05-06T09:16",
-    "price": { "price": "$3.25", "date": "2021-05-06T09:16" },
+    "price": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "price": 3.25 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "dao",
@@ -2088,48 +2668,60 @@
       "amm"
     ]
   },
-  "komodo": {
+  "KMD": {
     "name": "komodo",
     "ticker": "KMD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1521.png",
     "circulatingSupply": 125615497,
     "totalSupply": 125615497,
     "maxSupply": 200000000,
-    "marketCap": 414670328,
+    "marketCap": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "marketCap": 414670328 }
+    },
     "volumeDollar": 49124243,
     "dominance": 0.1185,
     "date": "2021-05-06T09:16",
-    "price": { "price": "$3.30", "date": "2021-05-06T09:16" },
+    "price": {
+      "2021-05-06T09:16": { "date": "2021-05-06T09:16", "price": 3.3 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["platform", "mineable"]
   },
-  "selfkey": {
+  "KEY": {
     "name": "selfkey",
     "ticker": "KEY",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2398.png",
     "circulatingSupply": 4588195381,
     "totalSupply": 5999999954,
     "maxSupply": null,
-    "marketCap": 82389552,
+    "marketCap": {
+      "2021-05-06T09:17": { "date": "2021-05-06T09:17", "marketCap": 82389552 }
+    },
     "volumeDollar": 9061030,
     "dominance": 0.11,
     "date": "2021-05-06T09:17",
-    "price": { "price": "$0.01796", "date": "2021-05-06T09:17" },
+    "price": {
+      "2021-05-06T09:17": { "date": "2021-05-06T09:17", "price": 0.01796 }
+    },
     "exchanges": ["binance"],
     "categories": ["gaming", "identity", "platform"]
   },
-  "kava": {
+  "KAVA": {
     "name": "kava",
     "ticker": "KAVA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4846.png",
     "circulatingSupply": 95806312,
     "totalSupply": 122212046,
     "maxSupply": null,
-    "marketCap": 468836697,
+    "marketCap": {
+      "2021-05-06T09:17": { "date": "2021-05-06T09:17", "marketCap": 468836697 }
+    },
     "volumeDollar": 816527619,
     "dominance": null,
     "date": "2021-05-06T09:17",
-    "price": { "price": "$6.68", "date": "2021-05-06T09:17" },
+    "price": {
+      "2021-05-06T09:17": { "date": "2021-05-06T09:17", "price": 6.68 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "framework-ventures",
@@ -2141,63 +2733,79 @@
       "lending-borowing"
     ]
   },
-  "juventus-fan-token": {
+  "JUV": {
     "name": "juventus-fan-token",
     "ticker": "JUV",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5224.png",
     "circulatingSupply": 1315932,
     "totalSupply": 20000000,
     "maxSupply": null,
-    "marketCap": 24701806,
+    "marketCap": {
+      "2021-05-06T09:17": { "date": "2021-05-06T09:17", "marketCap": 24701806 }
+    },
     "volumeDollar": 10235756,
     "dominance": 0.4144,
     "date": "2021-05-06T09:17",
-    "price": { "price": "$18.77", "date": "2021-05-06T09:17" },
+    "price": {
+      "2021-05-06T09:17": { "date": "2021-05-06T09:17", "price": 18.77 }
+    },
     "exchanges": ["binance"],
     "categories": ["fan-token", "sports"]
   },
-  "just": {
+  "JST": {
     "name": "just",
     "ticker": "JST",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5488.png",
     "circulatingSupply": 2260326706,
     "totalSupply": 9900000000,
     "maxSupply": 9900000000,
-    "marketCap": 306629547,
+    "marketCap": {
+      "2021-05-06T09:17": { "date": "2021-05-06T09:17", "marketCap": 306629547 }
+    },
     "volumeDollar": 325202343,
     "dominance": 1.06,
     "date": "2021-05-06T09:17",
-    "price": { "price": "$0.1357", "date": "2021-05-06T09:17" },
+    "price": {
+      "2021-05-06T09:17": { "date": "2021-05-06T09:17", "price": 0.1357 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["defi"]
   },
-  "irisnet": {
+  "IRIS": {
     "name": "irisnet",
     "ticker": "IRIS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3874.png",
     "circulatingSupply": 999671491,
     "totalSupply": 2016354756,
     "maxSupply": null,
-    "marketCap": 190281871,
+    "marketCap": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "marketCap": 190281871 }
+    },
     "volumeDollar": 33042369,
     "dominance": 0.1736,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$0.1903", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 0.1903 }
+    },
     "exchanges": ["binance"],
     "categories": ["cosmos-ecosystem"]
   },
-  "iotex": {
+  "IOTX": {
     "name": "iotex",
     "ticker": "IOTX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2777.png",
     "circulatingSupply": 9644304442,
     "totalSupply": 9644304442,
     "maxSupply": 10000000000,
-    "marketCap": 530929317,
+    "marketCap": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "marketCap": 530929317 }
+    },
     "volumeDollar": 52218876,
     "dominance": 0.09835,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$0.05505", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 0.05505 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "kinetic-capital",
@@ -2206,33 +2814,44 @@
       "platform"
     ]
   },
-  "iostoken": {
+  "IOST": {
     "name": "iostoken",
     "ticker": "IOST",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2405.png",
     "circulatingSupply": 16454275775,
     "totalSupply": 16454275775,
     "maxSupply": 90000000000,
-    "marketCap": 1027798561,
+    "marketCap": {
+      "2021-05-06T12:47": {
+        "date": "2021-05-06T12:47",
+        "marketCap": 1027798561
+      }
+    },
     "volumeDollar": 401840014,
     "dominance": 0.391,
     "date": "2021-05-06T12:47",
-    "price": { "price": "$0.06246", "date": "2021-05-06T12:47" },
+    "price": {
+      "2021-05-06T12:47": { "date": "2021-05-06T12:47", "price": 0.06246 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["huobi-capital", "iot"]
   },
-  "injective-protocol": {
+  "INJ": {
     "name": "injective-protocol",
     "ticker": "INJ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7226.png",
     "circulatingSupply": 24055555,
     "totalSupply": 100000000,
     "maxSupply": 100000000,
-    "marketCap": 440778165,
+    "marketCap": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "marketCap": 440778165 }
+    },
     "volumeDollar": 53280065,
     "dominance": 0.1209,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$18.32", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 18.32 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -2247,18 +2866,25 @@
       "binance-launchpad"
     ]
   },
-  "icon": {
+  "ICX": {
     "name": "icon",
     "ticker": "ICX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2099.png",
     "circulatingSupply": 620215350,
     "totalSupply": 800460000,
     "maxSupply": null,
-    "marketCap": 1507943513,
+    "marketCap": {
+      "2021-05-06T09:19": {
+        "date": "2021-05-06T09:19",
+        "marketCap": 1507943513
+      }
+    },
     "volumeDollar": 109871815,
     "dominance": 0.07286,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$2.43", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 2.43 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "kinetic-capital",
@@ -2267,18 +2893,25 @@
       "platform"
     ]
   },
-  "holo": {
+  "HOT": {
     "name": "holo",
     "ticker": "HOT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2682.png",
     "circulatingSupply": 169164199065,
     "totalSupply": 177619433541,
     "maxSupply": null,
-    "marketCap": 2527423160,
+    "marketCap": {
+      "2021-05-06T09:19": {
+        "date": "2021-05-06T09:19",
+        "marketCap": 2527423160
+      }
+    },
     "volumeDollar": 512474213,
     "dominance": 0.2028,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$0.01494", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 0.01494 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "storage",
@@ -2288,18 +2921,25 @@
       "platform"
     ]
   },
-  "helium": {
+  "HNT": {
     "name": "helium",
     "ticker": "HNT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5665.png",
     "circulatingSupply": 81417187,
     "totalSupply": 223000000,
     "maxSupply": 223000000,
-    "marketCap": 1514736480,
+    "marketCap": {
+      "2021-05-06T09:19": {
+        "date": "2021-05-06T09:19",
+        "marketCap": 1514736480
+      }
+    },
     "volumeDollar": 22104075,
     "dominance": 0.01459,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$18.60", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 18.6 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "distributed-computing",
@@ -2309,63 +2949,82 @@
       "mineable"
     ]
   },
-  "hive": {
+  "HIVE": {
     "name": "hive",
     "ticker": "HIVE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5370.png",
     "circulatingSupply": 396202199,
     "totalSupply": 396202199,
     "maxSupply": null,
-    "marketCap": 231249780,
+    "marketCap": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "marketCap": 231249780 }
+    },
     "volumeDollar": 14193972,
     "dominance": 0.06138,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$0.5837", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 0.5837 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["media", "content-creation", "scaling"]
   },
-  "hedera-hashgraph": {
+  "HBAR": {
     "name": "hedera-hashgraph",
     "ticker": "HBAR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png",
     "circulatingSupply": 8251998246,
     "totalSupply": 50000000000,
     "maxSupply": 50000000000,
-    "marketCap": 2564372461,
+    "marketCap": {
+      "2021-05-06T09:19": {
+        "date": "2021-05-06T09:19",
+        "marketCap": 2564372461
+      }
+    },
     "volumeDollar": 296237107,
     "dominance": 0.1155,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$0.3108", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 0.3108 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["dcg-portfolio", "payments"]
   },
-  "hard-protocol": {
+  "HARD": {
     "name": "hard-protocol",
     "ticker": "HARD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7576.png",
     "circulatingSupply": 12528894,
     "totalSupply": 200000000,
     "maxSupply": null,
-    "marketCap": 100783260,
+    "marketCap": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "marketCap": 100783260 }
+    },
     "volumeDollar": 329088197,
     "dominance": null,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$1.65", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 1.65 }
+    },
     "exchanges": ["binance"],
     "categories": ["cosmos-ecosystem", "binance-launchpool", "lending-borowing"]
   },
-  "gifto": {
+  "GTO": {
     "name": "gifto",
     "ticker": "GTO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2289.png",
     "circulatingSupply": 770236879,
     "totalSupply": 1000000000,
     "maxSupply": null,
-    "marketCap": 62208179,
+    "marketCap": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "marketCap": 62208179 }
+    },
     "volumeDollar": 17670510,
     "dominance": 0.2841,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$0.08076", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 0.08076 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "media",
@@ -2375,18 +3034,25 @@
       "binance-launchpad"
     ]
   },
-  "the-graph": {
+  "GRT": {
     "name": "the-graph",
     "ticker": "GRT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6719.png",
     "circulatingSupply": 1245666867,
     "totalSupply": 10000000000,
     "maxSupply": 10057044431,
-    "marketCap": 1925227675,
+    "marketCap": {
+      "2021-05-06T09:19": {
+        "date": "2021-05-06T09:19",
+        "marketCap": 1925227675
+      }
+    },
     "volumeDollar": 205923511,
     "dominance": 0.107,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$1.55", "date": "2021-05-06T09:19" },
+    "price": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 1.55 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -2404,48 +3070,61 @@
       "solana-ecosystem"
     ]
   },
-  "pound-sterling": {
+  "GBP": {
     "name": "pound-sterling",
     "ticker": "GBP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2791.png",
     "circulatingSupply": null,
-    "marketCap": null,
+    "marketCap": {
+      "2021-05-06T09:19": { "date": "2021-05-06T09:19", "marketCap": null }
+    },
     "volumeDollar": null,
     "dominance": null,
     "date": "2021-05-06T09:19",
-    "price": { "price": "$0", "date": "2021-05-06T09:19" },
+    "price": { "2021-05-06T09:19": { "date": "2021-05-06T09:19", "price": 0 } },
     "exchanges": ["binance"],
     "categories": ["etc"],
     "totalSupply": null,
     "maxSupply": null
   },
-  "funtoken": {
+  "FUN": {
     "name": "funtoken",
     "ticker": "FUN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1757.png",
     "circulatingSupply": 10298879189,
     "totalSupply": 10999873621,
     "maxSupply": 10999873621,
-    "marketCap": 481276869,
+    "marketCap": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "marketCap": 481276869 }
+    },
     "volumeDollar": 63862534,
     "dominance": 0.1327,
     "date": "2021-05-06T09:20",
-    "price": { "price": "$0.04673", "date": "2021-05-06T09:20" },
+    "price": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "price": 0.04673 }
+    },
     "exchanges": ["binance"],
     "categories": ["pantera-capital-portfolio", "gambling", "payments"]
   },
-  "ftx-token": {
+  "FTT": {
     "name": "ftx-token",
     "ticker": "FTT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4195.png",
     "circulatingSupply": 94346958,
     "totalSupply": 345219294,
     "maxSupply": 339228639,
-    "marketCap": 5428602107,
+    "marketCap": {
+      "2021-05-06T09:20": {
+        "date": "2021-05-06T09:20",
+        "marketCap": 5428602107
+      }
+    },
     "volumeDollar": 107299935,
     "dominance": 0.01977,
     "date": "2021-05-06T09:20",
-    "price": { "price": "$57.54", "date": "2021-05-06T09:20" },
+    "price": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "price": 57.54 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "kinetic-capital",
@@ -2457,108 +3136,140 @@
       "exnetwork-capital-portfolio"
     ]
   },
-  "fantom": {
+  "FTM": {
     "name": "fantom",
     "ticker": "FTM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3513.png",
     "circulatingSupply": 361186630,
     "totalSupply": 2545006273,
     "maxSupply": 3175000000,
-    "marketCap": 2042368407,
+    "marketCap": {
+      "2021-05-06T09:20": {
+        "date": "2021-05-06T09:20",
+        "marketCap": 2042368407
+      }
+    },
     "volumeDollar": 2547938589,
     "dominance": null,
     "date": "2021-05-06T09:20",
-    "price": { "price": "$0.8025", "date": "2021-05-06T09:20" },
+    "price": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "price": 0.8025 }
+    },
     "exchanges": ["binance"],
     "categories": ["scaling", "smart-contracts", "research", "defi", "platform"]
   },
-  "ampleforth-governance-token": {
+  "FORTH": {
     "name": "ampleforth-governance-token",
     "ticker": "FORTH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/9421.png",
     "circulatingSupply": 6329416,
     "totalSupply": 14998897,
     "maxSupply": 15000000,
-    "marketCap": 237341938,
+    "marketCap": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "marketCap": 237341938 }
+    },
     "volumeDollar": 53389285,
     "dominance": 0.2249,
     "date": "2021-05-06T09:20",
-    "price": { "price": "$37.50", "date": "2021-05-06T09:20" },
+    "price": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "price": 37.5 }
+    },
     "exchanges": ["binance"],
     "categories": ["dao"]
   },
-  "flamingo": {
+  "FLM": {
     "name": "flamingo",
     "ticker": "FLM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7150.png",
     "circulatingSupply": 150000000,
     "totalSupply": 150000000,
     "maxSupply": null,
-    "marketCap": 147506889,
+    "marketCap": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "marketCap": 147506889 }
+    },
     "volumeDollar": 83875708,
     "dominance": 0.5686,
     "date": "2021-05-06T09:20",
-    "price": { "price": "$0.9834", "date": "2021-05-06T09:20" },
+    "price": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "price": 0.9834 }
+    },
     "exchanges": ["binance"],
     "categories": ["yield-farming", "dao", "binance-launchpool", "defi"]
   },
-  "stafi": {
+  "FIS": {
     "name": "stafi",
     "ticker": "FIS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5882.png",
     "circulatingSupply": 26734322,
     "totalSupply": 102245900,
     "maxSupply": 102245900,
-    "marketCap": 33644344,
+    "marketCap": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "marketCap": 33644344 }
+    },
     "volumeDollar": 306663027,
     "dominance": null,
     "date": "2021-05-06T09:20",
-    "price": { "price": "$3.00", "date": "2021-05-06T09:20" },
+    "price": { "2021-05-06T09:20": { "date": "2021-05-06T09:20", "price": 3 } },
     "exchanges": ["binance"],
     "categories": ["polkadot-ecosystem", "exnetwork-capital-portfolio"]
   },
-  "firo": {
+  "FIRO": {
     "name": "firo",
     "ticker": "FIRO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1414.png",
     "circulatingSupply": 11830263,
     "totalSupply": 21400000,
     "maxSupply": 21400000,
-    "marketCap": 166409768,
+    "marketCap": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "marketCap": 166409768 }
+    },
     "volumeDollar": 11798437,
     "dominance": 0.0709,
     "date": "2021-05-06T09:20",
-    "price": { "price": "$14.07", "date": "2021-05-06T09:20" },
+    "price": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "price": 14.07 }
+    },
     "exchanges": ["binance"],
     "categories": ["masternodes", "privacy", "pow", "mineable"]
   },
-  "fio-protocol": {
+  "FIO": {
     "name": "fio-protocol",
     "ticker": "FIO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5865.png",
     "circulatingSupply": 234277923,
     "totalSupply": 756518940,
     "maxSupply": 1000000000,
-    "marketCap": 82178922,
+    "marketCap": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "marketCap": 82178922 }
+    },
     "volumeDollar": 11652874,
     "dominance": 0.1418,
     "date": "2021-05-06T09:20",
-    "price": { "price": "$0.3508", "date": "2021-05-06T09:20" },
+    "price": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "price": 0.3508 }
+    },
     "exchanges": ["binance"],
     "categories": ["collectibles-nfts"]
   },
-  "filecoin": {
+  "FIL": {
     "name": "filecoin",
     "ticker": "FIL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2280.png",
     "circulatingSupply": 69514977,
     "totalSupply": 69514977,
     "maxSupply": 2000000000,
-    "marketCap": 10909910836,
+    "marketCap": {
+      "2021-05-06T09:20": {
+        "date": "2021-05-06T09:20",
+        "marketCap": 10909910836
+      }
+    },
     "volumeDollar": 1968897541,
     "dominance": 0.1805,
     "date": "2021-05-06T09:20",
-    "price": { "price": "$156.94", "date": "2021-05-06T09:20" },
+    "price": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "price": 156.94 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "storage",
@@ -2575,48 +3286,61 @@
       "mineable"
     ]
   },
-  "fetch": {
+  "FET": {
     "name": "fetch",
     "ticker": "FET",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3773.png",
     "circulatingSupply": 746113681,
     "totalSupply": 1151441226,
     "maxSupply": 1152997575,
-    "marketCap": 449800857,
+    "marketCap": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "marketCap": 449800857 }
+    },
     "volumeDollar": 37193449,
     "dominance": 0.08269,
     "date": "2021-05-06T09:20",
-    "price": { "price": "$0.6029", "date": "2021-05-06T09:20" },
+    "price": {
+      "2021-05-06T09:20": { "date": "2021-05-06T09:20", "price": 0.6029 }
+    },
     "exchanges": ["binance"],
     "categories": ["cosmos-ecosystem", "binance-launchpad", "ai-big-data"]
   },
-  "euro": {
+  "EUR": {
     "name": "euro",
     "ticker": "EUR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2790.png",
     "circulatingSupply": null,
-    "marketCap": null,
+    "marketCap": {
+      "2021-05-06T09:21": { "date": "2021-05-06T09:21", "marketCap": null }
+    },
     "volumeDollar": null,
     "dominance": null,
     "date": "2021-05-06T09:21",
-    "price": { "price": "$0", "date": "2021-05-06T09:21" },
+    "price": { "2021-05-06T09:21": { "date": "2021-05-06T09:21", "price": 0 } },
     "exchanges": ["binance"],
     "categories": ["etc"],
     "totalSupply": null,
     "maxSupply": null
   },
-  "ethereum": {
+  "ETH": {
     "name": "ethereum",
     "ticker": "ETH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
     "circulatingSupply": 115759823,
     "totalSupply": 115759823,
     "maxSupply": null,
-    "marketCap": 397350158225,
+    "marketCap": {
+      "2021-05-06T09:21": {
+        "date": "2021-05-06T09:21",
+        "marketCap": 397350158225
+      }
+    },
     "volumeDollar": 44720768763,
     "dominance": 0.1125,
     "date": "2021-05-06T09:21",
-    "price": { "price": "$3,432.54", "date": "2021-05-06T09:21" },
+    "price": {
+      "2021-05-06T09:21": { "date": "2021-05-06T09:21", "price": 3432.54 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "dragonfly-capital-portfolio",
@@ -2648,18 +3372,25 @@
       "electric-capital-portfolio"
     ]
   },
-  "ethereum-classic": {
+  "ETC": {
     "name": "ethereum-classic",
     "ticker": "ETC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1321.png",
     "circulatingSupply": 116313299,
     "totalSupply": 116313299,
     "maxSupply": 210700000,
-    "marketCap": 10959633769,
+    "marketCap": {
+      "2021-05-06T09:21": {
+        "date": "2021-05-06T09:21",
+        "marketCap": 10959633769
+      }
+    },
     "volumeDollar": 21524753780,
     "dominance": 1.96,
     "date": "2021-05-06T09:21",
-    "price": { "price": "$94.23", "date": "2021-05-06T09:21" },
+    "price": {
+      "2021-05-06T09:21": { "date": "2021-05-06T09:21", "price": 94.23 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "smart-contracts",
@@ -2669,33 +3400,44 @@
       "mineable"
     ]
   },
-  "ellipsis": {
+  "EPS": {
     "name": "ellipsis",
     "ticker": "EPS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8938.png",
     "circulatingSupply": 111339334,
     "totalSupply": 288989816,
     "maxSupply": null,
-    "marketCap": 284985235,
+    "marketCap": {
+      "2021-05-06T09:21": { "date": "2021-05-06T09:21", "marketCap": 284985235 }
+    },
     "volumeDollar": 47935582,
     "dominance": 0.1682,
     "date": "2021-05-06T09:21",
-    "price": { "price": "$2.56", "date": "2021-05-06T09:21" },
+    "price": {
+      "2021-05-06T09:21": { "date": "2021-05-06T09:21", "price": 2.56 }
+    },
     "exchanges": ["binance"],
     "categories": ["decentralized-exchange", "defi"]
   },
-  "eos": {
+  "EOS": {
     "name": "eos",
     "ticker": "EOS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png",
     "circulatingSupply": 953140497,
     "totalSupply": 1029307576,
     "maxSupply": null,
-    "marketCap": 8598670416,
+    "marketCap": {
+      "2021-05-06T09:21": {
+        "date": "2021-05-06T09:21",
+        "marketCap": 8598670416
+      }
+    },
     "volumeDollar": 10627197552,
     "dominance": 1.24,
     "date": "2021-05-06T09:21",
-    "price": { "price": "$9.02", "date": "2021-05-06T09:21" },
+    "price": {
+      "2021-05-06T09:21": { "date": "2021-05-06T09:21", "price": 9.02 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "fenbushi-capital-portfolio",
@@ -2703,33 +3445,47 @@
       "smart-contracts"
     ]
   },
-  "enjin-coin": {
+  "ENJ": {
     "name": "enjin-coin",
     "ticker": "ENJ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2130.png",
     "circulatingSupply": 834313757,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 2106479576,
+    "marketCap": {
+      "2021-05-06T09:21": {
+        "date": "2021-05-06T09:21",
+        "marketCap": 2106479576
+      }
+    },
     "volumeDollar": 291785846,
     "dominance": 0.1385,
     "date": "2021-05-06T09:21",
-    "price": { "price": "$2.52", "date": "2021-05-06T09:21" },
+    "price": {
+      "2021-05-06T09:21": { "date": "2021-05-06T09:21", "price": 2.52 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["media", "collectibles-nfts", "gaming", "metaverse"]
   },
-  "elrond": {
+  "EGLD": {
     "name": "elrond",
     "ticker": "EGLD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6892.png",
     "circulatingSupply": 17407545,
     "totalSupply": 21651109,
     "maxSupply": 31415926,
-    "marketCap": 3421318244,
+    "marketCap": {
+      "2021-05-06T09:21": {
+        "date": "2021-05-06T09:21",
+        "marketCap": 3421318244
+      }
+    },
     "volumeDollar": 122776512,
     "dominance": 0.03589,
     "date": "2021-05-06T09:21",
-    "price": { "price": "$196.54", "date": "2021-05-06T09:21" },
+    "price": {
+      "2021-05-06T09:21": { "date": "2021-05-06T09:21", "price": 196.54 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-labs-portfolio",
@@ -2738,48 +3494,63 @@
       "electric-capital-portfolio"
     ]
   },
-  "dusk-network": {
+  "DUSK": {
     "name": "dusk-network",
     "ticker": "DUSK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4092.png",
     "circulatingSupply": 368103806,
     "totalSupply": 500000000,
     "maxSupply": 1000000000,
-    "marketCap": 100327366,
+    "marketCap": {
+      "2021-05-06T09:21": { "date": "2021-05-06T09:21", "marketCap": 100327366 }
+    },
     "volumeDollar": 5504650,
     "dominance": 0.05487,
     "date": "2021-05-06T09:21",
-    "price": { "price": "$0.2726", "date": "2021-05-06T09:21" },
+    "price": {
+      "2021-05-06T09:21": { "date": "2021-05-06T09:21", "price": 0.2726 }
+    },
     "exchanges": ["binance"],
     "categories": ["smart-contracts", "privacy"]
   },
-  "drep-new": {
+  "DREP": {
     "name": "drep-new",
     "ticker": "DREP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/9148.png",
     "circulatingSupply": 39900000,
     "totalSupply": 100000000,
     "maxSupply": null,
-    "marketCap": 59051037,
+    "marketCap": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "marketCap": 59051037 }
+    },
     "volumeDollar": 4413851,
     "dominance": 0.07475,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$1.48", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 1.48 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-smart-chain", "smart-contracts", "oracles"]
   },
-  "polkadot": {
+  "DOT": {
     "name": "polkadot",
     "ticker": "DOT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6636.png",
     "circulatingSupply": 935547570,
     "totalSupply": 1071071685,
     "maxSupply": null,
-    "marketCap": 36201033459,
+    "marketCap": {
+      "2021-05-06T09:22": {
+        "date": "2021-05-06T09:22",
+        "marketCap": 36201033459
+      }
+    },
     "volumeDollar": 3310874798,
     "dominance": 0.09146,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$38.70", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 38.7 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "fenbushi-capital-portfolio",
@@ -2799,33 +3570,44 @@
       "coinfund-portfolio"
     ]
   },
-  "dogecoin": {
+  "DOGE": {
     "name": "dogecoin",
     "ticker": "DOGE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/74.png",
     "circulatingSupply": 129475242412,
     "totalSupply": 129475242412,
     "maxSupply": null,
-    "marketCap": 77979175909,
+    "marketCap": {
+      "2021-05-06T09:22": {
+        "date": "2021-05-06T09:22",
+        "marketCap": 77979175909
+      }
+    },
     "volumeDollar": 30877455626,
     "dominance": 0.396,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$0.6023", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 0.6023 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["memes", "pow", "mineable", "payments"]
   },
-  "dodo": {
+  "DODO": {
     "name": "dodo",
     "ticker": "DODO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7224.png",
     "circulatingSupply": 69614386,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 435033669,
+    "marketCap": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "marketCap": 435033669 }
+    },
     "volumeDollar": 3935105709,
     "dominance": null,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$3.94", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 3.94 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -2841,48 +3623,60 @@
       "defiance-capital"
     ]
   },
-  "dock": {
+  "DOCK": {
     "name": "dock",
     "ticker": "DOCK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2675.png",
     "circulatingSupply": 686664903,
     "totalSupply": 853389250,
     "maxSupply": 1000000000,
-    "marketCap": 81391238,
+    "marketCap": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "marketCap": 81391238 }
+    },
     "volumeDollar": 18701751,
     "dominance": 0.2298,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$0.1185", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 0.1185 }
+    },
     "exchanges": ["binance"],
     "categories": ["smart-contracts", "polkadot-ecosystem", "ai-big-data"]
   },
-  "district0x": {
+  "DNT": {
     "name": "district0x",
     "ticker": "DNT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1856.png",
     "circulatingSupply": 600000000,
     "totalSupply": 1000000000,
     "maxSupply": null,
-    "marketCap": 188380375,
+    "marketCap": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "marketCap": 188380375 }
+    },
     "volumeDollar": 21221788,
     "dominance": 0.1127,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$0.314", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 0.314 }
+    },
     "exchanges": ["binance"],
     "categories": ["boostvc-portfolio", "platform", "payments"]
   },
-  "dia": {
+  "DIA": {
     "name": "dia",
     "ticker": "DIA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6138.png",
     "circulatingSupply": 41430434,
     "totalSupply": 200000000,
     "maxSupply": 200000000,
-    "marketCap": 217781274,
+    "marketCap": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "marketCap": 217781274 }
+    },
     "volumeDollar": 139142602,
     "dominance": 0.6389,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$5.26", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 5.26 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "defi",
@@ -2891,48 +3685,63 @@
       "exnetwork-capital-portfolio"
     ]
   },
-  "digibyte": {
+  "DGB": {
     "name": "digibyte",
     "ticker": "DGB",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/109.png",
     "circulatingSupply": 14282531617,
     "totalSupply": 14282531617,
     "maxSupply": 21000000000,
-    "marketCap": 2106819547,
+    "marketCap": {
+      "2021-05-06T09:22": {
+        "date": "2021-05-06T09:22",
+        "marketCap": 2106819547
+      }
+    },
     "volumeDollar": 151117510,
     "dominance": 0.07173,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$0.1475", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 0.1475 }
+    },
     "exchanges": ["binance"],
     "categories": ["iot", "collectibles-nfts", "pow", "mineable", "payments"]
   },
-  "dent": {
+  "DENT": {
     "name": "dent",
     "ticker": "DENT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1886.png",
     "circulatingSupply": 94033927361,
     "totalSupply": 100000000000,
     "maxSupply": null,
-    "marketCap": 912063658,
+    "marketCap": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "marketCap": 912063658 }
+    },
     "volumeDollar": 130027695,
     "dominance": 0.1426,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$0.009699", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 0.009699 }
+    },
     "exchanges": ["binance"],
     "categories": ["services"]
   },
-  "dego-finance": {
+  "DEGO": {
     "name": "dego-finance",
     "ticker": "DEGO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7087.png",
     "circulatingSupply": 8607383,
     "totalSupply": 8607383,
     "maxSupply": 21000000,
-    "marketCap": 149251665,
+    "marketCap": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "marketCap": 149251665 }
+    },
     "volumeDollar": 58820158,
     "dominance": 0.3941,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$17.34", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 17.34 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -2943,18 +3752,25 @@
       "binance-launchpad"
     ]
   },
-  "decred": {
+  "DCR": {
     "name": "decred",
     "ticker": "DCR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1168.png",
     "circulatingSupply": 12898506,
     "totalSupply": 12898506,
     "maxSupply": 21000000,
-    "marketCap": 2513436763,
+    "marketCap": {
+      "2021-05-06T09:22": {
+        "date": "2021-05-06T09:22",
+        "marketCap": 2513436763
+      }
+    },
     "volumeDollar": 36607798,
     "dominance": 0.01456,
     "date": "2021-05-06T09:22",
-    "price": { "price": "$194.86", "date": "2021-05-06T09:22" },
+    "price": {
+      "2021-05-06T09:22": { "date": "2021-05-06T09:22", "price": 194.86 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dao",
@@ -2963,18 +3779,22 @@
       "mineable"
     ]
   },
-  "streamr": {
+  "DATA": {
     "name": "streamr",
     "ticker": "DATA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2143.png",
     "circulatingSupply": 869250679,
     "totalSupply": 987154514,
     "maxSupply": null,
-    "marketCap": 163760740,
+    "marketCap": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "marketCap": 163760740 }
+    },
     "volumeDollar": 13918527,
     "dominance": 0.08499,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$0.1884", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 0.1884 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "filesharing",
@@ -2985,33 +3805,44 @@
       "platform"
     ]
   },
-  "dash": {
+  "DASH": {
     "name": "dash",
     "ticker": "DASH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/131.png",
     "circulatingSupply": 10117302,
     "totalSupply": 10117302,
     "maxSupply": 18900000,
-    "marketCap": 3912318937,
+    "marketCap": {
+      "2021-05-06T09:23": {
+        "date": "2021-05-06T09:23",
+        "marketCap": 3912318937
+      }
+    },
     "volumeDollar": 1734824217,
     "dominance": 0.4434,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$386.70", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 386.7 }
+    },
     "exchanges": ["binance"],
     "categories": ["dao", "masternodes", "privacy", "mineable"]
   },
-  "civic": {
+  "CVC": {
     "name": "civic",
     "ticker": "CVC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1816.png",
     "circulatingSupply": 670000000,
     "totalSupply": 1000000000,
     "maxSupply": null,
-    "marketCap": 380595591,
+    "marketCap": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "marketCap": 380595591 }
+    },
     "volumeDollar": 53746550,
     "dominance": 0.1412,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$0.5681", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 0.5681 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "dcg-portfolio",
@@ -3020,18 +3851,22 @@
       "solana-ecosystem"
     ]
   },
-  "cortex": {
+  "CTXC": {
     "name": "cortex",
     "ticker": "CTXC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2638.png",
     "circulatingSupply": 249938725,
     "totalSupply": 299792458,
     "maxSupply": 299792458,
-    "marketCap": 96959556,
+    "marketCap": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "marketCap": 96959556 }
+    },
     "volumeDollar": 11657487,
     "dominance": 0.1202,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$0.3879", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 0.3879 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "smart-contracts",
@@ -3041,33 +3876,41 @@
       "mineable"
     ]
   },
-  "cartesi": {
+  "CTSI": {
     "name": "cartesi",
     "ticker": "CTSI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5444.png",
     "circulatingSupply": 337457354,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 320891243,
+    "marketCap": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "marketCap": 320891243 }
+    },
     "volumeDollar": 129589707,
     "dominance": 0.4038,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$0.9509", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 0.9509 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-launchpad"]
   },
-  "certik": {
+  "CTK": {
     "name": "certik",
     "ticker": "CTK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4807.png",
     "circulatingSupply": 44613001,
     "totalSupply": 102120756,
     "maxSupply": null,
-    "marketCap": 144583866,
+    "marketCap": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "marketCap": 144583866 }
+    },
     "volumeDollar": 42840718,
     "dominance": 0.2963,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$3.24", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 3.24 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "scaling",
@@ -3080,18 +3923,22 @@
       "interoperability"
     ]
   },
-  "curve-dao-token": {
+  "CRV": {
     "name": "curve-dao-token",
     "ticker": "CRV",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6538.png",
     "circulatingSupply": 269725199,
     "totalSupply": 1477184198,
     "maxSupply": 3303030299,
-    "marketCap": 891557105,
+    "marketCap": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "marketCap": 891557105 }
+    },
     "volumeDollar": 10769423937,
     "dominance": null,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$3.26", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 3.26 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "yield-farming",
@@ -3103,48 +3950,63 @@
       "amm"
     ]
   },
-  "coti": {
+  "COTI": {
     "name": "coti",
     "ticker": "COTI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3992.png",
     "circulatingSupply": 669740238,
     "totalSupply": 2000000000,
     "maxSupply": 2000000000,
-    "marketCap": 236601722,
+    "marketCap": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "marketCap": 236601722 }
+    },
     "volumeDollar": 57643365,
     "dominance": 0.2436,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$0.3533", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 0.3533 }
+    },
     "exchanges": ["binance"],
     "categories": ["defi"]
   },
-  "contentos": {
+  "COS": {
     "name": "contentos",
     "ticker": "COS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4036.png",
     "circulatingSupply": 3014300191,
     "totalSupply": 9990144695,
     "maxSupply": null,
-    "marketCap": 102696122,
+    "marketCap": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "marketCap": 102696122 }
+    },
     "volumeDollar": 16650460,
     "dominance": 0.1621,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$0.03407", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 0.03407 }
+    },
     "exchanges": ["binance"],
     "categories": ["media", "content-creation", "video"]
   },
-  "compound": {
+  "COMP": {
     "name": "compound",
     "ticker": "COMP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5692.png",
     "circulatingSupply": 251687817,
     "totalSupply": 10000000,
     "maxSupply": 10000000,
-    "marketCap": 3814583939,
+    "marketCap": {
+      "2021-05-06T09:23": {
+        "date": "2021-05-06T09:23",
+        "marketCap": 3814583939
+      }
+    },
     "volumeDollar": 7515498004,
     "dominance": null,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$751.55", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 751.55 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dragonfly-capital-portfolio",
@@ -3161,33 +4023,41 @@
       "lending-borowing"
     ]
   },
-  "cocos-bcx": {
+  "COCOS": {
     "name": "cocos-bcx",
     "ticker": "COCOS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4275.png",
     "circulatingSupply": 42015868,
     "totalSupply": 100000000,
     "maxSupply": 100000000,
-    "marketCap": 50629533,
+    "marketCap": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "marketCap": 50629533 }
+    },
     "volumeDollar": 6344392,
     "dominance": 0.1253,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$1.21", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 1.21 }
+    },
     "exchanges": ["binance"],
     "categories": ["media", "collectibles-nfts", "gaming"]
   },
-  "nervos-network": {
+  "CKB": {
     "name": "nervos-network",
     "ticker": "CKB",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4948.png",
     "circulatingSupply": 26204660239,
     "totalSupply": 31974218568,
     "maxSupply": null,
-    "marketCap": 664159123,
+    "marketCap": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "marketCap": 664159123 }
+    },
     "volumeDollar": 42150917,
     "dominance": 0.06347,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$0.02535", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 0.02535 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dragonfly-capital-portfolio",
@@ -3201,18 +4071,25 @@
       "electric-capital-portfolio"
     ]
   },
-  "chiliz": {
+  "CHZ": {
     "name": "chiliz",
     "ticker": "CHZ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4066.png",
     "circulatingSupply": 5586355378,
     "totalSupply": 8888888888,
     "maxSupply": 8888888888,
-    "marketCap": 2844086430,
+    "marketCap": {
+      "2021-05-06T09:23": {
+        "date": "2021-05-06T09:23",
+        "marketCap": 2844086430
+      }
+    },
     "volumeDollar": 480772549,
     "dominance": 0.169,
     "date": "2021-05-06T09:23",
-    "price": { "price": "$0.5091", "date": "2021-05-06T09:23" },
+    "price": {
+      "2021-05-06T09:23": { "date": "2021-05-06T09:23", "price": 0.5091 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "content-creation",
@@ -3221,48 +4098,60 @@
       "payments"
     ]
   },
-  "chromia": {
+  "CHR": {
     "name": "chromia",
     "ticker": "CHR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3978.png",
     "circulatingSupply": 429822250,
     "totalSupply": 471970667,
     "maxSupply": 1000000000,
-    "marketCap": 155796814,
+    "marketCap": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "marketCap": 155796814 }
+    },
     "volumeDollar": 55988294,
     "dominance": 0.3594,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$0.3625", "date": "2021-05-06T09:24" },
+    "price": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 0.3625 }
+    },
     "exchanges": ["binance"],
     "categories": ["defi", "collectibles-nfts", "platform"]
   },
-  "conflux-network": {
+  "CFX": {
     "name": "conflux-network",
     "ticker": "CFX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7334.png",
     "circulatingSupply": 829156672,
     "totalSupply": 829156672,
     "maxSupply": null,
-    "marketCap": 734709158,
+    "marketCap": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "marketCap": 734709158 }
+    },
     "volumeDollar": 11825580,
     "dominance": 0.0161,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$0.8861", "date": "2021-05-06T09:24" },
+    "price": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 0.8861 }
+    },
     "exchanges": ["binance"],
     "categories": ["smart-contracts", "platform", "pow", "mineable"]
   },
-  "celer-network": {
+  "CELR": {
     "name": "celer-network",
     "ticker": "CELR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3814.png",
     "circulatingSupply": 5506609697,
     "totalSupply": 10000000000,
     "maxSupply": 10000000000,
-    "marketCap": 330217684,
+    "marketCap": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "marketCap": 330217684 }
+    },
     "volumeDollar": 40666704,
     "dominance": 0.1232,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$0.05997", "date": "2021-05-06T09:24" },
+    "price": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 0.05997 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "scaling",
@@ -3272,18 +4161,25 @@
       "platform"
     ]
   },
-  "celo": {
+  "CELO": {
     "name": "celo",
     "ticker": "CELO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5567.png",
     "circulatingSupply": 225479897,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 1187881455,
+    "marketCap": {
+      "2021-05-06T09:24": {
+        "date": "2021-05-06T09:24",
+        "marketCap": 1187881455
+      }
+    },
     "volumeDollar": 38106544,
     "dominance": 0.03208,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$5.27", "date": "2021-05-06T09:24" },
+    "price": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 5.27 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dragonfly-capital-portfolio",
@@ -3295,18 +4191,25 @@
       "payments"
     ]
   },
-  "pancakeswap": {
+  "CAKE": {
     "name": "pancakeswap",
     "ticker": "CAKE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7186.png",
     "circulatingSupply": 397491774,
     "totalSupply": 162927658,
     "maxSupply": null,
-    "marketCap": 6103578243,
+    "marketCap": {
+      "2021-05-06T09:24": {
+        "date": "2021-05-06T09:24",
+        "marketCap": 6103578243
+      }
+    },
     "volumeDollar": 6103578243,
     "dominance": null,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$37.46", "date": "2021-05-06T09:24" },
+    "price": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 37.46 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -3316,18 +4219,22 @@
       "amm"
     ]
   },
-  "bzx-protocol": {
+  "BZRX": {
     "name": "bzx-protocol",
     "ticker": "BZRX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5810.png",
     "circulatingSupply": 89478882,
     "totalSupply": 1030000000,
     "maxSupply": null,
-    "marketCap": 188896029,
+    "marketCap": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "marketCap": 188896029 }
+    },
     "volumeDollar": 1009589083,
     "dominance": null,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$0.9802", "date": "2021-05-06T09:24" },
+    "price": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 0.9802 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "smart-contracts",
@@ -3336,33 +4243,42 @@
       "lending-borowing"
     ]
   },
-  "binance-usd": {
+  "BUSD": {
     "name": "binance-usd",
     "ticker": "BUSD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png",
     "circulatingSupply": 7798823536,
     "totalSupply": 7798823536,
     "maxSupply": null,
-    "marketCap": 7799714631,
+    "marketCap": {
+      "2021-05-06T09:24": {
+        "date": "2021-05-06T09:24",
+        "marketCap": 7799714631
+      }
+    },
     "volumeDollar": 8564953443,
     "dominance": 1.1,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$1.00", "date": "2021-05-06T09:24" },
+    "price": { "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 1 } },
     "exchanges": ["binance"],
     "categories": ["binance-smart-chain", "stablecoin"]
   },
-  "burger-swap": {
+  "BURGER": {
     "name": "burger-swap",
     "ticker": "BURGER",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7158.png",
     "circulatingSupply": 12076423,
     "totalSupply": 12451423,
     "maxSupply": 21000000,
-    "marketCap": 194522046,
+    "marketCap": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "marketCap": 194522046 }
+    },
     "volumeDollar": 124262168,
     "dominance": 0.6388,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$16.11", "date": "2021-05-06T09:24" },
+    "price": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 16.11 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -3372,18 +4288,25 @@
       "amm"
     ]
   },
-  "bittorrent": {
+  "BTT": {
     "name": "bittorrent",
     "ticker": "BTT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3718.png",
     "circulatingSupply": 659952625000,
     "totalSupply": 990000000000,
     "maxSupply": null,
-    "marketCap": 4681147854,
+    "marketCap": {
+      "2021-05-06T09:24": {
+        "date": "2021-05-06T09:24",
+        "marketCap": 4681147854
+      }
+    },
     "volumeDollar": 1945482706,
     "dominance": 0.4156,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$0.007093", "date": "2021-05-06T09:24" },
+    "price": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 0.007093 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "storage",
@@ -3394,48 +4317,66 @@
       "platform"
     ]
   },
-  "bitshares": {
+  "BTS": {
     "name": "bitshares",
     "ticker": "BTS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/463.png",
     "circulatingSupply": 2994880000,
     "totalSupply": 2994880000,
     "maxSupply": 3600570502,
-    "marketCap": 393590478,
+    "marketCap": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "marketCap": 393590478 }
+    },
     "volumeDollar": 70870889,
     "dominance": 0.1801,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$0.1314", "date": "2021-05-06T09:24" },
+    "price": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 0.1314 }
+    },
     "exchanges": ["binance"],
     "categories": ["decentralized-exchange", "defi", "synthetics"]
   },
-  "bitcoin-gold": {
+  "BTG": {
     "name": "bitcoin-gold",
     "ticker": "BTG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2083.png",
     "circulatingSupply": 17513924,
     "totalSupply": 17513924,
     "maxSupply": 21000000,
-    "marketCap": 2709133215,
+    "marketCap": {
+      "2021-05-06T09:24": {
+        "date": "2021-05-06T09:24",
+        "marketCap": 2709133215
+      }
+    },
     "volumeDollar": 481358840,
     "dominance": 0.1777,
     "date": "2021-05-06T09:24",
-    "price": { "price": "$154.68", "date": "2021-05-06T09:24" },
+    "price": {
+      "2021-05-06T09:24": { "date": "2021-05-06T09:24", "price": 154.68 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["mineable", "payments"]
   },
-  "bitcoin": {
+  "BTC": {
     "name": "bitcoin",
     "ticker": "BTC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
     "circulatingSupply": 18701156,
     "totalSupply": 18701156,
     "maxSupply": 21000000,
-    "marketCap": 1062570427947,
+    "marketCap": {
+      "2021-05-06T09:25": {
+        "date": "2021-05-06T09:25",
+        "marketCap": 1062570427947
+      }
+    },
     "volumeDollar": 66043794912,
     "dominance": 0.06215,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$56,818.44", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 56818.44 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "dragonfly-capital-portfolio",
@@ -3465,18 +4406,25 @@
       "electric-capital-portfolio"
     ]
   },
-  "bancor": {
+  "BNT": {
     "name": "bancor",
     "ticker": "BNT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1727.png",
     "circulatingSupply": 160487266,
     "totalSupply": 178540879,
     "maxSupply": null,
-    "marketCap": 1339418562,
+    "marketCap": {
+      "2021-05-06T09:25": {
+        "date": "2021-05-06T09:25",
+        "marketCap": 1339418562
+      }
+    },
     "volumeDollar": 1339418562,
     "dominance": null,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$7.50", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 7.5 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "kinetic-capital",
@@ -3486,18 +4434,25 @@
       "payments"
     ]
   },
-  "binance-coin": {
+  "BNB": {
     "name": "binance-coin",
     "ticker": "BNB",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
     "circulatingSupply": 153432897,
     "totalSupply": 169432897,
     "maxSupply": 170532785,
-    "marketCap": 98530890062,
+    "marketCap": {
+      "2021-05-06T09:25": {
+        "date": "2021-05-06T09:25",
+        "marketCap": 98530890062
+      }
+    },
     "volumeDollar": 3847906344,
     "dominance": 0.03905,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$642.18", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 642.18 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -3507,18 +4462,22 @@
       "payments"
     ]
   },
-  "bluzelle": {
+  "BLZ": {
     "name": "bluzelle",
     "ticker": "BLZ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2505.png",
     "circulatingSupply": 285934224,
     "totalSupply": 500000000,
     "maxSupply": null,
-    "marketCap": 113315679,
+    "marketCap": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "marketCap": 113315679 }
+    },
     "volumeDollar": 16031207,
     "dominance": 0.1415,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$0.3963", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 0.3963 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "storage",
@@ -3531,18 +4490,22 @@
       "platform"
     ]
   },
-  "bella-protocol": {
+  "BEL": {
     "name": "bella-protocol",
     "ticker": "BEL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6928.png",
     "circulatingSupply": 23388315,
     "totalSupply": 100000000,
     "maxSupply": 100000000,
-    "marketCap": 131185466,
+    "marketCap": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "marketCap": 131185466 }
+    },
     "volumeDollar": 416461797,
     "dominance": null,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$4.16", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 4.16 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -3551,48 +4514,66 @@
       "defi"
     ]
   },
-  "beam": {
+  "BEAM": {
     "name": "beam",
     "ticker": "BEAM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3702.png",
     "circulatingSupply": 87107760,
     "totalSupply": 87107760,
     "maxSupply": 262800000,
-    "marketCap": 132671002,
+    "marketCap": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "marketCap": 132671002 }
+    },
     "volumeDollar": 35733721,
     "dominance": 0.2693,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$1.52", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 1.52 }
+    },
     "exchanges": ["binance"],
     "categories": ["privacy", "defi", "mineable"]
   },
-  "bitcoin-cash": {
+  "BCH": {
     "name": "bitcoin-cash",
     "ticker": "BCH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1831.png",
     "circulatingSupply": 18729063,
     "totalSupply": 18729063,
     "maxSupply": 21000000,
-    "marketCap": 24943051266,
+    "marketCap": {
+      "2021-05-06T09:25": {
+        "date": "2021-05-06T09:25",
+        "marketCap": 24943051266
+      }
+    },
     "volumeDollar": 14656892586,
     "dominance": 0.5876,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$1,331.78", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 1331.78 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["pow", "mineable", "payments"]
   },
-  "basic-attention-token": {
+  "BAT": {
     "name": "basic-attention-token",
     "ticker": "BAT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1697.png",
     "circulatingSupply": 1492816441,
     "totalSupply": 1500000000,
     "maxSupply": 1500000000,
-    "marketCap": 2042587490,
+    "marketCap": {
+      "2021-05-06T09:25": {
+        "date": "2021-05-06T09:25",
+        "marketCap": 2042587490
+      }
+    },
     "volumeDollar": 613137832,
     "dominance": 0.3002,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$1.37", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 1.37 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "marketing",
@@ -3604,33 +4585,41 @@
       "payments"
     ]
   },
-  "fc-barcelona-fan-token": {
+  "BAR": {
     "name": "fc-barcelona-fan-token",
     "ticker": "BAR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5225.png",
     "circulatingSupply": 2950742,
     "totalSupply": 40000000,
     "maxSupply": null,
-    "marketCap": 110669535,
+    "marketCap": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "marketCap": 110669535 }
+    },
     "volumeDollar": 37798339,
     "dominance": 0.3415,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$37.51", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 37.51 }
+    },
     "exchanges": ["binance"],
     "categories": ["fan-token", "sports"]
   },
-  "band-protocol": {
+  "BAND": {
     "name": "band-protocol",
     "ticker": "BAND",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4679.png",
     "circulatingSupply": 20494033,
     "totalSupply": 100000000,
     "maxSupply": null,
-    "marketCap": 397191769,
+    "marketCap": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "marketCap": 397191769 }
+    },
     "volumeDollar": 257475226,
     "dominance": 0.6482,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$19.38", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 19.38 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "cosmos-ecosystem",
@@ -3641,18 +4630,22 @@
       "solana-ecosystem"
     ]
   },
-  "balancer": {
+  "BAL": {
     "name": "balancer",
     "ticker": "BAL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5728.png",
     "circulatingSupply": 174221954,
     "totalSupply": 35725000,
     "maxSupply": 100000000,
-    "marketCap": 462958925,
+    "marketCap": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "marketCap": 462958925 }
+    },
     "volumeDollar": 6667197470,
     "dominance": null,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$66.67", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 66.67 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "yield-farming",
@@ -3667,33 +4660,44 @@
       "coinfund-portfolio"
     ]
   },
-  "bakerytoken": {
+  "BAKE": {
     "name": "bakerytoken",
     "ticker": "BAKE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7064.png",
     "circulatingSupply": 188717930,
     "totalSupply": 277237400,
     "maxSupply": 277237400,
-    "marketCap": 1119188398,
+    "marketCap": {
+      "2021-05-06T09:25": {
+        "date": "2021-05-06T09:25",
+        "marketCap": 1119188398
+      }
+    },
     "volumeDollar": 191887410,
     "dominance": 0.1715,
     "date": "2021-05-06T09:25",
-    "price": { "price": "$5.93", "date": "2021-05-06T09:25" },
+    "price": {
+      "2021-05-06T09:25": { "date": "2021-05-06T09:25", "price": 5.93 }
+    },
     "exchanges": ["binance"],
     "categories": ["binance-smart-chain", "defi", "collectibles-nfts", "amm"]
   },
-  "badger-dao": {
+  "BADGER": {
     "name": "badger-dao",
     "ticker": "BADGER",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7859.png",
     "circulatingSupply": 30027941,
     "totalSupply": 21000000,
     "maxSupply": 21000000,
-    "marketCap": 285103014,
+    "marketCap": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "marketCap": 285103014 }
+    },
     "volumeDollar": 695923351,
     "dominance": null,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$33.14", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 33.14 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "yield-farming",
@@ -3703,18 +4707,22 @@
       "defi"
     ]
   },
-  "axie-infinity": {
+  "AXS": {
     "name": "axie-infinity",
     "ticker": "AXS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6783.png",
     "circulatingSupply": 55000000,
     "totalSupply": 270000000,
     "maxSupply": 270000000,
-    "marketCap": 453855982,
+    "marketCap": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "marketCap": 453855982 }
+    },
     "volumeDollar": 42515466,
     "dominance": 0.09368,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$8.25", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 8.25 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "collectibles-nfts",
@@ -3724,18 +4732,25 @@
       "metaverse"
     ]
   },
-  "avalanche": {
+  "AVAX": {
     "name": "avalanche",
     "ticker": "AVAX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png",
     "circulatingSupply": 128815980,
     "totalSupply": 382982015,
     "maxSupply": 720000000,
-    "marketCap": 4828624093,
+    "marketCap": {
+      "2021-05-06T09:26": {
+        "date": "2021-05-06T09:26",
+        "marketCap": 4828624093
+      }
+    },
     "volumeDollar": 460513767,
     "dominance": 0.09537,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$37.48", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 37.48 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dragonfly-capital-portfolio",
@@ -3745,33 +4760,41 @@
       "avalanche-ecosystem"
     ]
   },
-  "travala": {
+  "AVA": {
     "name": "travala",
     "ticker": "AVA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2776.png",
     "circulatingSupply": 49842003,
     "totalSupply": 61112681,
     "maxSupply": 61228716,
-    "marketCap": 261142059,
+    "marketCap": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "marketCap": 261142059 }
+    },
     "volumeDollar": 12712992,
     "dominance": 0.04868,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$5.24", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 5.24 }
+    },
     "exchanges": ["binance"],
     "categories": ["tourism", "binance-smart-chain", "hospitality", "payments"]
   },
-  "auto": {
+  "AUTO": {
     "name": "auto",
     "ticker": "AUTO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8387.png",
     "circulatingSupply": 11624090,
     "totalSupply": 14600,
     "maxSupply": 80000,
-    "marketCap": 50257717,
+    "marketCap": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "marketCap": 50257717 }
+    },
     "volumeDollar": 275376642,
     "dominance": null,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$3,442.21", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 3442.21 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -3781,18 +4804,22 @@
       "amm"
     ]
   },
-  "audius": {
+  "AUDIO": {
     "name": "audius",
     "ticker": "AUDIO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7455.png",
     "circulatingSupply": 120000000,
     "totalSupply": 1000000000,
     "maxSupply": null,
-    "marketCap": 297546956,
+    "marketCap": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "marketCap": 297546956 }
+    },
     "volumeDollar": 35414118,
     "dominance": 0.119,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$2.48", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 2.48 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "pantera-capital-portfolio",
@@ -3803,33 +4830,42 @@
       "solana-ecosystem"
     ]
   },
-  "australian-dollar": {
+  "AUD": {
     "name": "australian-dollar",
     "ticker": "AUD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2782.png",
     "circulatingSupply": null,
-    "marketCap": null,
+    "marketCap": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "marketCap": null }
+    },
     "volumeDollar": null,
     "dominance": null,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$0", "date": "2021-05-06T09:26" },
+    "price": { "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 0 } },
     "exchanges": ["binance"],
     "categories": ["etc"],
     "totalSupply": null,
     "maxSupply": null
   },
-  "cosmos": {
+  "ATOM": {
     "name": "cosmos",
     "ticker": "ATOM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png",
     "circulatingSupply": 210767263,
     "totalSupply": 268551866,
     "maxSupply": null,
-    "marketCap": 5330048820,
+    "marketCap": {
+      "2021-05-06T09:26": {
+        "date": "2021-05-06T09:26",
+        "marketCap": 5330048820
+      }
+    },
     "volumeDollar": 1117430741,
     "dominance": 0.2096,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$25.29", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 25.29 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "content-creation",
@@ -3844,78 +4880,98 @@
       "platform"
     ]
   },
-  "atletico-de-madrid-fan-token": {
+  "ATM": {
     "name": "atletico-de-madrid-fan-token",
     "ticker": "ATM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5227.png",
     "circulatingSupply": null,
     "totalSupply": 10000000,
     "maxSupply": null,
-    "marketCap": null,
+    "marketCap": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "marketCap": null }
+    },
     "volumeDollar": 7372157,
     "dominance": null,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$9.91", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 9.91 }
+    },
     "exchanges": ["binance"],
     "categories": ["fan-token", "sports"]
   },
-  "as-roma-fan-token": {
+  "ASR": {
     "name": "as-roma-fan-token",
     "ticker": "ASR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5229.png",
     "circulatingSupply": 1232961,
     "totalSupply": 10000000,
     "maxSupply": null,
-    "marketCap": 11564977,
+    "marketCap": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "marketCap": 11564977 }
+    },
     "volumeDollar": 1795521,
     "dominance": 0.1553,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$9.38", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 9.38 }
+    },
     "exchanges": ["binance"],
     "categories": ["fan-token", "sports"]
   },
-  "arpa-chain": {
+  "ARPA": {
     "name": "arpa-chain",
     "ticker": "ARPA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4039.png",
     "circulatingSupply": 1047433449,
     "totalSupply": 1500000000,
     "maxSupply": null,
-    "marketCap": 121618568,
+    "marketCap": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "marketCap": 121618568 }
+    },
     "volumeDollar": 38618604,
     "dominance": 0.3175,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$0.1161", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 0.1161 }
+    },
     "exchanges": ["binance"],
     "categories": ["etc"]
   },
-  "ardor": {
+  "ARDR": {
     "name": "ardor",
     "ticker": "ARDR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1320.png",
     "circulatingSupply": 998999495,
     "totalSupply": 998999495,
     "maxSupply": 998999495,
-    "marketCap": 383672085,
+    "marketCap": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "marketCap": 383672085 }
+    },
     "volumeDollar": 20439897,
     "dominance": 0.05327,
     "date": "2021-05-06T09:26",
-    "price": { "price": "$0.3841", "date": "2021-05-06T09:26" },
+    "price": {
+      "2021-05-06T09:26": { "date": "2021-05-06T09:26", "price": 0.3841 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["platform"]
   },
-  "aragon": {
+  "ANT": {
     "name": "aragon",
     "ticker": "ANT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1680.png",
     "circulatingSupply": 39609523,
     "totalSupply": 39609524,
     "maxSupply": null,
-    "marketCap": 367615941,
+    "marketCap": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "marketCap": 367615941 }
+    },
     "volumeDollar": 68120212,
     "dominance": 0.1853,
     "date": "2021-05-06T09:27",
-    "price": { "price": "$9.28", "date": "2021-05-06T09:27" },
+    "price": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "price": 9.28 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dao",
@@ -3925,18 +4981,25 @@
       "platform"
     ]
   },
-  "ankr": {
+  "ANKR": {
     "name": "ankr",
     "ticker": "ANKR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3783.png",
     "circulatingSupply": 127949865,
     "totalSupply": 10000000000,
     "maxSupply": 10000000000,
-    "marketCap": 1144168199,
+    "marketCap": {
+      "2021-05-06T09:27": {
+        "date": "2021-05-06T09:27",
+        "marketCap": 1144168199
+      }
+    },
     "volumeDollar": 1635406149,
     "dominance": null,
     "date": "2021-05-06T09:27",
-    "price": { "price": "$0.1635", "date": "2021-05-06T09:27" },
+    "price": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "price": 0.1635 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": [
       "filesharing",
@@ -3945,18 +5008,22 @@
       "platform"
     ]
   },
-  "alpha-finance-lab": {
+  "ALPHA": {
     "name": "alpha-finance-lab",
     "ticker": "ALPHA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7232.png",
     "circulatingSupply": 70233661,
     "totalSupply": 1000000000,
     "maxSupply": 1000000000,
-    "marketCap": 495925696,
+    "marketCap": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "marketCap": 495925696 }
+    },
     "volumeDollar": 1982489222,
     "dominance": null,
     "date": "2021-05-06T09:27",
-    "price": { "price": "$1.98", "date": "2021-05-06T09:27" },
+    "price": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "price": 1.98 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "binance-smart-chain",
@@ -3970,18 +5037,22 @@
       "defiance-capital"
     ]
   },
-  "myneighboralice": {
+  "ALICE": {
     "name": "myneighboralice",
     "ticker": "ALICE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8766.png",
     "circulatingSupply": 17400000,
     "totalSupply": 100000000,
     "maxSupply": 100000000,
-    "marketCap": 252256771,
+    "marketCap": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "marketCap": 252256771 }
+    },
     "volumeDollar": 107183558,
     "dominance": 0.4249,
     "date": "2021-05-06T09:27",
-    "price": { "price": "$14.50", "date": "2021-05-06T09:27" },
+    "price": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "price": 14.5 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "entertainment",
@@ -3991,18 +5062,25 @@
       "dao-maker"
     ]
   },
-  "algorand": {
+  "ALGO": {
     "name": "algorand",
     "ticker": "ALGO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4030.png",
     "circulatingSupply": 2974086779,
     "totalSupply": 5464286269,
     "maxSupply": 10000000000,
-    "marketCap": 4480359207,
+    "marketCap": {
+      "2021-05-06T09:27": {
+        "date": "2021-05-06T09:27",
+        "marketCap": 4480359207
+      }
+    },
     "volumeDollar": 344585693,
     "dominance": 0.07691,
     "date": "2021-05-06T09:27",
-    "price": { "price": "$1.51", "date": "2021-05-06T09:27" },
+    "price": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "price": 1.51 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "smart-contracts",
@@ -4014,18 +5092,22 @@
       "platform"
     ]
   },
-  "akropolis": {
+  "AKRO": {
     "name": "akropolis",
     "ticker": "AKRO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4134.png",
     "circulatingSupply": 2784327981,
     "totalSupply": 4000000000,
     "maxSupply": null,
-    "marketCap": 147737042,
+    "marketCap": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "marketCap": 147737042 }
+    },
     "volumeDollar": 21057963,
     "dominance": 0.1425,
     "date": "2021-05-06T09:27",
-    "price": { "price": "$0.05306", "date": "2021-05-06T09:27" },
+    "price": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "price": 0.05306 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "ledgerprime-portfolio",
@@ -4038,63 +5120,85 @@
       "yearn-partnerships"
     ]
   },
-  "aion": {
+  "AION": {
     "name": "aion",
     "ticker": "AION",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2062.png",
     "circulatingSupply": 492427074,
     "totalSupply": 492427074,
     "maxSupply": null,
-    "marketCap": 168213392,
+    "marketCap": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "marketCap": 168213392 }
+    },
     "volumeDollar": 14053690,
     "dominance": 0.08355,
     "date": "2021-05-06T09:27",
-    "price": { "price": "$0.3416", "date": "2021-05-06T09:27" },
+    "price": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "price": 0.3416 }
+    },
     "exchanges": ["binance"],
     "categories": ["ai-big-data", "mineable", "payments"]
   },
-  "cardano": {
+  "ADA": {
     "name": "cardano",
     "ticker": "ADA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png",
     "circulatingSupply": 31948309441,
     "totalSupply": 45000000000,
     "maxSupply": 45000000000,
-    "marketCap": 48132086379,
+    "marketCap": {
+      "2021-05-06T09:27": {
+        "date": "2021-05-06T09:27",
+        "marketCap": 48132086379
+      }
+    },
     "volumeDollar": 6293081241,
     "dominance": 0.1307,
     "date": "2021-05-06T09:27",
-    "price": { "price": "$1.51", "date": "2021-05-06T09:27" },
+    "price": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "price": 1.51 }
+    },
     "exchanges": ["upbit", "binance"],
     "categories": ["smart-contracts", "research", "platform", "mineable"]
   },
-  "ac-milan-fan-token": {
+  "ACM": {
     "name": "ac-milan-fan-token",
     "ticker": "ACM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8538.png",
     "circulatingSupply": 2000157,
     "totalSupply": 20000000,
     "maxSupply": null,
-    "marketCap": 21387519,
+    "marketCap": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "marketCap": 21387519 }
+    },
     "volumeDollar": 2215069,
     "dominance": 0.1036,
     "date": "2021-05-06T09:27",
-    "price": { "price": "$10.69", "date": "2021-05-06T09:27" },
+    "price": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "price": 10.69 }
+    },
     "exchanges": ["binance"],
     "categories": ["fan-token", "binance-launchpad", "sports"]
   },
-  "aave": {
+  "AAVE": {
     "name": "aave",
     "ticker": "AAVE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7278.png",
     "circulatingSupply": 504549928,
     "totalSupply": 16000000,
     "maxSupply": 16000000,
-    "marketCap": 5746644950,
+    "marketCap": {
+      "2021-05-06T09:27": {
+        "date": "2021-05-06T09:27",
+        "marketCap": 5746644950
+      }
+    },
     "volumeDollar": 7362746686,
     "dominance": null,
     "date": "2021-05-06T09:27",
-    "price": { "price": "$460.17", "date": "2021-05-06T09:27" },
+    "price": {
+      "2021-05-06T09:27": { "date": "2021-05-06T09:27", "price": 460.17 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "yield-farming",
@@ -4110,18 +5214,25 @@
       "lending-borowing"
     ]
   },
-  "1inch": {
+  "1INCH": {
     "name": "1inch",
     "ticker": "1INCH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8104.png",
     "circulatingSupply": 588068184,
     "totalSupply": 1500000000,
     "maxSupply": null,
-    "marketCap": 1128057420,
+    "marketCap": {
+      "2021-05-06T09:28": {
+        "date": "2021-05-06T09:28",
+        "marketCap": 1128057420
+      }
+    },
     "volumeDollar": 10800208096,
     "dominance": null,
     "date": "2021-05-06T09:28",
-    "price": { "price": "$7.20", "date": "2021-05-06T09:28" },
+    "price": {
+      "2021-05-06T09:28": { "date": "2021-05-06T09:28", "price": 7.2 }
+    },
     "exchanges": ["binance"],
     "categories": [
       "dragonfly-capital-portfolio",

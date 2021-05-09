@@ -2,6 +2,7 @@ const puppeteer = require("puppeteer");
 const fs = require("fs");
 const priceLog = require(`${__dirname}/crawledData/priceData/priceLog.json`);
 const priceData = require(`${__dirname}/crawledData/priceData/priceData.json`);
+const Coin = require("../models/coinModel");
 const date = new Date().toISOString().slice(0, 16);
 
 exports.priceCrawler = async () => {
@@ -58,12 +59,10 @@ exports.priceCrawler = async () => {
         const coinData = {};
         const NANRegex = /[^0-9.]/g;
 
-        // ticker
         const ticker = Array.from(
           document.querySelectorAll("td .coin-item-symbol")
         ).map((v) => v.textContent);
 
-        // price
         const price = Array.from(
           document.querySelectorAll("td .price___3rj7O")
         ).map((v) => parseFloat(v.textContent?.replace(NANRegex, "")));
@@ -83,7 +82,7 @@ exports.priceCrawler = async () => {
 
     crawlResult.date = date;
 
-    const updatedData = { ...priceData, crawlResult };
+    const updatedData = { ...priceData, ...crawlResult };
     const updatedLog = [...priceLog, date];
 
     if (updatedLog.length > 20) {
@@ -91,8 +90,17 @@ exports.priceCrawler = async () => {
       updatedLog.shift();
     }
 
+    const priceList = Object.entries(updatedData.price);
+
+    for (let i = 0; i < priceList.length; i++) {
+      const updated = await Coin.findOneAndUpdate(
+        { ticker: priceList[i][0] },
+        { price: { date, price: priceList[i][1] } }
+      );
+    }
+
     fs.writeFileSync(
-      `${__dirname}/crawledData/priceData/price_${date}.json`,
+      `${__dirname}/crawledData/priceData/priceData.json`,
       JSON.stringify(updatedData)
     );
 
@@ -100,8 +108,6 @@ exports.priceCrawler = async () => {
       `${__dirname}/crawledData/priceData/priceLog.json`,
       JSON.stringify(updatedLog)
     );
-
-    console.log(priceLog[priceLog.length - 1]);
 
     await browser.close();
   } catch (e) {

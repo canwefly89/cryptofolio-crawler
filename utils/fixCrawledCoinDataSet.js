@@ -1,10 +1,10 @@
-const categoryData = require("./baseData/category.json");
-const { upbitTickers } = require("./baseList/upbitList");
-const { binanceTickers } = require("./baseList/binanceList");
+const categoryData = require("../crawler/baseData/category.json");
+const { parseNumber } = require("./parseNumber");
+const { upbitTickers } = require("../crawler/baseList/upbitList");
+const { binanceTickers } = require("../crawler/baseList/binanceList");
 
-exports.fixCrawledData = (data, exchange) => {
+exports.fixCrawledDataSet = (data) => {
   const fixedData = { ...data };
-  const NANRegex = /[^0-9.]/g;
 
   // 1. put in categories
   Object.entries(fixedData).forEach(([dkey, dvalue]) => {
@@ -23,17 +23,15 @@ exports.fixCrawledData = (data, exchange) => {
   });
 
   // 2. push Exchages each other
-  if (exchange === "upbit") {
-    Object.entries(data).forEach(([key, value]) => {
-      binanceTickers.indexOf(value.ticker) !== -1 &&
-        fixedData[key].exchanges.push("binance");
-    });
-  } else if (exchange === "binance") {
-    Object.entries(data).forEach(([key, value]) => {
-      upbitTickers.indexOf(value.ticker) !== -1 &&
-        fixedData[key].exchanges.unshift("upbit");
-    });
-  }
+  Object.entries(data).forEach(([key, value]) => {
+    if (upbitTickers.includes(value.ticker)) {
+      fixedData[key].exchanges.unshift("upbit");
+    }
+
+    if (binanceTickers.includes(value.ticker)) {
+      fixedData[key].exchanges.push("binance");
+    }
+  });
 
   // 3. parse to Number
   Object.entries(data).forEach(([key, value]) => {
@@ -47,15 +45,12 @@ exports.fixCrawledData = (data, exchange) => {
       dominance,
     } = value;
 
-    const parsedCirculatingSupply = parseInt(
-      circulatingSupply?.replace(NANRegex, ""),
-      10
-    );
-    const parsedTotalSupply = parseInt(totalSupply?.replace(NANRegex, ""), 10);
-    const parsedMaxSupply = parseInt(maxSupply?.replace(NANRegex, ""), 10);
-    const parsedMarketCap = parseInt(marketCap?.replace(NANRegex, ""), 10);
-    const parsedPrice = parseFloat(price?.replace(NANRegex, ""));
-    const parsedDominance = parseFloat(dominance);
+    const parsedCirculatingSupply = parseNumber(circulatingSupply);
+    const parsedTotalSupply = parseNumber(totalSupply);
+    const parsedMaxSupply = parseNumber(maxSupply);
+    const parsedMarketCap = parseNumber(marketCap);
+    const parsedPrice = parseNumber(price);
+    const parsedDominance = parseNumber(dominance);
 
     fixedData[key] = {
       ...fixedData[key],

@@ -1,12 +1,11 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
-
-const { fixCrawledData } = require("./fixCrawledCoinData");
-const { upbitCoinName } = require("./baseList/upbitList");
-const { binanceCoinName } = require("./baseList/binanceList");
+const { fixCrawledData } = require("../utils/fixCrawledData");
+const { coinNames } = require("./baseList/coinLIst");
+const Coin = require("../models/coinModel");
 const date = new Date().toISOString().slice(0, 16);
 
-const crawler = async (coinList, exchange) => {
+const crawler = async () => {
   try {
     const browser = await puppeteer.launch({
       headless: true,
@@ -14,7 +13,7 @@ const crawler = async (coinList, exchange) => {
     });
 
     const result = {};
-    const coins = [...coinList];
+    const coins = [...coinNames];
 
     for (let i = 0; i < coins.length; i++) {
       const correctedName = coins[i].replace(/ /gi, "-").toLowerCase();
@@ -72,10 +71,22 @@ const crawler = async (coinList, exchange) => {
       });
 
       crawledData.date = date;
-      crawledData.exchanges = [exchange];
+      crawledData.name = correctedName;
+      crawledData.exchanges = [];
       crawledData.categories = [];
 
-      result[crawledData.ticker] = { name: correctedName, ...crawledData };
+      const fixedCrawledData = fixCrawledData(crawledData);
+
+      const updateDB = await Coin.findOneAndReplace(
+        { name: crawledData.name },
+        fixedCrawledData
+      );
+
+      if (!updateDB) {
+        await Coin.create(fixedCrawledData);
+      }
+
+      result[crawledData.ticker] = fixedCrawledData;
       await page.waitForTimeout(Math.floor(Math.random() * 1500 + 1500));
       await page.close();
     }
@@ -89,19 +100,20 @@ const crawler = async (coinList, exchange) => {
 };
 
 exports.coinCrawler = async () => {
-  const upbitData = await crawler(upbitCoinName, "upbit");
-  const binanceData = await crawler(binanceCoinName, "binance");
+  try {
+    const crawledData = await crawler();
+    const coinLog = [date];
 
-  const fixedUpbitData = fixCrawledData(upbitData, "upbit");
-  const fixedBinanceData = fixCrawledData(binanceData, "binance");
+    fs.writeFileSync(
+      `${__dirname}/crawledData/coinData/coinData.json`,
+      JSON.stringify(crawledData)
+    );
 
-  fs.writeFileSync(
-    `${__dirname}/crawledData/coinData/upbitCoins.json`,
-    JSON.stringify(fixedUpbitData)
-  );
-
-  fs.writeFileSync(
-    `${__dirname}/crawledData/coinData/binanceCoins.json`,
-    JSON.stringify(fixedBinanceData)
-  );
+    fs.writeFileSync(
+      `${__dirname}/crawledData/coinData/coinLog.json`,
+      JSON.stringify(coinLog)
+    );
+  } catch (e) {
+    console.error(e);
+  }
 };

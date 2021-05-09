@@ -18,9 +18,14 @@ const authRouter = require("./routes/authRouter");
 const coinRouter = require("./routes/coinRouter");
 const cryptofolioRouter = require("./routes/cryptofolioRouter");
 const { priceCrawler } = require("./crawler/priceCrawler");
+const { coinCrawler } = require("./crawler/coinCrawler");
 
 schedule.scheduleJob("*/30 * * * *", () => {
   priceCrawler();
+});
+
+schedule.scheduleJob("0 0 * * *", () => {
+  coinCrawler();
 });
 
 const mongoURL = process.env.MONGO_URL.replace(
