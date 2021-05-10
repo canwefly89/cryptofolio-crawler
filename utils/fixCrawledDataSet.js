@@ -1,4 +1,4 @@
-const categoryData = require("../crawler/baseData/category.json");
+const categoryData = require("../crawler/crawled/category/category.json");
 const { parseNumber } = require("./parseNumber");
 const { upbitTickers } = require("../crawler/baseList/upbitList");
 const { binanceTickers } = require("../crawler/baseList/binanceList");

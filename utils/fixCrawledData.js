@@ -1,24 +1,24 @@
-const categoryData = require("../crawler/baseData/category.json");
+const categoryData = require("../crawler/crawled/category/category.json");
 const { parseNumber } = require("./parseNumber");
 const { upbitTickers } = require("../crawler/baseList/upbitList");
 const { binanceTickers } = require("../crawler/baseList/binanceList");
-
+/**
+ *
+ * @param {object} inputData Option for audioContext
+ * @returns Created audioContext
+ */
 exports.fixCrawledData = (data) => {
   let fixedData = { ...data };
 
-  // 1. put in categories
   Object.entries(categoryData).forEach(([key, value]) => {
     if (value.ticker.includes(fixedData.ticker)) {
       fixedData.categories.push(key);
     }
   });
 
-  // 1-1. fix empty data
   if (fixedData.categories.length === 0) {
     fixedData.categories.push("etc");
   }
-
-  // 2. push Exchages each other
 
   if (upbitTickers.includes(fixedData.ticker)) {
     fixedData.exchanges.unshift("upbit");
@@ -28,7 +28,6 @@ exports.fixCrawledData = (data) => {
     fixedData.exchanges.push("binance");
   }
 
-  // 3. parse to Number
   const {
     circulatingSupply,
     totalSupply,

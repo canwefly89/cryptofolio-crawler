@@ -1,5 +1,9 @@
 const NANRegex = /[^0-9.]/g;
-
+/**
+ *
+ * @param {object} inputData Option for audioContext
+ * @returns Created audioContext
+ */
 exports.parseNumber = (input) => {
   if (!input) {
     return null;

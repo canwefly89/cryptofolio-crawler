@@ -1,9 +1,10 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
-const priceLog = require(`${__dirname}/crawledData/priceData/priceLog.json`);
-const priceData = require(`${__dirname}/crawledData/priceData/priceData.json`);
+const priceLog = require(`${__dirname}/crawled/price/priceLog.json`);
+const priceData = require(`${__dirname}/crawled/price/priceData.json`);
 const Coin = require("../models/coinModel");
-const date = new Date().toISOString().slice(0, 16);
+const { getDate } = require("../utils/getDate");
+const date = getDate();
 
 exports.priceCrawler = async () => {
   try {
@@ -27,6 +28,7 @@ exports.priceCrawler = async () => {
         width: 1920,
         height: 1080,
       });
+      await page.setDefaultNavigationTimeout(0);
       await page.goto(`https://coinmarketcap.com/?page=${i}`);
 
       await page.waitForTimeout(Math.floor(Math.random() * 500 + 1000));
@@ -93,24 +95,24 @@ exports.priceCrawler = async () => {
     const priceList = Object.entries(updatedData.price);
 
     for (let i = 0; i < priceList.length; i++) {
-      const updated = await Coin.findOneAndUpdate(
+      await Coin.findOneAndUpdate(
         { ticker: priceList[i][0] },
         { price: { date, price: priceList[i][1] } }
       );
     }
 
     fs.writeFileSync(
-      `${__dirname}/crawledData/priceData/priceData.json`,
+      `${__dirname}/crawled/price/priceData.json`,
       JSON.stringify(updatedData)
     );
 
     fs.writeFileSync(
-      `${__dirname}/crawledData/priceData/priceLog.json`,
+      `${__dirname}/crawled/price/priceLog.json`,
       JSON.stringify(updatedLog)
     );
 
     await browser.close();
-  } catch (e) {
-    console.error(e);
+  } catch (err) {
+    console.error(err);
   }
 };

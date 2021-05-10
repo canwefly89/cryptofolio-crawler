@@ -19,13 +19,24 @@ const coinRouter = require("./routes/coinRouter");
 const cryptofolioRouter = require("./routes/cryptofolioRouter");
 const { priceCrawler } = require("./crawler/priceCrawler");
 const { coinCrawler } = require("./crawler/coinCrawler");
+const { metadataCrawler } = require("./crawler/metadataCrawler");
+const { foo } = require("./dummyfunc");
 
-schedule.scheduleJob("*/30 * * * *", () => {
+// foo();
+
+schedule.scheduleJob("0 6 * * *", () => {
+  console.log("run price Crawler", new Date());
   priceCrawler();
 });
 
-schedule.scheduleJob("0 0 * * *", () => {
+schedule.scheduleJob("0 7 * * *", () => {
+  console.log("run coin Crawler", new Date());
   coinCrawler();
+});
+
+schedule.scheduleJob("* /10 * * *", () => {
+  console.log("run metadata Crawler", new Date());
+  metadataCrawler();
 });
 
 const mongoURL = process.env.MONGO_URL.replace(

@@ -1,10 +1,8 @@
 const User = require("../../models/userModel");
 const { createToken, verifyToken } = require("../../utils/tokenHandler");
-const { priceCrawler } = require("../../crawler/priceCrawler");
 
 exports.checkAuthDB = async (req, res, next) => {
   try {
-    // priceCrawler();
     const user = await verifyToken(req.body.token);
 
     if (!user) {

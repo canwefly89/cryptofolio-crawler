@@ -1,19 +1,19 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const { fixCrawledData } = require("../utils/fixCrawledData");
-const { coinNames } = require("./baseList/coinLIst");
+const { coinNames } = require("./baseList/coinList");
 const Coin = require("../models/coinModel");
-const date = new Date().toISOString().slice(0, 16);
+const { getDate } = require("../utils/getDate");
 
 const crawler = async () => {
   try {
     const browser = await puppeteer.launch({
-      headless: true,
+      headless: false,
       args: ["--window-size=1920, 1080", "--disable-notifications"],
     });
 
     const result = {};
-    const coins = [...coinNames];
+    const coins = [...coinNames.slice(200)];
 
     for (let i = 0; i < coins.length; i++) {
       const correctedName = coins[i].replace(/ /gi, "-").toLowerCase();
@@ -27,6 +27,7 @@ const crawler = async () => {
         height: 1080,
       });
 
+      await page.setDefaultNavigationTimeout(0);
       await page.goto(`https://coinmarketcap.com/currencies/${correctedName}`);
 
       const crawledData = await page.evaluate(() => {
@@ -70,6 +71,8 @@ const crawler = async () => {
         return coinData;
       });
 
+      const date = getDate();
+
       crawledData.date = date;
       crawledData.name = correctedName;
       crawledData.exchanges = [];
@@ -94,26 +97,27 @@ const crawler = async () => {
     await browser.close();
 
     return result;
-  } catch (e) {
-    console.error(e);
+  } catch (err) {
+    console.error(err);
   }
 };
 
 exports.coinCrawler = async () => {
   try {
     const crawledData = await crawler();
+    const date = getDate();
     const coinLog = [date];
 
     fs.writeFileSync(
-      `${__dirname}/crawledData/coinData/coinData.json`,
+      `${__dirname}/crawled/coin/coinData5.json`,
       JSON.stringify(crawledData)
     );
 
     fs.writeFileSync(
-      `${__dirname}/crawledData/coinData/coinLog.json`,
+      `${__dirname}/crawled/coin/coinLog.json`,
       JSON.stringify(coinLog)
     );
-  } catch (e) {
-    console.error(e);
+  } catch (err) {
+    console.error(err);
   }
 };
