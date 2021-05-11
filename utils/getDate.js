@@ -5,5 +5,5 @@ const { format } = require("date-fns");
  * @returns Created audioContext
  */
 exports.getDate = () => {
-  return format(new Date(), "yyyy-MM-dd HH:MM");
+  return format(Date.now(), "yyyy-MM-dd HH:mm");
 };

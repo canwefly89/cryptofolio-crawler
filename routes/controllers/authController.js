@@ -11,6 +11,8 @@ exports.checkAuthDB = async (req, res, next) => {
       });
     }
 
+    delete user.password;
+
     return res.status(200).json({
       message: "success",
       data: {
@@ -49,6 +51,8 @@ exports.loginDB = async (req, res, next) => {
 
       const token = createToken(user._id);
 
+      delete user.password;
+
       return res.status(200).json({
         message: "success",
         data: {
@@ -78,6 +82,8 @@ exports.socialLoginDB = async (req, res, next) => {
     }
 
     const token = createToken(user._id);
+
+    delete user.password;
 
     return res.status(200).json({
       message: "success",
