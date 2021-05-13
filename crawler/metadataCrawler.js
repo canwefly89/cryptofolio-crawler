@@ -1,9 +1,8 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
-const { getTime } = require("../utils/getTime");
+const { getDate } = require("../utils/getDate");
 const { getAverage } = require("../utils/getAverage");
 const { parseNumber } = require("../utils/parseNumber");
-const time = getTime();
 
 exports.metadataCrawler = async () => {
   try {
@@ -45,7 +44,7 @@ exports.metadataCrawler = async () => {
       return document.querySelector("#last_last").textContent;
     });
 
-    metadata.time = time;
+    metadata.time = getDate();
     metadata.premium = getAverage(premium);
     metadata.marketCapDollar = parseNumber(crawled[2]);
     metadata.marketCapWon = metadata.marketCapDollar * parseNumber(rate);

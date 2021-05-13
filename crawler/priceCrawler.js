@@ -1,7 +1,6 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const priceLog = require(`${__dirname}/crawled/price/priceLog.json`);
-const priceData = require(`${__dirname}/crawled/price/priceData.json`);
 const Coin = require("../models/coinModel");
 const { getDate } = require("../utils/getDate");
 const date = getDate();
@@ -58,7 +57,7 @@ exports.priceCrawler = async () => {
       await page.waitForTimeout(Math.floor(Math.random() * 1000 + 2000));
 
       const crawledData = await page.evaluate(() => {
-        const coinData = {};
+        const coinData = { price: {}, marketCap: {} };
         const NANRegex = /[^0-9.]/g;
 
         const ticker = Array.from(
@@ -69,14 +68,22 @@ exports.priceCrawler = async () => {
           document.querySelectorAll("td .price___3rj7O")
         ).map((v) => parseFloat(v.textContent?.replace(NANRegex, "")));
 
+        const marketCap = Array.from(
+          document.querySelectorAll("td .kDEzev")
+        ).map((v) => parseInt(v.textContent?.replace(NANRegex, ""), 10));
+
         ticker.forEach((value, index) => {
-          coinData[value] = price[index];
+          coinData.price[value] = price[index];
+          coinData.marketCap[value] = marketCap[index];
         });
 
         return coinData;
       });
 
-      crawlResult = { price: { ...crawlResult.price, ...crawledData } };
+      crawlResult = {
+        price: { ...crawlResult.price, ...crawledData.price },
+        marketCap: { ...crawlResult.marketCap, ...crawledData.marketCap },
+      };
 
       await page.waitForTimeout(Math.floor(Math.random() * 2000 + 1000));
       await page.close();
@@ -84,31 +91,37 @@ exports.priceCrawler = async () => {
 
     crawlResult.date = date;
 
-    const updatedData = { ...priceData, ...crawlResult };
-    const updatedLog = [...priceLog, date];
+    const updatedPrice = { ...crawlResult };
+    const updatePriceLog = [...priceLog, date];
 
-    if (updatedLog.length > 20) {
-      delete updatedData[updatedLog[0]];
-      updatedLog.shift();
+    if (updatePriceLog.length > 20) {
+      delete updatedPrice[updatePriceLog[0]];
+      updatePriceLog.shift();
     }
 
-    const priceList = Object.entries(updatedData.price);
+    const priceList = Object.entries(updatedPrice.price);
+    const marketCapList = Object.entries(updatedPrice.marketCap);
 
     for (let i = 0; i < priceList.length; i++) {
       await Coin.findOneAndUpdate(
         { ticker: priceList[i][0] },
         { price: { date, price: priceList[i][1] } }
       );
+
+      await Coin.findOneAndUpdate(
+        { ticker: marketCapList[i][0] },
+        { marketCap: { date, marketCap: marketCapList[i][1] } }
+      );
     }
 
     fs.writeFileSync(
       `${__dirname}/crawled/price/priceData.json`,
-      JSON.stringify(updatedData)
+      JSON.stringify(updatedPrice)
     );
 
     fs.writeFileSync(
       `${__dirname}/crawled/price/priceLog.json`,
-      JSON.stringify(updatedLog)
+      JSON.stringify(updatePriceLog)
     );
 
     await browser.close();

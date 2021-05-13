@@ -26,6 +26,11 @@ const CoinSchema = new Schema({
     default: [],
     // required: true,
   },
+  portfolios: {
+    type: [String],
+    default: [],
+    // required: true,
+  },
   circulatingSupply: {
     type: Mixed,
     // required: true,

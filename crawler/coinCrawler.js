@@ -8,12 +8,12 @@ const { getDate } = require("../utils/getDate");
 const crawler = async () => {
   try {
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       args: ["--window-size=1920, 1080", "--disable-notifications"],
     });
 
     const result = {};
-    const coins = [...coinNames.slice(200)];
+    const coins = [...coinNames];
 
     for (let i = 0; i < coins.length; i++) {
       const correctedName = coins[i].replace(/ /gi, "-").toLowerCase();
@@ -109,7 +109,7 @@ exports.coinCrawler = async () => {
     const coinLog = [date];
 
     fs.writeFileSync(
-      `${__dirname}/crawled/coin/coinData5.json`,
+      `${__dirname}/crawled/coin/coinData_${getDate()}.json`,
       JSON.stringify(crawledData)
     );
 

@@ -1,6 +1,6 @@
 {
   "ZRX": {
-    "marketCap": { "marketCap": 1573305340, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 298216331, "date": "2021-05-13 17:08" },
     "price": { "price": 2.01, "date": "2021-05-10 12:05" },
     "ticker": "ZRX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1896.png",
@@ -12,22 +12,24 @@
     "name": "0x",
     "exchanges": ["upbit", "binance"],
     "categories": [
-      "Blockchain Capital Portfolio",
-      "Fabric Ventures Portfolio",
       "DAO",
       "Kinetic Capital",
-      "BoostVC Portfolio",
-      "Polychain Capital Portfolio",
       "Decentralized exchange",
-      "Pantera Capital Portfolio",
       "DeFi",
-      "Placeholder Ventures Portfolio",
       "Polkadot Ecosystem",
       "platform"
+    ],
+    "portfolios": [
+      "Blockchain Capital Portfolio",
+      "Fabric Ventures Portfolio",
+      "BoostVC Portfolio",
+      "Polychain Capital Portfolio",
+      "Pantera Capital Portfolio",
+      "Placeholder Ventures Portfolio"
     ]
   },
   "ZIL": {
-    "marketCap": { "marketCap": 2757171697, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 6149282952, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2447, "date": "2021-05-10 12:05" },
     "ticker": "ZIL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2469.png",
@@ -41,14 +43,14 @@
     "categories": [
       "Smart Contracts",
       "Kinetic Capital",
-      "Polychain Capital Portfolio",
       "platform",
       "mineable",
       "payments"
-    ]
+    ],
+    "portfolios": ["Polychain Capital Portfolio"]
   },
   "ZEN": {
-    "marketCap": { "marketCap": 1578447773, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 751322217, "date": "2021-05-13 17:08" },
     "price": { "price": 142.66, "date": "2021-05-10 12:05" },
     "ticker": "ZEN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1698.png",
@@ -59,16 +61,11 @@
     "date": "2021-05-10 12:05",
     "name": "horizen",
     "exchanges": ["binance"],
-    "categories": [
-      "Content Creation",
-      "Masternodes",
-      "DCG Portfolio",
-      "Privacy",
-      "mineable"
-    ]
+    "categories": ["Content Creation", "Masternodes", "Privacy", "mineable"],
+    "portfolios": ["DCG Portfolio"]
   },
   "ZEC": {
-    "marketCap": { "marketCap": 3662966219, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 7504665190, "date": "2021-05-13 17:08" },
     "price": { "price": 312.12, "date": "2021-05-10 12:05" },
     "ticker": "ZEC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1437.png",
@@ -79,22 +76,19 @@
     "date": "2021-05-10 12:05",
     "name": "zcash",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["Winklevoss Capital", "Privacy", "pow", "mineable"],
+    "portfolios": [
       "Fenbushi Capital Portfolio",
-      "Winklevoss Capital",
       "BoostVC Portfolio",
       "DCG Portfolio",
-      "Privacy",
       "Pantera Capital Portfolio",
       "Hashkey Capital Portfolio",
       "Placeholder Ventures Portfolio",
-      "electric-capital-portfolio",
-      "pow",
-      "mineable"
+      "electric-capital-portfolio"
     ]
   },
   "YFII": {
-    "marketCap": { "marketCap": 99795111, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 134924207, "date": "2021-05-13 17:08" },
     "price": { "price": 2585.63, "date": "2021-05-10 12:05" },
     "ticker": "YFII",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5957.png",
@@ -105,10 +99,11 @@
     "date": "2021-05-10 12:05",
     "name": "yearn-finance-ii",
     "exchanges": ["binance"],
-    "categories": ["Yield farming", "DAO", "Yield Aggregator"]
+    "categories": ["Yield farming", "DAO", "Yield Aggregator"],
+    "portfolios": []
   },
   "YFI": {
-    "marketCap": { "marketCap": 1978252686, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 7010493466, "date": "2021-05-13 17:08" },
     "price": { "price": 53999.07, "date": "2021-05-10 12:05" },
     "ticker": "YFI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5864.png",
@@ -121,19 +116,21 @@
     "exchanges": ["binance"],
     "categories": [
       "Yield farming",
-      "Blockchain Capital Portfolio",
       "Framework Ventures",
-      "Polychain Capital Portfolio",
       "ParaFi capital",
-      "Alameda Research Portfolio",
       "Yield Aggregator",
       "DeFi",
-      "Three Arrows Capital Portfolio",
       "Yearn Partnerships"
+    ],
+    "portfolios": [
+      "Blockchain Capital Portfolio",
+      "Polychain Capital Portfolio",
+      "Alameda Research Portfolio",
+      "Three Arrows Capital Portfolio"
     ]
   },
   "XVS": {
-    "marketCap": { "marketCap": 1375365394, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 3991203315, "date": "2021-05-13 17:08" },
     "price": { "price": 139.72, "date": "2021-05-10 12:05" },
     "ticker": "XVS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7288.png",
@@ -150,10 +147,11 @@
       "Binance Launchpool",
       "lending-borowing",
       "DeFi"
-    ]
+    ],
+    "portfolios": []
   },
   "XTZ": {
-    "marketCap": { "marketCap": 5534537668, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 10423511912, "date": "2021-05-13 17:08" },
     "price": { "price": 7.1, "date": "2021-05-10 12:05" },
     "ticker": "XTZ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2011.png",
@@ -164,16 +162,11 @@
     "date": "2021-05-10 12:05",
     "name": "tezos",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "Winklevoss Capital",
-      "Smart Contracts",
-      "BoostVC Portfolio",
-      "Polychain Capital Portfolio",
-      "platform"
-    ]
+    "categories": ["Winklevoss Capital", "Smart Contracts", "platform"],
+    "portfolios": ["BoostVC Portfolio", "Polychain Capital Portfolio"]
   },
   "XRP": {
-    "marketCap": { "marketCap": 55252657232, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 57752850942, "date": "2021-05-13 17:08" },
     "price": { "price": 1.57, "date": "2021-05-10 12:05" },
     "ticker": "XRP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
@@ -184,14 +177,15 @@
     "date": "2021-05-10 12:05",
     "name": "xrp",
     "exchanges": ["upbit", "binance"],
-    "categories": [
+    "categories": ["etc"],
+    "portfolios": [
       "Galaxy Digital Portfolio",
       "Pantera Capital Portfolio",
       "A16Z Portfolio"
     ]
   },
   "XMR": {
-    "marketCap": { "marketCap": 8620399879, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 14378293636, "date": "2021-05-13 17:08" },
     "price": { "price": 481.43, "date": "2021-05-10 12:05" },
     "ticker": "XMR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/328.png",
@@ -202,17 +196,15 @@
     "date": "2021-05-10 12:05",
     "name": "monero",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["Privacy", "pow", "mineable"],
+    "portfolios": [
       "Galaxy Digital Portfolio",
       "BoostVC Portfolio",
-      "Privacy",
-      "electric-capital-portfolio",
-      "pow",
-      "mineable"
+      "electric-capital-portfolio"
     ]
   },
   "XLM": {
-    "marketCap": { "marketCap": 15064174476, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 38206781316, "date": "2021-05-13 17:08" },
     "price": { "price": 0.6532, "date": "2021-05-10 12:05" },
     "ticker": "XLM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/512.png",
@@ -223,14 +215,11 @@
     "date": "2021-05-10 12:05",
     "name": "stellar",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "Smart Contracts",
-      "Decentralized exchange",
-      "Hashkey Capital Portfolio"
-    ]
+    "categories": ["Smart Contracts", "Decentralized exchange"],
+    "portfolios": ["Hashkey Capital Portfolio"]
   },
   "XEM": {
-    "marketCap": { "marketCap": 3398008861, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 7338538982, "date": "2021-05-13 17:08" },
     "price": { "price": 0.3776, "date": "2021-05-10 12:05" },
     "ticker": "XEM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/873.png",
@@ -241,10 +230,11 @@
     "date": "2021-05-10 12:05",
     "name": "nem",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Smart Contracts", "payments"]
+    "categories": ["Smart Contracts", "payments"],
+    "portfolios": []
   },
   "WTC": {
-    "marketCap": { "marketCap": 143710506, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 4000476, "date": "2021-05-13 17:08" },
     "price": { "price": 1.99, "date": "2021-05-10 12:05" },
     "ticker": "WTC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1925.png",
@@ -255,10 +245,11 @@
     "date": "2021-05-10 12:05",
     "name": "waltonchain",
     "exchanges": ["binance"],
-    "categories": ["Logistics", "IoT"]
+    "categories": ["Logistics", "IoT"],
+    "portfolios": []
   },
   "WRX": {
-    "marketCap": { "marketCap": 741045450, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 839667327, "date": "2021-05-13 17:08" },
     "price": { "price": 2.52, "date": "2021-05-10 12:05" },
     "ticker": "WRX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5161.png",
@@ -269,10 +260,11 @@
     "date": "2021-05-10 12:05",
     "name": "wazirx",
     "exchanges": ["binance"],
-    "categories": ["Binance Launchpad"]
+    "categories": ["Binance Launchpad"],
+    "portfolios": []
   },
   "WNXM": {
-    "marketCap": { "marketCap": 196758370, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 2200364, "date": "2021-05-13 17:08" },
     "price": { "price": 117.33, "date": "2021-05-10 12:05" },
     "ticker": "WNXM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5939.png",
@@ -283,10 +275,11 @@
     "date": "2021-05-10 12:05",
     "name": "wrapped-nxm",
     "exchanges": ["binance"],
-    "categories": ["Insurance", "Wrapped Tokens"]
+    "categories": ["Insurance", "Wrapped Tokens"],
+    "portfolios": []
   },
   "WING": {
-    "marketCap": { "marketCap": 67466283, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 3363807, "date": "2021-05-13 17:08" },
     "price": { "price": 42.8, "date": "2021-05-10 12:05" },
     "ticker": "WING",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7048.png",
@@ -297,10 +290,11 @@
     "date": "2021-05-10 12:05",
     "name": "wing",
     "exchanges": ["binance"],
-    "categories": ["Binance Launchpool"]
+    "categories": ["Binance Launchpool"],
+    "portfolios": []
   },
   "WAVES": {
-    "marketCap": { "marketCap": 3331350287, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 7371540522, "date": "2021-05-13 17:08" },
     "price": { "price": 31.71, "date": "2021-05-10 12:05" },
     "ticker": "WAVES",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1274.png",
@@ -311,10 +305,11 @@
     "date": "2021-05-10 12:05",
     "name": "waves",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Smart Contracts", "Solana Ecosystem", "platform"]
+    "categories": ["Smart Contracts", "Solana Ecosystem", "platform"],
+    "portfolios": []
   },
   "WAN": {
-    "marketCap": { "marketCap": 351766968, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 21951580, "date": "2021-05-13 17:08" },
     "price": { "price": 2.08, "date": "2021-05-10 12:05" },
     "ticker": "WAN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2606.png",
@@ -325,10 +320,11 @@
     "date": "2021-05-10 12:05",
     "name": "wanchain",
     "exchanges": ["binance"],
-    "categories": ["DeFi", "Interoperability"]
+    "categories": ["DeFi", "Interoperability"],
+    "portfolios": []
   },
   "VTHO": {
-    "marketCap": { "marketCap": 616922275, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 676137453, "date": "2021-05-13 17:08" },
     "price": { "price": 0.01751, "date": "2021-05-10 12:05" },
     "ticker": "VTHO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3012.png",
@@ -339,10 +335,11 @@
     "date": "2021-05-10 12:05",
     "name": "vethor-token",
     "exchanges": ["binance"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "VITE": {
-    "marketCap": { "marketCap": 95931233, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 94207230, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1992, "date": "2021-05-10 12:05" },
     "ticker": "VITE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2937.png",
@@ -353,10 +350,11 @@
     "date": "2021-05-10 12:05",
     "name": "vite",
     "exchanges": ["binance"],
-    "categories": ["Scaling", "Decentralized exchange", "platform"]
+    "categories": ["Scaling", "Decentralized exchange", "platform"],
+    "portfolios": []
   },
   "VET": {
-    "marketCap": { "marketCap": 14942823102, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 37510613239, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2323, "date": "2021-05-10 12:05" },
     "ticker": "VET",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3077.png",
@@ -367,15 +365,11 @@
     "date": "2021-05-10 12:05",
     "name": "vechain",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "Fenbushi Capital Portfolio",
-      "Logistics",
-      "Smart Contracts",
-      "IoT"
-    ]
+    "categories": ["Logistics", "Smart Contracts", "IoT"],
+    "portfolios": ["Fenbushi Capital Portfolio"]
   },
   "UTK": {
-    "marketCap": { "marketCap": 333976323, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 204140312, "date": "2021-05-13 17:08" },
     "price": { "price": 0.7422, "date": "2021-05-10 12:05" },
     "ticker": "UTK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2320.png",
@@ -386,10 +380,11 @@
     "date": "2021-05-10 12:05",
     "name": "utrust",
     "exchanges": ["binance"],
-    "categories": ["Smart Contracts", "Cybersecurity", "payments"]
+    "categories": ["Smart Contracts", "Cybersecurity", "payments"],
+    "portfolios": []
   },
   "USDT": {
-    "marketCap": { "marketCap": 55790612085, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 79640635110, "date": "2021-05-13 17:08" },
     "price": { "price": 1, "date": "2021-05-10 12:05" },
     "ticker": "USDT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
@@ -400,10 +395,11 @@
     "date": "2021-05-10 12:05",
     "name": "tether",
     "exchanges": ["binance"],
-    "categories": ["Stablecoin", "Solana Ecosystem", "payments"]
+    "categories": ["Stablecoin", "Solana Ecosystem", "payments"],
+    "portfolios": []
   },
   "USDC": {
-    "marketCap": { "marketCap": 14381503938, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 11319970906, "date": "2021-05-13 17:08" },
     "price": { "price": 1, "date": "2021-05-10 12:05" },
     "ticker": "USDC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3408.png",
@@ -414,10 +410,11 @@
     "date": "2021-05-10 12:05",
     "name": "usd-coin",
     "exchanges": ["binance"],
-    "categories": ["Stablecoin"]
+    "categories": ["Stablecoin"],
+    "portfolios": []
   },
   "UNI": {
-    "marketCap": { "marketCap": 21336026046, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 54835119285, "date": "2021-05-13 17:08" },
     "price": { "price": 40.77, "date": "2021-05-10 12:05" },
     "ticker": "UNI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png",
@@ -430,23 +427,25 @@
     "exchanges": ["binance"],
     "categories": [
       "Yield farming",
-      "Blockchain Capital Portfolio",
       "DAO",
       "Decentralized exchange",
       "ParaFi capital",
-      "Pantera Capital Portfolio",
-      "Alameda Research Portfolio",
       "Paradigm XZY Screener",
       "DeFi",
-      "Three Arrows Capital Portfolio",
-      "A16Z Portfolio",
-      "Coinbase Ventures Portfolio",
       "AMM",
       "DeFiance Capital"
+    ],
+    "portfolios": [
+      "Blockchain Capital Portfolio",
+      "Pantera Capital Portfolio",
+      "Alameda Research Portfolio",
+      "Three Arrows Capital Portfolio",
+      "A16Z Portfolio",
+      "Coinbase Ventures Portfolio"
     ]
   },
   "UNFI": {
-    "marketCap": { "marketCap": 87097807, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 93431179, "date": "2021-05-13 17:08" },
     "price": { "price": 24.22, "date": "2021-05-10 12:05" },
     "ticker": "UNFI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7672.png",
@@ -457,10 +456,11 @@
     "date": "2021-05-10 12:05",
     "name": "unifi-protocol-dao",
     "exchanges": ["binance"],
-    "categories": ["binance smart chain", "Binance Launchpool"]
+    "categories": ["binance smart chain", "Binance Launchpool"],
+    "portfolios": []
   },
   "UMA": {
-    "marketCap": { "marketCap": 1550568467, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 4629395843, "date": "2021-05-13 17:08" },
     "price": { "price": 25.81, "date": "2021-05-10 12:05" },
     "ticker": "UMA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5617.png",
@@ -471,20 +471,16 @@
     "date": "2021-05-10 12:05",
     "name": "uma",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["DAO", "DeFi", "Oracles", "Derivatives", "Synthetics"],
+    "portfolios": [
       "DragonFly Capital Portfolio",
       "Blockchain Capital Portfolio",
-      "DAO",
-      "DeFi",
       "Placeholder Ventures Portfolio",
-      "Oracles",
-      "Derivatives",
-      "Synthetics",
       "Coinbase Ventures Portfolio"
     ]
   },
   "TWT": {
-    "marketCap": { "marketCap": 248530044, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 50009, "date": "2021-05-13 17:08" },
     "price": { "price": 0.9905, "date": "2021-05-10 12:05" },
     "ticker": "TWT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5964.png",
@@ -495,10 +491,11 @@
     "date": "2021-05-10 12:05",
     "name": "trust-wallet-token",
     "exchanges": ["binance"],
-    "categories": ["binance smart chain"]
+    "categories": ["binance smart chain"],
+    "portfolios": []
   },
   "TUSD": {
-    "marketCap": { "marketCap": 1124660781, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 1234462365, "date": "2021-05-13 17:08" },
     "price": { "price": 0.9992, "date": "2021-05-10 12:05" },
     "ticker": "TUSD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2563.png",
@@ -509,10 +506,11 @@
     "date": "2021-05-10 12:05",
     "name": "trueusd",
     "exchanges": ["binance"],
-    "categories": ["Avalanche Ecosystem", "Stablecoin"]
+    "categories": ["Avalanche Ecosystem", "Stablecoin"],
+    "portfolios": []
   },
   "TRX": {
-    "marketCap": { "marketCap": 10411352760, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 21848184701, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1453, "date": "2021-05-10 12:05" },
     "ticker": "TRX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png",
@@ -523,10 +521,11 @@
     "date": "2021-05-10 12:05",
     "name": "tron",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Media", "payments"]
+    "categories": ["Media", "payments"],
+    "portfolios": []
   },
   "TRU": {
-    "marketCap": { "marketCap": 62922724, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 62258833, "date": "2021-05-13 17:08" },
     "price": { "price": 0.4475, "date": "2021-05-10 12:05" },
     "ticker": "TRU",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7725.png",
@@ -537,10 +536,11 @@
     "date": "2021-05-10 12:05",
     "name": "truefi",
     "exchanges": ["binance"],
-    "categories": ["Yield farming", "lending-borowing"]
+    "categories": ["Yield farming", "lending-borowing"],
+    "portfolios": []
   },
   "TROY": {
-    "marketCap": { "marketCap": 213476616, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 9499558, "date": "2021-05-13 17:08" },
     "price": { "price": 0.02194, "date": "2021-05-10 12:05" },
     "ticker": "TROY",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5007.png",
@@ -551,10 +551,11 @@
     "date": "2021-05-10 12:05",
     "name": "troy",
     "exchanges": ["binance"],
-    "categories": ["Binance Launchpad"]
+    "categories": ["Binance Launchpad"],
+    "portfolios": []
   },
   "TRB": {
-    "marketCap": { "marketCap": 244574158, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 6943489, "date": "2021-05-13 17:08" },
     "price": { "price": 158.02, "date": "2021-05-10 12:05" },
     "ticker": "TRB",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4944.png",
@@ -565,10 +566,11 @@
     "date": "2021-05-10 12:05",
     "name": "tellor",
     "exchanges": ["binance"],
-    "categories": ["Framework Ventures", "DeFi", "Oracles", "mineable"]
+    "categories": ["Framework Ventures", "DeFi", "Oracles", "mineable"],
+    "portfolios": []
   },
   "TOMO": {
-    "marketCap": { "marketCap": 221536202, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 290491372, "date": "2021-05-13 17:08" },
     "price": { "price": 2.72, "date": "2021-05-10 12:05" },
     "ticker": "TOMO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2570.png",
@@ -579,10 +581,11 @@
     "date": "2021-05-10 12:05",
     "name": "tomochain",
     "exchanges": ["binance"],
-    "categories": ["Alameda Research Portfolio", "platform"]
+    "categories": ["platform"],
+    "portfolios": ["Alameda Research Portfolio"]
   },
   "TLM": {
-    "marketCap": { "marketCap": 558982558, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 830250284, "date": "2021-05-13 17:08" },
     "price": { "price": 0.6494, "date": "2021-05-10 12:05" },
     "ticker": "TLM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/9119.png",
@@ -593,10 +596,11 @@
     "date": "2021-05-10 12:05",
     "name": "alien-worlds",
     "exchanges": ["binance"],
-    "categories": ["Entertainment", "DAO", "collectibles-nfts", "Gaming"]
+    "categories": ["Entertainment", "DAO", "collectibles-nfts", "Gaming"],
+    "portfolios": []
   },
   "TKO": {
-    "marketCap": { "marketCap": 407224944, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 22069, "date": "2021-05-13 17:08" },
     "price": { "price": 3.75, "date": "2021-05-10 12:05" },
     "ticker": "TKO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/9020.png",
@@ -607,10 +611,11 @@
     "date": "2021-05-10 12:05",
     "name": "toko-token",
     "exchanges": ["binance"],
-    "categories": ["Centralized exchange", "Binance Launchpad"]
+    "categories": ["Centralized exchange", "Binance Launchpad"],
+    "portfolios": []
   },
   "THETA": {
-    "marketCap": { "marketCap": 11974739316, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 9948657938, "date": "2021-05-13 17:08" },
     "price": { "price": 11.97, "date": "2021-05-10 12:05" },
     "ticker": "THETA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2416.png",
@@ -627,10 +632,11 @@
       "Video",
       "Huobi Capital",
       "collectibles-nfts"
-    ]
+    ],
+    "portfolios": []
   },
   "TFUEL": {
-    "marketCap": { "marketCap": 2035052202, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 1027954545, "date": "2021-05-13 17:08" },
     "price": { "price": 0.3861, "date": "2021-05-10 12:05" },
     "ticker": "TFUEL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3822.png",
@@ -641,10 +647,11 @@
     "date": "2021-05-10 12:05",
     "name": "theta-fuel",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Media", "Content Creation", "payments"]
+    "categories": ["Media", "Content Creation", "payments"],
+    "portfolios": []
   },
   "TCT": {
-    "marketCap": { "marketCap": 65665365, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 60095034, "date": "2021-05-13 17:08" },
     "price": { "price": 0.08957, "date": "2021-05-10 12:05" },
     "ticker": "TCT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2364.png",
@@ -655,10 +662,11 @@
     "date": "2021-05-10 12:05",
     "name": "tokenclub",
     "exchanges": ["binance"],
-    "categories": ["Asset management"]
+    "categories": ["Asset management"],
+    "portfolios": []
   },
   "SXP": {
-    "marketCap": { "marketCap": 473234032, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 368820610, "date": "2021-05-13 17:08" },
     "price": { "price": 5.17, "date": "2021-05-10 12:05" },
     "ticker": "SXP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4279.png",
@@ -669,16 +677,11 @@
     "date": "2021-05-10 12:05",
     "name": "swipe",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "binance smart chain",
-      "Alameda Research Portfolio",
-      "Binance Labs Portfolio",
-      "DeFi",
-      "payments"
-    ]
+    "categories": ["binance smart chain", "DeFi", "payments"],
+    "portfolios": ["Alameda Research Portfolio", "Binance Labs Portfolio"]
   },
   "SUSHI": {
-    "marketCap": { "marketCap": 2020488169, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 5349918520, "date": "2021-05-13 17:08" },
     "price": { "price": 15.88, "date": "2021-05-10 12:05" },
     "ticker": "SUSHI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6758.png",
@@ -691,19 +694,21 @@
     "exchanges": ["binance"],
     "categories": [
       "Yield farming",
-      "Blockchain Capital Portfolio",
       "DAO",
       "Decentralized exchange",
-      "Pantera Capital Portfolio",
-      "Alameda Research Portfolio",
       "DeFi",
       "Yearn Partnerships",
       "AMM",
       "DeFiance Capital"
+    ],
+    "portfolios": [
+      "Blockchain Capital Portfolio",
+      "Pantera Capital Portfolio",
+      "Alameda Research Portfolio"
     ]
   },
   "SUSD": {
-    "marketCap": { "marketCap": 145984749, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 59478036, "date": "2021-05-13 17:08" },
     "price": { "price": 1.03, "date": "2021-05-10 12:05" },
     "ticker": "SUSD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2927.png",
@@ -714,10 +719,11 @@
     "date": "2021-05-10 12:05",
     "name": "susd",
     "exchanges": ["binance"],
-    "categories": ["DeFi", "Synthetics", "Stablecoin"]
+    "categories": ["DeFi", "Synthetics", "Stablecoin"],
+    "portfolios": []
   },
   "SUN": {
-    "marketCap": { "marketCap": 175198156, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 162827725, "date": "2021-05-13 17:08" },
     "price": { "price": 35, "date": "2021-05-10 12:05" },
     "ticker": "SUN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6990.png",
@@ -728,10 +734,11 @@
     "date": "2021-05-10 12:05",
     "name": "sun",
     "exchanges": ["binance"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "STX": {
-    "marketCap": { "marketCap": 2157358483, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 5191011151, "date": "2021-05-13 17:08" },
     "price": { "price": 1.93, "date": "2021-05-10 12:05" },
     "ticker": "STX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4847.png",
@@ -742,17 +749,17 @@
     "date": "2021-05-10 12:05",
     "name": "stacks",
     "exchanges": ["upbit", "binance"],
-    "categories": [
+    "categories": ["Huobi Capital"],
+    "portfolios": [
       "Blockchain Capital Portfolio",
       "Fabric Ventures Portfolio",
-      "Huobi Capital",
       "USV Portfolio",
       "DCG Portfolio",
       "Hashkey Capital Portfolio"
     ]
   },
   "STRAX": {
-    "marketCap": { "marketCap": 453844127, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 651073388, "date": "2021-05-13 17:08" },
     "price": { "price": 3.46, "date": "2021-05-10 12:05" },
     "ticker": "STRAX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1343.png",
@@ -763,10 +770,11 @@
     "date": "2021-05-10 12:05",
     "name": "stratis",
     "exchanges": ["upbit", "binance"],
-    "categories": ["platform"]
+    "categories": ["platform"],
+    "portfolios": []
   },
   "STPT": {
-    "marketCap": { "marketCap": 77867045, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 86390732, "date": "2021-05-13 17:08" },
     "price": { "price": 0.07596, "date": "2021-05-10 12:05" },
     "ticker": "STPT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4006.png",
@@ -782,10 +790,11 @@
       "Synthetics",
       "Polkadot Ecosystem",
       "payments"
-    ]
+    ],
+    "portfolios": []
   },
   "STORJ": {
-    "marketCap": { "marketCap": 616039641, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 15515219, "date": "2021-05-13 17:08" },
     "price": { "price": 2.15, "date": "2021-05-10 12:05" },
     "ticker": "STORJ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1772.png",
@@ -801,10 +810,11 @@
       "Filesharing",
       "Distributed Computing",
       "platform"
-    ]
+    ],
+    "portfolios": []
   },
   "STMX": {
-    "marketCap": { "marketCap": 407668735, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 104999554, "date": "2021-05-13 17:08" },
     "price": { "price": 0.04846, "date": "2021-05-10 12:05" },
     "ticker": "STMX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2297.png",
@@ -815,10 +825,11 @@
     "date": "2021-05-10 12:05",
     "name": "stormx",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Media", "Loyalty"]
+    "categories": ["Media", "Loyalty"],
+    "portfolios": []
   },
   "SRM": {
-    "marketCap": { "marketCap": 523161382, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 373872626, "date": "2021-05-13 17:08" },
     "price": { "price": 10.46, "date": "2021-05-10 12:05" },
     "ticker": "SRM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6187.png",
@@ -833,17 +844,19 @@
       "Smart Contracts",
       "Kinetic Capital",
       "Decentralized exchange",
-      "Alameda Research Portfolio",
       "DeFi",
-      "CMS Holdings Portfolio",
       "Derivatives",
-      "Exnetwork Capital Portfolio",
-      "Coinfund Portfolio",
       "Solana Ecosystem"
+    ],
+    "portfolios": [
+      "Alameda Research Portfolio",
+      "CMS Holdings Portfolio",
+      "Exnetwork Capital Portfolio",
+      "Coinfund Portfolio"
     ]
   },
   "SOL": {
-    "marketCap": { "marketCap": 12258636900, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 1256590076, "date": "2021-05-13 17:08" },
     "price": { "price": 44.96, "date": "2021-05-10 12:05" },
     "ticker": "SOL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
@@ -854,17 +867,15 @@
     "date": "2021-05-10 12:05",
     "name": "solana",
     "exchanges": ["binance"],
-    "categories": [
-      "Kinetic Capital",
+    "categories": ["Kinetic Capital", "Solana Ecosystem", "platform"],
+    "portfolios": [
       "Alameda Research Portfolio",
       "Multicoin Capital Portfolio",
-      "CMS Holdings Portfolio",
-      "Solana Ecosystem",
-      "platform"
+      "CMS Holdings Portfolio"
     ]
   },
   "SNX": {
-    "marketCap": { "marketCap": 2075660103, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 2572342611, "date": "2021-05-13 17:08" },
     "price": { "price": 18.07, "date": "2021-05-10 12:05" },
     "ticker": "SNX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2586.png",
@@ -881,17 +892,19 @@
       "Framework Ventures",
       "Decentralized exchange",
       "ParaFi capital",
-      "Alameda Research Portfolio",
       "DeFi",
-      "Three Arrows Capital Portfolio",
       "Derivatives",
       "Synthetics",
       "DeFiance Capital",
       "services"
+    ],
+    "portfolios": [
+      "Alameda Research Portfolio",
+      "Three Arrows Capital Portfolio"
     ]
   },
   "SLP": {
-    "marketCap": { "marketCap": 83034673, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 12207295, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2353, "date": "2021-05-10 12:05" },
     "ticker": "SLP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5824.png",
@@ -902,10 +915,11 @@
     "date": "2021-05-10 12:05",
     "name": "small-love-potion",
     "exchanges": ["binance"],
-    "categories": ["collectibles-nfts"]
+    "categories": ["collectibles-nfts"],
+    "portfolios": []
   },
   "SKL": {
-    "marketCap": { "marketCap": 583285301, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 64812670, "date": "2021-05-13 17:08" },
     "price": { "price": 0.6083, "date": "2021-05-10 12:05" },
     "ticker": "SKL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5691.png",
@@ -916,16 +930,15 @@
     "date": "2021-05-10 12:05",
     "name": "skale-network",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["Smart Contracts", "platform"],
+    "portfolios": [
       "Galaxy Digital Portfolio",
-      "Smart Contracts",
       "BoostVC Portfolio",
-      "Hashkey Capital Portfolio",
-      "platform"
+      "Hashkey Capital Portfolio"
     ]
   },
   "SFP": {
-    "marketCap": { "marketCap": 269825741, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 427208555, "date": "2021-05-13 17:08" },
     "price": { "price": 2.49, "date": "2021-05-10 12:05" },
     "ticker": "SFP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8119.png",
@@ -936,10 +949,11 @@
     "date": "2021-05-10 12:05",
     "name": "safepal",
     "exchanges": ["binance"],
-    "categories": ["binance smart chain", "Binance Launchpad"]
+    "categories": ["binance smart chain", "Binance Launchpad"],
+    "portfolios": []
   },
   "SC": {
-    "marketCap": { "marketCap": 1893309096, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 1312372738, "date": "2021-05-13 17:08" },
     "price": { "price": 0.03963, "date": "2021-05-10 12:05" },
     "ticker": "SC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1042.png",
@@ -951,8 +965,6 @@
     "name": "siacoin",
     "exchanges": ["upbit", "binance"],
     "categories": [
-      "DragonFly Capital Portfolio",
-      "Fenbushi Capital Portfolio",
       "Storage",
       "Filesharing",
       "Distributed Computing",
@@ -960,10 +972,11 @@
       "platform",
       "pow",
       "mineable"
-    ]
+    ],
+    "portfolios": ["DragonFly Capital Portfolio", "Fenbushi Capital Portfolio"]
   },
   "SAND": {
-    "marketCap": { "marketCap": 368977242, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 479076132, "date": "2021-05-13 17:08" },
     "price": { "price": 0.5372, "date": "2021-05-10 12:05" },
     "ticker": "SAND",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6210.png",
@@ -980,10 +993,11 @@
       "Gaming",
       "Binance Launchpad",
       "Metaverse"
-    ]
+    ],
+    "portfolios": []
   },
   "RVN": {
-    "marketCap": { "marketCap": 1497524661, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 158132387, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1714, "date": "2021-05-10 12:05" },
     "ticker": "RVN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2577.png",
@@ -994,10 +1008,11 @@
     "date": "2021-05-10 12:05",
     "name": "ravencoin",
     "exchanges": ["binance"],
-    "categories": ["platform", "mineable"]
+    "categories": ["platform", "mineable"],
+    "portfolios": []
   },
   "RUNE": {
-    "marketCap": { "marketCap": 4405055968, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 8839196210, "date": "2021-05-13 17:08" },
     "price": { "price": 18.36, "date": "2021-05-10 12:05" },
     "ticker": "RUNE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4157.png",
@@ -1012,13 +1027,12 @@
       "Cosmos Ecosystem",
       "Decentralized exchange",
       "DeFi",
-      "Multicoin Capital Portfolio",
-      "Exnetwork Capital Portfolio",
       "Wrapped Tokens"
-    ]
+    ],
+    "portfolios": ["Multicoin Capital Portfolio", "Exnetwork Capital Portfolio"]
   },
   "RSR": {
-    "marketCap": { "marketCap": 1157346950, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 292100187, "date": "2021-05-13 17:08" },
     "price": { "price": 0.08794, "date": "2021-05-10 12:05" },
     "ticker": "RSR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3964.png",
@@ -1029,15 +1043,11 @@
     "date": "2021-05-10 12:05",
     "name": "reserve-rights",
     "exchanges": ["binance"],
-    "categories": [
-      "DCG Portfolio",
-      "DeFi",
-      "Coinbase Ventures Portfolio",
-      "Stablecoin"
-    ]
+    "categories": ["DeFi", "Stablecoin"],
+    "portfolios": ["DCG Portfolio", "Coinbase Ventures Portfolio"]
   },
   "ROSE": {
-    "marketCap": { "marketCap": 233242659, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 313488883, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1555, "date": "2021-05-10 12:05" },
     "ticker": "ROSE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7653.png",
@@ -1048,10 +1058,11 @@
     "date": "2021-05-10 12:05",
     "name": "oasis-network",
     "exchanges": ["binance"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "RLC": {
-    "marketCap": { "marketCap": 733452036, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 793064870, "date": "2021-05-13 17:08" },
     "price": { "price": 9.16, "date": "2021-05-10 12:05" },
     "ticker": "RLC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1637.png",
@@ -1070,10 +1081,11 @@
       "Oracles",
       "Polkadot Ecosystem",
       "ai-big-data"
-    ]
+    ],
+    "portfolios": []
   },
   "RIF": {
-    "marketCap": { "marketCap": 245840441, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 3941974, "date": "2021-05-13 17:08" },
     "price": { "price": 0.341, "date": "2021-05-10 12:05" },
     "ticker": "RIF",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3701.png",
@@ -1084,10 +1096,11 @@
     "date": "2021-05-10 12:05",
     "name": "rsk-infrastructure-framework",
     "exchanges": ["binance"],
-    "categories": ["Filesharing", "services", "payments"]
+    "categories": ["Filesharing", "services", "payments"],
+    "portfolios": []
   },
   "REP": {
-    "marketCap": { "marketCap": 513735431, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 603293974, "date": "2021-05-13 17:08" },
     "price": { "price": 46.7, "date": "2021-05-10 12:05" },
     "ticker": "REP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1104.png",
@@ -1098,18 +1111,15 @@
     "date": "2021-05-10 12:05",
     "name": "augur",
     "exchanges": ["upbit", "binance"],
-    "categories": [
+    "categories": ["Storage", "DeFi", "Oracles", "platform"],
+    "portfolios": [
       "1Confirmation Portfolio",
-      "Storage",
       "Pantera Capital Portfolio",
-      "DeFi",
-      "Multicoin Capital Portfolio",
-      "Oracles",
-      "platform"
+      "Multicoin Capital Portfolio"
     ]
   },
   "REN": {
-    "marketCap": { "marketCap": 977158038, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 129269324, "date": "2021-05-13 17:08" },
     "price": { "price": 0.9799, "date": "2021-05-10 12:05" },
     "ticker": "REN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2539.png",
@@ -1123,14 +1133,14 @@
     "categories": [
       "Kinetic Capital",
       "Huobi Capital",
-      "Alameda Research Portfolio",
       "DeFi",
       "Polkadot Ecosystem",
       "Solana Ecosystem"
-    ]
+    ],
+    "portfolios": ["Alameda Research Portfolio"]
   },
   "REEF": {
-    "marketCap": { "marketCap": 551276382, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 22524144, "date": "2021-05-13 17:08" },
     "price": { "price": 0.04352, "date": "2021-05-10 12:05" },
     "ticker": "REEF",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6951.png",
@@ -1145,12 +1155,12 @@
       "binance smart chain",
       "Kinetic Capital",
       "DeFi",
-      "Polkadot Ecosystem",
-      "Exnetwork Capital Portfolio"
-    ]
+      "Polkadot Ecosystem"
+    ],
+    "portfolios": ["Exnetwork Capital Portfolio"]
   },
   "RAMP": {
-    "marketCap": { "marketCap": 180906536, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 1717889115, "date": "2021-05-13 17:08" },
     "price": { "price": 0.6309, "date": "2021-05-10 12:05" },
     "ticker": "RAMP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7463.png",
@@ -1165,15 +1175,14 @@
       "binance smart chain",
       "ParaFi capital",
       "lending-borowing",
-      "Alameda Research Portfolio",
       "DeFi",
       "Polkadot Ecosystem",
-      "Exnetwork Capital Portfolio",
       "Solana Ecosystem"
-    ]
+    ],
+    "portfolios": ["Alameda Research Portfolio", "Exnetwork Capital Portfolio"]
   },
   "QTUM": {
-    "marketCap": { "marketCap": 2625440561, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 322481632, "date": "2021-05-13 17:08" },
     "price": { "price": 26.69, "date": "2021-05-10 12:05" },
     "ticker": "QTUM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1684.png",
@@ -1184,10 +1193,11 @@
     "date": "2021-05-10 12:05",
     "name": "qtum",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Smart Contracts", "Kinetic Capital", "platform"]
+    "categories": ["Smart Contracts", "Kinetic Capital", "platform"],
+    "portfolios": []
   },
   "PUNDIX": {
-    "marketCap": { "marketCap": 776227956, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 5539875, "date": "2021-05-13 17:08" },
     "price": { "price": 3, "date": "2021-05-10 12:05" },
     "ticker": "PUNDIX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/9040.png",
@@ -1198,10 +1208,11 @@
     "date": "2021-05-10 12:05",
     "name": "pundix-new",
     "exchanges": ["binance"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "PSG": {
-    "marketCap": { "marketCap": 38435331, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 12565351, "date": "2021-05-13 17:08" },
     "price": { "price": 29.83, "date": "2021-05-10 12:05" },
     "ticker": "PSG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5226.png",
@@ -1212,10 +1223,11 @@
     "date": "2021-05-10 12:05",
     "name": "paris-saint-germain-fan-token",
     "exchanges": ["binance"],
-    "categories": ["Fan token", "Sports"]
+    "categories": ["Fan token", "Sports"],
+    "portfolios": []
   },
   "POND": {
-    "marketCap": { "marketCap": 119953666, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 10271776, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1628, "date": "2021-05-10 12:05" },
     "ticker": "POND",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7497.png",
@@ -1226,10 +1238,11 @@
     "date": "2021-05-10 12:05",
     "name": "marlin",
     "exchanges": ["binance"],
-    "categories": ["Scaling"]
+    "categories": ["Scaling"],
+    "portfolios": []
   },
   "PNT": {
-    "marketCap": { "marketCap": 67482198, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 11486200, "date": "2021-05-13 17:08" },
     "price": { "price": 2.36, "date": "2021-05-10 12:05" },
     "ticker": "PNT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5794.png",
@@ -1240,10 +1253,11 @@
     "date": "2021-05-10 12:05",
     "name": "pnetwork",
     "exchanges": ["binance"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "PERP": {
-    "marketCap": { "marketCap": 178635793, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 170080356, "date": "2021-05-13 17:08" },
     "price": { "price": 8.2, "date": "2021-05-10 12:05" },
     "ticker": "PERP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6950.png",
@@ -1254,19 +1268,16 @@
     "date": "2021-05-10 12:05",
     "name": "perpetual-protocol",
     "exchanges": ["binance"],
-    "categories": [
-      "Decentralized exchange",
+    "categories": ["Decentralized exchange", "DeFi", "Derivatives", "AMM"],
+    "portfolios": [
       "Alameda Research Portfolio",
-      "DeFi",
       "Multicoin Capital Portfolio",
       "Three Arrows Capital Portfolio",
-      "CMS Holdings Portfolio",
-      "Derivatives",
-      "AMM"
+      "CMS Holdings Portfolio"
     ]
   },
   "PERL": {
-    "marketCap": { "marketCap": 68625654, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 63421763, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1398, "date": "2021-05-10 12:05" },
     "ticker": "PERL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4293.png",
@@ -1277,10 +1288,11 @@
     "date": "2021-05-10 12:05",
     "name": "perlin",
     "exchanges": ["binance"],
-    "categories": ["Binance Launchpad"]
+    "categories": ["Binance Launchpad"],
+    "portfolios": []
   },
   "PAXG": {
-    "marketCap": { "marketCap": 111743110, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 1780364, "date": "2021-05-13 17:08" },
     "price": { "price": 1857.4, "date": "2021-05-10 12:05" },
     "ticker": "PAXG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4705.png",
@@ -1291,10 +1303,11 @@
     "date": "2021-05-10 12:05",
     "name": "pax-gold",
     "exchanges": ["binance"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "PAX": {
-    "marketCap": { "marketCap": 909328324, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 4083937002, "date": "2021-05-13 17:08" },
     "price": { "price": 0.9995, "date": "2021-05-10 12:05" },
     "ticker": "PAX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3330.png",
@@ -1305,10 +1318,11 @@
     "date": "2021-05-10 12:05",
     "name": "paxos-standard",
     "exchanges": ["binance"],
-    "categories": ["Stablecoin"]
+    "categories": ["Stablecoin"],
+    "portfolios": []
   },
   "OXT": {
-    "marketCap": { "marketCap": 241351580, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 15940438, "date": "2021-05-13 17:08" },
     "price": { "price": 0.6566, "date": "2021-05-10 12:05" },
     "ticker": "OXT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5026.png",
@@ -1319,16 +1333,16 @@
     "date": "2021-05-10 12:05",
     "name": "orchid",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["Kinetic Capital"],
+    "portfolios": [
       "Blockchain Capital Portfolio",
       "Fabric Ventures Portfolio",
-      "Kinetic Capital",
       "Polychain Capital Portfolio",
       "A16Z Portfolio"
     ]
   },
   "ORN": {
-    "marketCap": { "marketCap": 334652781, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 711340678, "date": "2021-05-13 17:08" },
     "price": { "price": 15.84, "date": "2021-05-10 12:05" },
     "ticker": "ORN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5631.png",
@@ -1339,10 +1353,11 @@
     "date": "2021-05-10 12:05",
     "name": "orion-protocol",
     "exchanges": ["binance"],
-    "categories": ["DeFi", "Exnetwork Capital Portfolio", "DAO Maker"]
+    "categories": ["DeFi", "DAO Maker"],
+    "portfolios": ["Exnetwork Capital Portfolio"]
   },
   "ONT": {
-    "marketCap": { "marketCap": 2166800176, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 691914885, "date": "2021-05-13 17:08" },
     "price": { "price": 2.64, "date": "2021-05-10 12:05" },
     "ticker": "ONT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2566.png",
@@ -1358,10 +1373,11 @@
       "Huobi Capital",
       "Polkadot Ecosystem",
       "Identity"
-    ]
+    ],
+    "portfolios": []
   },
   "ONG": {
-    "marketCap": { "marketCap": 264816818, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 17303964, "date": "2021-05-13 17:08" },
     "price": { "price": 1.02, "date": "2021-05-10 12:05" },
     "ticker": "ONG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3217.png",
@@ -1372,10 +1388,11 @@
     "date": "2021-05-10 12:05",
     "name": "ontology-gas",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Media", "Content Creation"]
+    "categories": ["Media", "Content Creation"],
+    "portfolios": []
   },
   "ONE": {
-    "marketCap": { "marketCap": 1284796159, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 56922874, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1351, "date": "2021-05-10 12:05" },
     "ticker": "ONE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3945.png",
@@ -1389,15 +1406,14 @@
     "categories": [
       "Scaling",
       "Smart Contracts",
-      "Binance Labs Portfolio",
-      "Hashkey Capital Portfolio",
       "Centralized exchange",
       "Binance Launchpad",
       "platform"
-    ]
+    ],
+    "portfolios": ["Binance Labs Portfolio", "Hashkey Capital Portfolio"]
   },
   "OMG": {
-    "marketCap": { "marketCap": 1677507737, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 4141065512, "date": "2021-05-13 17:08" },
     "price": { "price": 11.96, "date": "2021-05-10 12:05" },
     "ticker": "OMG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1808.png",
@@ -1408,10 +1424,11 @@
     "date": "2021-05-10 12:05",
     "name": "omg",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Pantera Capital Portfolio", "payments"]
+    "categories": ["payments"],
+    "portfolios": ["Pantera Capital Portfolio"]
   },
   "OM": {
-    "marketCap": { "marketCap": 98486625, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 92237231, "date": "2021-05-13 17:08" },
     "price": { "price": 0.3413, "date": "2021-05-10 12:05" },
     "ticker": "OM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6536.png",
@@ -1422,15 +1439,11 @@
     "date": "2021-05-10 12:05",
     "name": "mantra-dao",
     "exchanges": ["binance"],
-    "categories": [
-      "DAO",
-      "Kinetic Capital",
-      "Polkadot Ecosystem",
-      "Exnetwork Capital Portfolio"
-    ]
+    "categories": ["DAO", "Kinetic Capital", "Polkadot Ecosystem"],
+    "portfolios": ["Exnetwork Capital Portfolio"]
   },
   "OGN": {
-    "marketCap": { "marketCap": 452645485, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 587638151, "date": "2021-05-13 17:08" },
     "price": { "price": 1.6, "date": "2021-05-10 12:05" },
     "ticker": "OGN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5117.png",
@@ -1441,15 +1454,11 @@
     "date": "2021-05-10 12:05",
     "name": "origin-protocol",
     "exchanges": ["binance"],
-    "categories": [
-      "Kinetic Capital",
-      "Pantera Capital Portfolio",
-      "DeFi",
-      "collectibles-nfts"
-    ]
+    "categories": ["Kinetic Capital", "DeFi", "collectibles-nfts"],
+    "portfolios": ["Pantera Capital Portfolio"]
   },
   "OCEAN": {
-    "marketCap": { "marketCap": 641554665, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 776163749, "date": "2021-05-13 17:08" },
     "price": { "price": 1.51, "date": "2021-05-10 12:05" },
     "ticker": "OCEAN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3911.png",
@@ -1463,16 +1472,15 @@
     "categories": [
       "Storage",
       "Filesharing",
-      "Fabric Ventures Portfolio",
-      "DCG Portfolio",
       "DeFi",
       "Polkadot Ecosystem",
       "ai-big-data",
       "platform"
-    ]
+    ],
+    "portfolios": ["Fabric Ventures Portfolio", "DCG Portfolio"]
   },
   "NULS": {
-    "marketCap": { "marketCap": 129951904, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 624890, "date": "2021-05-13 17:08" },
     "price": { "price": 1.3, "date": "2021-05-10 12:05" },
     "ticker": "NULS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2092.png",
@@ -1483,10 +1491,11 @@
     "date": "2021-05-10 12:05",
     "name": "nuls",
     "exchanges": ["binance"],
-    "categories": ["platform", "mineable"]
+    "categories": ["platform", "mineable"],
+    "portfolios": []
   },
   "NMR": {
-    "marketCap": { "marketCap": 332864857, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 441015592, "date": "2021-05-13 17:08" },
     "price": { "price": 67.77, "date": "2021-05-10 12:05" },
     "ticker": "NMR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1732.png",
@@ -1499,18 +1508,20 @@
     "exchanges": ["binance"],
     "categories": [
       "Asset management",
-      "USV Portfolio",
       "Research",
       "Paradigm XZY Screener",
       "DeFi",
-      "Placeholder Ventures Portfolio",
       "ai-big-data",
-      "Coinfund Portfolio",
       "payments"
+    ],
+    "portfolios": [
+      "USV Portfolio",
+      "Placeholder Ventures Portfolio",
+      "Coinfund Portfolio"
     ]
   },
   "NKN": {
-    "marketCap": { "marketCap": 372660901, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 504296046, "date": "2021-05-13 17:08" },
     "price": { "price": 0.6385, "date": "2021-05-10 12:05" },
     "ticker": "NKN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2780.png",
@@ -1521,10 +1532,11 @@
     "date": "2021-05-10 12:05",
     "name": "nkn",
     "exchanges": ["binance"],
-    "categories": ["Distributed Computing", "IoT", "platform", "mineable"]
+    "categories": ["Distributed Computing", "IoT", "platform", "mineable"],
+    "portfolios": []
   },
   "NEO": {
-    "marketCap": { "marketCap": 8382581897, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 3929873779, "date": "2021-05-13 17:08" },
     "price": { "price": 118.84, "date": "2021-05-10 12:05" },
     "ticker": "NEO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1376.png",
@@ -1535,10 +1547,11 @@
     "date": "2021-05-10 12:05",
     "name": "neo",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Smart Contracts", "platform"]
+    "categories": ["Smart Contracts", "platform"],
+    "portfolios": []
   },
   "NEAR": {
-    "marketCap": { "marketCap": 1923313759, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 5255202345, "date": "2021-05-13 17:08" },
     "price": { "price": 5.16, "date": "2021-05-10 12:05" },
     "ticker": "NEAR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6535.png",
@@ -1549,17 +1562,16 @@
     "date": "2021-05-10 12:05",
     "name": "near-protocol",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["Kinetic Capital", "platform"],
+    "portfolios": [
       "Fabric Ventures Portfolio",
-      "Kinetic Capital",
       "electric-capital-portfolio",
       "Coinbase Ventures Portfolio",
-      "Coinfund Portfolio",
-      "platform"
+      "Coinfund Portfolio"
     ]
   },
   "NANO": {
-    "marketCap": { "marketCap": 1276853073, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 5162340163, "date": "2021-05-13 17:08" },
     "price": { "price": 9.58, "date": "2021-05-10 12:05" },
     "ticker": "NANO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1567.png",
@@ -1570,10 +1582,11 @@
     "date": "2021-05-10 12:05",
     "name": "nano",
     "exchanges": ["binance"],
-    "categories": ["pow", "payments"]
+    "categories": ["pow", "payments"],
+    "portfolios": []
   },
   "MTL": {
-    "marketCap": { "marketCap": 273894686, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 152685666, "date": "2021-05-13 17:08" },
     "price": { "price": 4.18, "date": "2021-05-10 12:05" },
     "ticker": "MTL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1788.png",
@@ -1584,10 +1597,11 @@
     "date": "2021-05-10 12:05",
     "name": "metal",
     "exchanges": ["upbit", "binance"],
-    "categories": ["payments"]
+    "categories": ["payments"],
+    "portfolios": []
   },
   "MKR": {
-    "marketCap": { "marketCap": 5353795472, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 9863195378, "date": "2021-05-13 17:08" },
     "price": { "price": 5379.41, "date": "2021-05-10 12:05" },
     "ticker": "MKR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1518.png",
@@ -1598,22 +1612,19 @@
     "date": "2021-05-10 12:05",
     "name": "maker",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["DAO", "lending-borowing", "Paradigm XZY Screener", "DeFi"],
+    "portfolios": [
       "DragonFly Capital Portfolio",
       "1Confirmation Portfolio",
-      "DAO",
       "Polychain Capital Portfolio",
       "Pantera Capital Portfolio",
-      "lending-borowing",
-      "Paradigm XZY Screener",
-      "DeFi",
       "Placeholder Ventures Portfolio",
       "A16Z Portfolio",
       "electric-capital-portfolio"
     ]
   },
   "MITH": {
-    "marketCap": { "marketCap": 120853833, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 258565746, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1209, "date": "2021-05-10 12:05" },
     "ticker": "MITH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2608.png",
@@ -1624,10 +1635,11 @@
     "date": "2021-05-10 12:05",
     "name": "mithril",
     "exchanges": ["binance"],
-    "categories": ["Media", "Content Creation", "Smart Contracts"]
+    "categories": ["Media", "Content Creation", "Smart Contracts"],
+    "portfolios": []
   },
   "MIR": {
-    "marketCap": { "marketCap": 655725046, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 1195615937, "date": "2021-05-13 17:08" },
     "price": { "price": 10.44, "date": "2021-05-10 12:05" },
     "ticker": "MIR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7857.png",
@@ -1638,16 +1650,11 @@
     "date": "2021-05-10 12:05",
     "name": "mirror-protocol",
     "exchanges": ["binance"],
-    "categories": [
-      "Cosmos Ecosystem",
-      "Pantera Capital Portfolio",
-      "DeFi",
-      "Derivatives",
-      "Synthetics"
-    ]
+    "categories": ["Cosmos Ecosystem", "DeFi", "Derivatives", "Synthetics"],
+    "portfolios": ["Pantera Capital Portfolio"]
   },
   "MIOTA": {
-    "marketCap": { "marketCap": 6322719418, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 10545626353, "date": "2021-05-13 17:08" },
     "price": { "price": 2.27, "date": "2021-05-10 12:05" },
     "ticker": "MIOTA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1720.png",
@@ -1658,10 +1665,11 @@
     "date": "2021-05-10 12:05",
     "name": "iota",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Sharing Economy", "IoT"]
+    "categories": ["Sharing Economy", "IoT"],
+    "portfolios": []
   },
   "MFT": {
-    "marketCap": { "marketCap": 162189235, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 194649928, "date": "2021-05-13 17:08" },
     "price": { "price": 0.01622, "date": "2021-05-10 12:05" },
     "ticker": "MFT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2896.png",
@@ -1677,10 +1685,11 @@
       "Smart Contracts",
       "Kinetic Capital",
       "platform"
-    ]
+    ],
+    "portfolios": []
   },
   "MDT": {
-    "marketCap": { "marketCap": 50962415, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 3972944, "date": "2021-05-13 17:08" },
     "price": { "price": 0.07641, "date": "2021-05-10 12:05" },
     "ticker": "MDT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2348.png",
@@ -1691,10 +1700,11 @@
     "date": "2021-05-10 12:05",
     "name": "measurable-data-token",
     "exchanges": ["binance"],
-    "categories": ["ai-big-data"]
+    "categories": ["ai-big-data"],
+    "portfolios": []
   },
   "MBL": {
-    "marketCap": { "marketCap": 91692596, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 27660178, "date": "2021-05-13 17:08" },
     "price": { "price": 0.01432, "date": "2021-05-10 12:05" },
     "ticker": "MBL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4038.png",
@@ -1705,10 +1715,11 @@
     "date": "2021-05-10 12:05",
     "name": "moviebloc",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Media", "Content Creation", "Video"]
+    "categories": ["Media", "Content Creation", "Video"],
+    "portfolios": []
   },
   "MATIC": {
-    "marketCap": { "marketCap": 4807009972, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 14328533637, "date": "2021-05-13 17:08" },
     "price": { "price": 0.9265, "date": "2021-05-10 12:05" },
     "ticker": "MATIC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png",
@@ -1719,15 +1730,11 @@
     "date": "2021-05-10 12:05",
     "name": "polygon",
     "exchanges": ["binance"],
-    "categories": [
-      "Binance Labs Portfolio",
-      "Binance Launchpad",
-      "Coinbase Ventures Portfolio",
-      "platform"
-    ]
+    "categories": ["Binance Launchpad", "platform"],
+    "portfolios": ["Binance Labs Portfolio", "Coinbase Ventures Portfolio"]
   },
   "MANA": {
-    "marketCap": { "marketCap": 2363052524, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 754288440, "date": "2021-05-13 17:08" },
     "price": { "price": 1.5, "date": "2021-05-10 12:05" },
     "ticker": "MANA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1966.png",
@@ -1739,19 +1746,21 @@
     "name": "decentraland",
     "exchanges": ["upbit", "binance"],
     "categories": [
-      "Fabric Ventures Portfolio",
       "Kinetic Capital",
-      "BoostVC Portfolio",
-      "DCG Portfolio",
       "collectibles-nfts",
       "Gaming",
       "Metaverse",
       "platform",
       "payments"
+    ],
+    "portfolios": [
+      "Fabric Ventures Portfolio",
+      "BoostVC Portfolio",
+      "DCG Portfolio"
     ]
   },
   "LUNA": {
-    "marketCap": { "marketCap": 6873572847, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 3219651665, "date": "2021-05-13 17:08" },
     "price": { "price": 17.81, "date": "2021-05-10 12:05" },
     "ticker": "LUNA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4172.png",
@@ -1766,17 +1775,19 @@
       "Cosmos Ecosystem",
       "Kinetic Capital",
       "Huobi Capital",
+      "DeFi",
+      "Solana Ecosystem",
+      "payments"
+    ],
+    "portfolios": [
       "Pantera Capital Portfolio",
       "Binance Labs Portfolio",
       "Hashkey Capital Portfolio",
-      "DeFi",
-      "Coinbase Ventures Portfolio",
-      "Solana Ecosystem",
-      "payments"
+      "Coinbase Ventures Portfolio"
     ]
   },
   "LTO": {
-    "marketCap": { "marketCap": 164379916, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 453007, "date": "2021-05-13 17:08" },
     "price": { "price": 0.5816, "date": "2021-05-10 12:05" },
     "ticker": "LTO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3714.png",
@@ -1787,10 +1798,11 @@
     "date": "2021-05-10 12:05",
     "name": "lto-network",
     "exchanges": ["binance"],
-    "categories": ["binance smart chain", "DAO Maker", "platform"]
+    "categories": ["binance smart chain", "DAO Maker", "platform"],
+    "portfolios": []
   },
   "LTC": {
-    "marketCap": { "marketCap": 27066906120, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 11607785455, "date": "2021-05-13 17:08" },
     "price": { "price": 405.48, "date": "2021-05-10 12:05" },
     "ticker": "LTC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2.png",
@@ -1801,10 +1813,11 @@
     "date": "2021-05-10 12:05",
     "name": "litecoin",
     "exchanges": ["upbit", "binance"],
-    "categories": ["pow", "mineable"]
+    "categories": ["pow", "mineable"],
+    "portfolios": []
   },
   "LSK": {
-    "marketCap": { "marketCap": 1190193539, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 947040097, "date": "2021-05-13 17:08" },
     "price": { "price": 9.3, "date": "2021-05-10 12:05" },
     "ticker": "LSK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1214.png",
@@ -1815,10 +1828,11 @@
     "date": "2021-05-10 12:05",
     "name": "lisk",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Smart Contracts", "platform"]
+    "categories": ["Smart Contracts", "platform"],
+    "portfolios": []
   },
   "LRC": {
-    "marketCap": { "marketCap": 705062589, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 869457898, "date": "2021-05-13 17:08" },
     "price": { "price": 0.5766, "date": "2021-05-10 12:05" },
     "ticker": "LRC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1934.png",
@@ -1829,10 +1843,11 @@
     "date": "2021-05-10 12:05",
     "name": "loopring",
     "exchanges": ["binance"],
-    "categories": ["Decentralized exchange", "DeFi"]
+    "categories": ["Decentralized exchange", "DeFi"],
+    "portfolios": []
   },
   "LIT": {
-    "marketCap": { "marketCap": 151814059, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 2138270, "date": "2021-05-13 17:08" },
     "price": { "price": 8.29, "date": "2021-05-10 12:05" },
     "ticker": "LIT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6833.png",
@@ -1843,10 +1858,11 @@
     "date": "2021-05-10 12:05",
     "name": "litentry",
     "exchanges": ["binance"],
-    "categories": ["Polkadot Ecosystem"]
+    "categories": ["Polkadot Ecosystem"],
+    "portfolios": []
   },
   "LINK": {
-    "marketCap": { "marketCap": 21714545769, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 47536910653, "date": "2021-05-13 17:08" },
     "price": { "price": 51.82, "date": "2021-05-10 12:05" },
     "ticker": "LINK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
@@ -1865,10 +1881,11 @@
       "Polkadot Ecosystem",
       "Solana Ecosystem",
       "platform"
-    ]
+    ],
+    "portfolios": []
   },
   "LINA": {
-    "marketCap": { "marketCap": 355958391, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 658048406, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1004, "date": "2021-05-10 12:05" },
     "ticker": "LINA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7102.png",
@@ -1884,15 +1901,14 @@
       "Yield farming",
       "Kinetic Capital",
       "Decentralized exchange",
-      "Alameda Research Portfolio",
       "DeFi",
-      "CMS Holdings Portfolio",
       "Polkadot Ecosystem",
       "services"
-    ]
+    ],
+    "portfolios": ["Alameda Research Portfolio", "CMS Holdings Portfolio"]
   },
   "KSM": {
-    "marketCap": { "marketCap": 3842869610, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 4507954994, "date": "2021-05-13 17:08" },
     "price": { "price": 453.7, "date": "2021-05-10 12:05" },
     "ticker": "KSM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5034.png",
@@ -1903,15 +1919,11 @@
     "date": "2021-05-10 12:05",
     "name": "kusama",
     "exchanges": ["binance"],
-    "categories": [
-      "1Confirmation Portfolio",
-      "Kinetic Capital",
-      "CMS Holdings Portfolio",
-      "Polkadot Ecosystem"
-    ]
+    "categories": ["Kinetic Capital", "Polkadot Ecosystem"],
+    "portfolios": ["1Confirmation Portfolio", "CMS Holdings Portfolio"]
   },
   "KNC": {
-    "marketCap": { "marketCap": 712129032, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 122901032, "date": "2021-05-13 17:08" },
     "price": { "price": 3.47, "date": "2021-05-10 12:05" },
     "ticker": "KNC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1982.png",
@@ -1927,14 +1939,16 @@
       "Kinetic Capital",
       "Decentralized exchange",
       "ParaFi capital",
-      "Pantera Capital Portfolio",
       "DeFi",
-      "Three Arrows Capital Portfolio",
       "AMM"
+    ],
+    "portfolios": [
+      "Pantera Capital Portfolio",
+      "Three Arrows Capital Portfolio"
     ]
   },
   "KMD": {
-    "marketCap": { "marketCap": 426833959, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 509656897, "date": "2021-05-13 17:08" },
     "price": { "price": 3.4, "date": "2021-05-10 12:05" },
     "ticker": "KMD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1521.png",
@@ -1945,10 +1959,11 @@
     "date": "2021-05-10 12:05",
     "name": "komodo",
     "exchanges": ["upbit", "binance"],
-    "categories": ["platform", "mineable"]
+    "categories": ["platform", "mineable"],
+    "portfolios": []
   },
   "KEY": {
-    "marketCap": { "marketCap": 77689588, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 4024252, "date": "2021-05-13 17:08" },
     "price": { "price": 0.01693, "date": "2021-05-10 12:05" },
     "ticker": "KEY",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2398.png",
@@ -1959,10 +1974,11 @@
     "date": "2021-05-10 12:05",
     "name": "selfkey",
     "exchanges": ["binance"],
-    "categories": ["Gaming", "Identity", "platform"]
+    "categories": ["Gaming", "Identity", "platform"],
+    "portfolios": []
   },
   "KAVA": {
-    "marketCap": { "marketCap": 442492915, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 586284612, "date": "2021-05-13 17:08" },
     "price": { "price": 6.31, "date": "2021-05-10 12:05" },
     "ticker": "KAVA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4846.png",
@@ -1977,14 +1993,13 @@
       "Framework Ventures",
       "Cosmos Ecosystem",
       "lending-borowing",
-      "Binance Labs Portfolio",
-      "Hashkey Capital Portfolio",
       "DeFi",
       "Binance Launchpad"
-    ]
+    ],
+    "portfolios": ["Binance Labs Portfolio", "Hashkey Capital Portfolio"]
   },
   "JUV": {
-    "marketCap": { "marketCap": 21474290, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 1081044, "date": "2021-05-13 17:08" },
     "price": { "price": 16.32, "date": "2021-05-10 12:05" },
     "ticker": "JUV",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5224.png",
@@ -1995,10 +2010,11 @@
     "date": "2021-05-10 12:05",
     "name": "juventus-fan-token",
     "exchanges": ["binance"],
-    "categories": ["Fan token", "Sports"]
+    "categories": ["Fan token", "Sports"],
+    "portfolios": []
   },
   "JST": {
-    "marketCap": { "marketCap": 309056642, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 415561482, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1367, "date": "2021-05-10 12:05" },
     "ticker": "JST",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5488.png",
@@ -2009,10 +2025,11 @@
     "date": "2021-05-10 12:05",
     "name": "just",
     "exchanges": ["upbit", "binance"],
-    "categories": ["DeFi"]
+    "categories": ["DeFi"],
+    "portfolios": []
   },
   "IRIS": {
-    "marketCap": { "marketCap": 173883262, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 3178106, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1738, "date": "2021-05-10 12:05" },
     "ticker": "IRIS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3874.png",
@@ -2023,10 +2040,11 @@
     "date": "2021-05-10 12:05",
     "name": "irisnet",
     "exchanges": ["binance"],
-    "categories": ["Cosmos Ecosystem"]
+    "categories": ["Cosmos Ecosystem"],
+    "portfolios": []
   },
   "IOTX": {
-    "marketCap": { "marketCap": 519336520, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 621735182, "date": "2021-05-13 17:08" },
     "price": { "price": 0.05385, "date": "2021-05-10 12:05" },
     "ticker": "IOTX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2777.png",
@@ -2037,15 +2055,11 @@
     "date": "2021-05-10 12:05",
     "name": "iotex",
     "exchanges": ["binance"],
-    "categories": [
-      "Kinetic Capital",
-      "IoT",
-      "Hashkey Capital Portfolio",
-      "platform"
-    ]
+    "categories": ["Kinetic Capital", "IoT", "platform"],
+    "portfolios": ["Hashkey Capital Portfolio"]
   },
   "IOST": {
-    "marketCap": { "marketCap": 1058322888, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 134889610, "date": "2021-05-13 17:08" },
     "price": { "price": 0.06432, "date": "2021-05-10 12:05" },
     "ticker": "IOST",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2405.png",
@@ -2056,10 +2070,11 @@
     "date": "2021-05-10 12:05",
     "name": "iostoken",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Huobi Capital", "IoT"]
+    "categories": ["Huobi Capital", "IoT"],
+    "portfolios": []
   },
   "INJ": {
-    "marketCap": { "marketCap": 454040323, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 676822700, "date": "2021-05-13 17:08" },
     "price": { "price": 18.87, "date": "2021-05-10 12:05" },
     "ticker": "INJ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7226.png",
@@ -2075,16 +2090,18 @@
       "Smart Contracts",
       "Cosmos Ecosystem",
       "Decentralized exchange",
-      "Pantera Capital Portfolio",
-      "Binance Labs Portfolio",
       "DeFi",
-      "CMS Holdings Portfolio",
       "Derivatives",
       "Binance Launchpad"
+    ],
+    "portfolios": [
+      "Pantera Capital Portfolio",
+      "Binance Labs Portfolio",
+      "CMS Holdings Portfolio"
     ]
   },
   "ICX": {
-    "marketCap": { "marketCap": 1678033424, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 460625759, "date": "2021-05-13 17:08" },
     "price": { "price": 2.68, "date": "2021-05-10 12:05" },
     "ticker": "ICX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2099.png",
@@ -2095,15 +2112,11 @@
     "date": "2021-05-10 12:05",
     "name": "icon",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "Kinetic Capital",
-      "Pantera Capital Portfolio",
-      "Interoperability",
-      "platform"
-    ]
+    "categories": ["Kinetic Capital", "Interoperability", "platform"],
+    "portfolios": ["Pantera Capital Portfolio"]
   },
   "HOT": {
-    "marketCap": { "marketCap": 2499227494, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 250825247, "date": "2021-05-13 17:08" },
     "price": { "price": 0.01477, "date": "2021-05-10 12:05" },
     "ticker": "HOT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2682.png",
@@ -2120,10 +2133,11 @@
       "Distributed Computing",
       "Decentralized exchange",
       "platform"
-    ]
+    ],
+    "portfolios": []
   },
   "HNT": {
-    "marketCap": { "marketCap": 1395114915, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 4119812076, "date": "2021-05-13 17:08" },
     "price": { "price": 17.02, "date": "2021-05-10 12:05" },
     "ticker": "HNT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5665.png",
@@ -2134,16 +2148,11 @@
     "date": "2021-05-10 12:05",
     "name": "helium",
     "exchanges": ["binance"],
-    "categories": [
-      "Distributed Computing",
-      "USV Portfolio",
-      "IoT",
-      "Multicoin Capital Portfolio",
-      "mineable"
-    ]
+    "categories": ["Distributed Computing", "IoT", "mineable"],
+    "portfolios": ["USV Portfolio", "Multicoin Capital Portfolio"]
   },
   "HIVE": {
-    "marketCap": { "marketCap": 225958348, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 326140610, "date": "2021-05-13 17:08" },
     "price": { "price": 0.5686, "date": "2021-05-10 12:05" },
     "ticker": "HIVE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5370.png",
@@ -2154,10 +2163,11 @@
     "date": "2021-05-10 12:05",
     "name": "hive",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Media", "Content Creation", "Scaling"]
+    "categories": ["Media", "Content Creation", "Scaling"],
+    "portfolios": []
   },
   "HBAR": {
-    "marketCap": { "marketCap": 2459967609, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 3087716610, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2981, "date": "2021-05-10 12:05" },
     "ticker": "HBAR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png",
@@ -2168,10 +2178,11 @@
     "date": "2021-05-10 12:05",
     "name": "hedera-hashgraph",
     "exchanges": ["upbit", "binance"],
-    "categories": ["DCG Portfolio", "payments"]
+    "categories": ["payments"],
+    "portfolios": ["DCG Portfolio"]
   },
   "HARD": {
-    "marketCap": { "marketCap": 95387417, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 88441421, "date": "2021-05-13 17:08" },
     "price": { "price": 1.56, "date": "2021-05-10 12:05" },
     "ticker": "HARD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7576.png",
@@ -2182,10 +2193,15 @@
     "date": "2021-05-10 12:05",
     "name": "hard-protocol",
     "exchanges": ["binance"],
-    "categories": ["Cosmos Ecosystem", "Binance Launchpool", "lending-borowing"]
+    "categories": [
+      "Cosmos Ecosystem",
+      "Binance Launchpool",
+      "lending-borowing"
+    ],
+    "portfolios": []
   },
   "GTO": {
-    "marketCap": { "marketCap": 60953323, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 2353742, "date": "2021-05-13 17:08" },
     "price": { "price": 0.07914, "date": "2021-05-10 12:05" },
     "ticker": "GTO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2289.png",
@@ -2196,16 +2212,11 @@
     "date": "2021-05-10 12:05",
     "name": "gifto",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "Media",
-      "Loyalty",
-      "Content Creation",
-      "Pantera Capital Portfolio",
-      "Binance Launchpad"
-    ]
+    "categories": ["Media", "Loyalty", "Content Creation", "Binance Launchpad"],
+    "portfolios": ["Pantera Capital Portfolio"]
   },
   "GRT": {
-    "marketCap": { "marketCap": 1942296381, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 4657918049, "date": "2021-05-13 17:08" },
     "price": { "price": 1.56, "date": "2021-05-10 12:05" },
     "ticker": "GRT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6719.png",
@@ -2219,21 +2230,23 @@
     "categories": [
       "binance smart chain",
       "Analytics",
-      "Fabric Ventures Portfolio",
-      "LedgerPrime Portfolio",
       "Framework Ventures",
-      "DCG Portfolio",
       "ParaFi capital",
       "DeFi",
-      "Multicoin Capital Portfolio",
       "ai-big-data",
-      "Coinbase Ventures Portfolio",
-      "Coinfund Portfolio",
       "Solana Ecosystem"
+    ],
+    "portfolios": [
+      "Fabric Ventures Portfolio",
+      "LedgerPrime Portfolio",
+      "DCG Portfolio",
+      "Multicoin Capital Portfolio",
+      "Coinbase Ventures Portfolio",
+      "Coinfund Portfolio"
     ]
   },
   "FUN": {
-    "marketCap": { "marketCap": 447564291, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 580405464, "date": "2021-05-13 17:08" },
     "price": { "price": 0.04346, "date": "2021-05-10 12:05" },
     "ticker": "FUN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1757.png",
@@ -2244,10 +2257,11 @@
     "date": "2021-05-10 12:05",
     "name": "funtoken",
     "exchanges": ["binance"],
-    "categories": ["Pantera Capital Portfolio", "Gambling", "payments"]
+    "categories": ["Gambling", "payments"],
+    "portfolios": ["Pantera Capital Portfolio"]
   },
   "FTT": {
-    "marketCap": { "marketCap": 5899376112, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 11867884425, "date": "2021-05-13 17:08" },
     "price": { "price": 62.53, "date": "2021-05-10 12:05" },
     "ticker": "FTT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4195.png",
@@ -2258,18 +2272,16 @@
     "date": "2021-05-10 12:05",
     "name": "ftx-token",
     "exchanges": ["binance"],
-    "categories": [
-      "Kinetic Capital",
+    "categories": ["Kinetic Capital", "Centralized exchange", "Derivatives"],
+    "portfolios": [
       "Pantera Capital Portfolio",
       "Alameda Research Portfolio",
-      "Centralized exchange",
       "CMS Holdings Portfolio",
-      "Derivatives",
       "Exnetwork Capital Portfolio"
     ]
   },
   "FTM": {
-    "marketCap": { "marketCap": 2299575023, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 4734381199, "date": "2021-05-13 17:08" },
     "price": { "price": 0.9036, "date": "2021-05-10 12:05" },
     "ticker": "FTM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3513.png",
@@ -2280,10 +2292,17 @@
     "date": "2021-05-10 12:05",
     "name": "fantom",
     "exchanges": ["binance"],
-    "categories": ["Scaling", "Smart Contracts", "Research", "DeFi", "platform"]
+    "categories": [
+      "Scaling",
+      "Smart Contracts",
+      "Research",
+      "DeFi",
+      "platform"
+    ],
+    "portfolios": []
   },
   "FORTH": {
-    "marketCap": { "marketCap": 240313808, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 355501708, "date": "2021-05-13 17:08" },
     "price": { "price": 37.33, "date": "2021-05-10 12:05" },
     "ticker": "FORTH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/9421.png",
@@ -2294,10 +2313,11 @@
     "date": "2021-05-10 12:05",
     "name": "ampleforth-governance-token",
     "exchanges": ["binance"],
-    "categories": ["DAO"]
+    "categories": ["DAO"],
+    "portfolios": []
   },
   "FLM": {
-    "marketCap": { "marketCap": 146101911, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 151671689, "date": "2021-05-13 17:08" },
     "price": { "price": 0.974, "date": "2021-05-10 12:05" },
     "ticker": "FLM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7150.png",
@@ -2308,10 +2328,11 @@
     "date": "2021-05-10 12:05",
     "name": "flamingo",
     "exchanges": ["binance"],
-    "categories": ["Yield farming", "DAO", "Binance Launchpool", "DeFi"]
+    "categories": ["Yield farming", "DAO", "Binance Launchpool", "DeFi"],
+    "portfolios": []
   },
   "FIS": {
-    "marketCap": { "marketCap": 30544998, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 156121, "date": "2021-05-13 17:08" },
     "price": { "price": 2.72, "date": "2021-05-10 12:05" },
     "ticker": "FIS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5882.png",
@@ -2322,10 +2343,11 @@
     "date": "2021-05-10 12:05",
     "name": "stafi",
     "exchanges": ["binance"],
-    "categories": ["Polkadot Ecosystem", "Exnetwork Capital Portfolio"]
+    "categories": ["Polkadot Ecosystem"],
+    "portfolios": ["Exnetwork Capital Portfolio"]
   },
   "FIRO": {
-    "marketCap": { "marketCap": 224913473, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 348948525, "date": "2021-05-13 17:08" },
     "price": { "price": 18.99, "date": "2021-05-10 12:05" },
     "ticker": "FIRO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1414.png",
@@ -2336,10 +2358,11 @@
     "date": "2021-05-10 12:05",
     "name": "firo",
     "exchanges": ["binance"],
-    "categories": ["Masternodes", "Privacy", "pow", "mineable"]
+    "categories": ["Masternodes", "Privacy", "pow", "mineable"],
+    "portfolios": []
   },
   "FIO": {
-    "marketCap": { "marketCap": 81213395, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 83061046, "date": "2021-05-13 17:08" },
     "price": { "price": 0.3455, "date": "2021-05-10 12:05" },
     "ticker": "FIO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5865.png",
@@ -2350,10 +2373,11 @@
     "date": "2021-05-10 12:05",
     "name": "fio-protocol",
     "exchanges": ["binance"],
-    "categories": ["collectibles-nfts"]
+    "categories": ["collectibles-nfts"],
+    "portfolios": []
   },
   "FIL": {
-    "marketCap": { "marketCap": 10375086304, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 21688549913, "date": "2021-05-13 17:08" },
     "price": { "price": 147.85, "date": "2021-05-10 12:05" },
     "ticker": "FIL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2280.png",
@@ -2366,21 +2390,23 @@
     "exchanges": ["binance"],
     "categories": [
       "Storage",
-      "Blockchain Capital Portfolio",
       "Filesharing",
       "Distributed Computing",
       "Winklevoss Capital",
+      "mineable"
+    ],
+    "portfolios": [
+      "Blockchain Capital Portfolio",
       "BoostVC Portfolio",
       "DCG Portfolio",
       "Polychain Capital Portfolio",
       "Pantera Capital Portfolio",
       "Hashkey Capital Portfolio",
-      "A16Z Portfolio",
-      "mineable"
+      "A16Z Portfolio"
     ]
   },
   "FET": {
-    "marketCap": { "marketCap": 426449707, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 57728621, "date": "2021-05-13 17:08" },
     "price": { "price": 0.5716, "date": "2021-05-10 12:05" },
     "ticker": "FET",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3773.png",
@@ -2391,10 +2417,11 @@
     "date": "2021-05-10 12:05",
     "name": "fetch",
     "exchanges": ["binance"],
-    "categories": ["Cosmos Ecosystem", "Binance Launchpad", "ai-big-data"]
+    "categories": ["Cosmos Ecosystem", "Binance Launchpad", "ai-big-data"],
+    "portfolios": []
   },
   "ETH": {
-    "marketCap": { "marketCap": 470270137638, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 96173219033, "date": "2021-05-13 17:08" },
     "price": { "price": 4060.69, "date": "2021-05-10 12:05" },
     "ticker": "ETH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
@@ -2406,15 +2433,20 @@
     "name": "ethereum",
     "exchanges": ["upbit", "binance"],
     "categories": [
-      "DragonFly Capital Portfolio",
-      "1Confirmation Portfolio",
-      "Blockchain Capital Portfolio",
       "Winklevoss Capital",
-      "Fabric Ventures Portfolio",
       "Framework Ventures",
       "Smart Contracts",
       "Kinetic Capital",
       "Huobi Capital",
+      "Paradigm XZY Screener",
+      "pow",
+      "mineable"
+    ],
+    "portfolios": [
+      "DragonFly Capital Portfolio",
+      "1Confirmation Portfolio",
+      "Blockchain Capital Portfolio",
+      "Fabric Ventures Portfolio",
       "BoostVC Portfolio",
       "USV Portfolio",
       "DCG Portfolio",
@@ -2422,7 +2454,6 @@
       "Pantera Capital Portfolio",
       "Alameda Research Portfolio",
       "Binance Labs Portfolio",
-      "Paradigm XZY Screener",
       "Hashkey Capital Portfolio",
       "Multicoin Capital Portfolio",
       "Placeholder Ventures Portfolio",
@@ -2430,13 +2461,11 @@
       "CMS Holdings Portfolio",
       "A16Z Portfolio",
       "electric-capital-portfolio",
-      "Coinbase Ventures Portfolio",
-      "pow",
-      "mineable"
+      "Coinbase Ventures Portfolio"
     ]
   },
   "ETC": {
-    "marketCap": { "marketCap": 14497685547, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 5684227678, "date": "2021-05-13 17:08" },
     "price": { "price": 124.64, "date": "2021-05-10 12:05" },
     "ticker": "ETC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1321.png",
@@ -2447,16 +2476,11 @@
     "date": "2021-05-10 12:05",
     "name": "ethereum-classic",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "Smart Contracts",
-      "DCG Portfolio",
-      "platform",
-      "pow",
-      "mineable"
-    ]
+    "categories": ["Smart Contracts", "platform", "pow", "mineable"],
+    "portfolios": ["DCG Portfolio"]
   },
   "EPS": {
-    "marketCap": { "marketCap": 280070616, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 76601924, "date": "2021-05-13 17:08" },
     "price": { "price": 2.33, "date": "2021-05-10 12:05" },
     "ticker": "EPS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8938.png",
@@ -2467,10 +2491,11 @@
     "date": "2021-05-10 12:05",
     "name": "ellipsis",
     "exchanges": ["binance"],
-    "categories": ["Decentralized exchange", "DeFi"]
+    "categories": ["Decentralized exchange", "DeFi"],
+    "portfolios": []
   },
   "EOS": {
-    "marketCap": { "marketCap": 10168244055, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 24587297856, "date": "2021-05-13 17:08" },
     "price": { "price": 10.67, "date": "2021-05-10 12:05" },
     "ticker": "EOS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1765.png",
@@ -2481,14 +2506,11 @@
     "date": "2021-05-10 12:05",
     "name": "eos",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "Fenbushi Capital Portfolio",
-      "Galaxy Digital Portfolio",
-      "Smart Contracts"
-    ]
+    "categories": ["Smart Contracts"],
+    "portfolios": ["Fenbushi Capital Portfolio", "Galaxy Digital Portfolio"]
   },
   "ENJ": {
-    "marketCap": { "marketCap": 2063039761, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 5100508684, "date": "2021-05-13 17:08" },
     "price": { "price": 2.47, "date": "2021-05-10 12:05" },
     "ticker": "ENJ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2130.png",
@@ -2499,10 +2521,11 @@
     "date": "2021-05-10 12:05",
     "name": "enjin-coin",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Media", "collectibles-nfts", "Gaming", "Metaverse"]
+    "categories": ["Media", "collectibles-nfts", "Gaming", "Metaverse"],
+    "portfolios": []
   },
   "EGLD": {
-    "marketCap": { "marketCap": 3326754858, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 3685614330, "date": "2021-05-13 17:08" },
     "price": { "price": 190.88, "date": "2021-05-10 12:05" },
     "ticker": "EGLD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6892.png",
@@ -2513,15 +2536,15 @@
     "date": "2021-05-10 12:05",
     "name": "elrond",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["Binance Launchpad"],
+    "portfolios": [
       "Binance Labs Portfolio",
       "electric-capital-portfolio",
-      "Binance Launchpad",
       "Exnetwork Capital Portfolio"
     ]
   },
   "DUSK": {
-    "marketCap": { "marketCap": 103567015, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 1112289, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2814, "date": "2021-05-10 12:05" },
     "ticker": "DUSK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4092.png",
@@ -2532,10 +2555,11 @@
     "date": "2021-05-10 12:05",
     "name": "dusk-network",
     "exchanges": ["binance"],
-    "categories": ["Smart Contracts", "Privacy"]
+    "categories": ["Smart Contracts", "Privacy"],
+    "portfolios": []
   },
   "DREP": {
-    "marketCap": { "marketCap": 60876874, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 3625098, "date": "2021-05-13 17:08" },
     "price": { "price": 1.53, "date": "2021-05-10 12:05" },
     "ticker": "DREP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/9148.png",
@@ -2546,10 +2570,11 @@
     "date": "2021-05-10 12:05",
     "name": "drep-new",
     "exchanges": ["binance"],
-    "categories": ["binance smart chain", "Smart Contracts", "Oracles"]
+    "categories": ["binance smart chain", "Smart Contracts", "Oracles"],
+    "portfolios": []
   },
   "DOT": {
-    "marketCap": { "marketCap": 38740991924, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 55241133843, "date": "2021-05-13 17:08" },
     "price": { "price": 41.36, "date": "2021-05-10 12:05" },
     "ticker": "DOT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6636.png",
@@ -2560,12 +2585,12 @@
     "date": "2021-05-10 12:05",
     "name": "polkadot",
     "exchanges": ["upbit", "binance"],
-    "categories": [
+    "categories": ["Kinetic Capital", "Polkadot Ecosystem"],
+    "portfolios": [
       "Fenbushi Capital Portfolio",
       "1Confirmation Portfolio",
       "Blockchain Capital Portfolio",
       "Fabric Ventures Portfolio",
-      "Kinetic Capital",
       "BoostVC Portfolio",
       "Polychain Capital Portfolio",
       "Pantera Capital Portfolio",
@@ -2573,13 +2598,12 @@
       "Placeholder Ventures Portfolio",
       "Three Arrows Capital Portfolio",
       "CMS Holdings Portfolio",
-      "Polkadot Ecosystem",
       "Exnetwork Capital Portfolio",
       "Coinfund Portfolio"
     ]
   },
   "DOGE": {
-    "marketCap": { "marketCap": 67741325276, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 6076574699, "date": "2021-05-13 17:08" },
     "price": { "price": 0.523, "date": "2021-05-10 12:05" },
     "ticker": "DOGE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/74.png",
@@ -2590,10 +2614,11 @@
     "date": "2021-05-10 12:05",
     "name": "dogecoin",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Memes", "pow", "mineable", "payments"]
+    "categories": ["Memes", "pow", "mineable", "payments"],
+    "portfolios": []
   },
   "DODO": {
-    "marketCap": { "marketCap": 396649710, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 327566711, "date": "2021-05-13 17:08" },
     "price": { "price": 3.59, "date": "2021-05-10 12:05" },
     "ticker": "DODO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7224.png",
@@ -2608,18 +2633,20 @@
       "binance smart chain",
       "Framework Ventures",
       "Decentralized exchange",
+      "DeFi",
+      "DeFiance Capital"
+    ],
+    "portfolios": [
       "Pantera Capital Portfolio",
       "Alameda Research Portfolio",
-      "DeFi",
       "Three Arrows Capital Portfolio",
       "CMS Holdings Portfolio",
       "Exnetwork Capital Portfolio",
-      "Coinbase Ventures Portfolio",
-      "DeFiance Capital"
+      "Coinbase Ventures Portfolio"
     ]
   },
   "DOCK": {
-    "marketCap": { "marketCap": 83006521, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 66815908, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1209, "date": "2021-05-10 12:05" },
     "ticker": "DOCK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2675.png",
@@ -2630,10 +2657,11 @@
     "date": "2021-05-10 12:05",
     "name": "dock",
     "exchanges": ["binance"],
-    "categories": ["Smart Contracts", "Polkadot Ecosystem", "ai-big-data"]
+    "categories": ["Smart Contracts", "Polkadot Ecosystem", "ai-big-data"],
+    "portfolios": []
   },
   "DNT": {
-    "marketCap": { "marketCap": 191769317, "date": "2021-05-10 12:05" },
+    "marketCap": { "marketCap": 170309199, "date": "2021-05-13 17:08" },
     "price": { "price": 0.3196, "date": "2021-05-10 12:05" },
     "ticker": "DNT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1856.png",
@@ -2644,10 +2672,11 @@
     "date": "2021-05-10 12:05",
     "name": "district0x",
     "exchanges": ["binance"],
-    "categories": ["BoostVC Portfolio", "platform", "payments"]
+    "categories": ["platform", "payments"],
+    "portfolios": ["BoostVC Portfolio"]
   },
   "DIA": {
-    "marketCap": { "marketCap": 210254769, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 175574784, "date": "2021-05-13 17:08" },
     "price": { "price": 5.07, "date": "2021-05-10 13:05" },
     "ticker": "DIA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6138.png",
@@ -2658,15 +2687,11 @@
     "date": "2021-05-10 13:05",
     "name": "dia",
     "exchanges": ["binance"],
-    "categories": [
-      "DeFi",
-      "Oracles",
-      "Polkadot Ecosystem",
-      "Exnetwork Capital Portfolio"
-    ]
+    "categories": ["DeFi", "Oracles", "Polkadot Ecosystem"],
+    "portfolios": ["Exnetwork Capital Portfolio"]
   },
   "DGB": {
-    "marketCap": { "marketCap": 2129224292, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 107951700, "date": "2021-05-13 17:08" },
     "price": { "price": 0.149, "date": "2021-05-10 13:05" },
     "ticker": "DGB",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/109.png",
@@ -2677,10 +2702,11 @@
     "date": "2021-05-10 13:05",
     "name": "digibyte",
     "exchanges": ["binance"],
-    "categories": ["IoT", "collectibles-nfts", "pow", "mineable", "payments"]
+    "categories": ["IoT", "collectibles-nfts", "pow", "mineable", "payments"],
+    "portfolios": []
   },
   "DENT": {
-    "marketCap": { "marketCap": 878255232, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 73111948, "date": "2021-05-13 17:08" },
     "price": { "price": 0.00934, "date": "2021-05-10 13:05" },
     "ticker": "DENT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1886.png",
@@ -2691,10 +2717,11 @@
     "date": "2021-05-10 13:05",
     "name": "dent",
     "exchanges": ["binance"],
-    "categories": ["services"]
+    "categories": ["services"],
+    "portfolios": []
   },
   "DEGO": {
-    "marketCap": { "marketCap": 126477548, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 81680, "date": "2021-05-13 17:08" },
     "price": { "price": 14.69, "date": "2021-05-10 13:05" },
     "ticker": "DEGO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7087.png",
@@ -2712,10 +2739,11 @@
       "collectibles-nfts",
       "Polkadot Ecosystem",
       "Binance Launchpad"
-    ]
+    ],
+    "portfolios": []
   },
   "DCR": {
-    "marketCap": { "marketCap": 2959884697, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 1884928823, "date": "2021-05-13 17:08" },
     "price": { "price": 229.26, "date": "2021-05-10 13:05" },
     "ticker": "DCR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1168.png",
@@ -2726,15 +2754,11 @@
     "date": "2021-05-10 13:05",
     "name": "decred",
     "exchanges": ["binance"],
-    "categories": [
-      "DAO",
-      "Privacy",
-      "Placeholder Ventures Portfolio",
-      "mineable"
-    ]
+    "categories": ["DAO", "Privacy", "mineable"],
+    "portfolios": ["Placeholder Ventures Portfolio"]
   },
   "DATA": {
-    "marketCap": { "marketCap": 145924111, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 1419336, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1679, "date": "2021-05-10 13:05" },
     "ticker": "DATA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2143.png",
@@ -2748,14 +2772,14 @@
     "categories": [
       "Filesharing",
       "Distributed Computing",
-      "Fabric Ventures Portfolio",
       "IoT",
       "ai-big-data",
       "platform"
-    ]
+    ],
+    "portfolios": ["Fabric Ventures Portfolio"]
   },
   "DASH": {
-    "marketCap": { "marketCap": 4303400821, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 12486527489, "date": "2021-05-13 17:08" },
     "price": { "price": 425.1, "date": "2021-05-10 13:05" },
     "ticker": "DASH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/131.png",
@@ -2766,10 +2790,11 @@
     "date": "2021-05-10 13:05",
     "name": "dash",
     "exchanges": ["binance"],
-    "categories": ["DAO", "Masternodes", "Privacy", "mineable"]
+    "categories": ["DAO", "Masternodes", "Privacy", "mineable"],
+    "portfolios": []
   },
   "CVC": {
-    "marketCap": { "marketCap": 392420620, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 24571606, "date": "2021-05-13 17:08" },
     "price": { "price": 0.5857, "date": "2021-05-10 13:05" },
     "ticker": "CVC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1816.png",
@@ -2780,15 +2805,11 @@
     "date": "2021-05-10 13:05",
     "name": "civic",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "DCG Portfolio",
-      "Pantera Capital Portfolio",
-      "Identity",
-      "Solana Ecosystem"
-    ]
+    "categories": ["Identity", "Solana Ecosystem"],
+    "portfolios": ["DCG Portfolio", "Pantera Capital Portfolio"]
   },
   "CTXC": {
-    "marketCap": { "marketCap": 122782526, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 94967660, "date": "2021-05-13 17:08" },
     "price": { "price": 0.4913, "date": "2021-05-10 13:05" },
     "ticker": "CTXC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2638.png",
@@ -2805,10 +2826,11 @@
       "IoT",
       "platform",
       "mineable"
-    ]
+    ],
+    "portfolios": []
   },
   "CTSI": {
-    "marketCap": { "marketCap": 469183249, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 122200787, "date": "2021-05-13 17:08" },
     "price": { "price": 1.39, "date": "2021-05-10 13:05" },
     "ticker": "CTSI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5444.png",
@@ -2819,10 +2841,11 @@
     "date": "2021-05-10 13:05",
     "name": "cartesi",
     "exchanges": ["binance"],
-    "categories": ["Binance Launchpad"]
+    "categories": ["Binance Launchpad"],
+    "portfolios": []
   },
   "CTK": {
-    "marketCap": { "marketCap": 140365263, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 1700559, "date": "2021-05-13 17:08" },
     "price": { "price": 3.15, "date": "2021-05-10 13:05" },
     "ticker": "CTK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4807.png",
@@ -2840,12 +2863,12 @@
       "Kinetic Capital",
       "Cybersecurity",
       "Binance Launchpool",
-      "Binance Labs Portfolio",
       "Interoperability"
-    ]
+    ],
+    "portfolios": ["Binance Labs Portfolio"]
   },
   "CRV": {
-    "marketCap": { "marketCap": 952493218, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 3599960070, "date": "2021-05-13 17:08" },
     "price": { "price": 3.48, "date": "2021-05-10 13:05" },
     "ticker": "CRV",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6538.png",
@@ -2861,13 +2884,13 @@
       "DAO",
       "Framework Ventures",
       "Decentralized exchange",
-      "Alameda Research Portfolio",
       "DeFi",
       "AMM"
-    ]
+    ],
+    "portfolios": ["Alameda Research Portfolio"]
   },
   "COTI": {
-    "marketCap": { "marketCap": 243702592, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 540856358, "date": "2021-05-13 17:08" },
     "price": { "price": 0.3639, "date": "2021-05-10 13:05" },
     "ticker": "COTI",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3992.png",
@@ -2878,10 +2901,11 @@
     "date": "2021-05-10 13:05",
     "name": "coti",
     "exchanges": ["binance"],
-    "categories": ["DeFi"]
+    "categories": ["DeFi"],
+    "portfolios": []
   },
   "COS": {
-    "marketCap": { "marketCap": 97757035, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 91600873, "date": "2021-05-13 17:08" },
     "price": { "price": 0.03243, "date": "2021-05-10 13:05" },
     "ticker": "COS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4036.png",
@@ -2892,10 +2916,11 @@
     "date": "2021-05-10 13:05",
     "name": "contentos",
     "exchanges": ["binance"],
-    "categories": ["Media", "Content Creation", "Video"]
+    "categories": ["Media", "Content Creation", "Video"],
+    "portfolios": []
   },
   "COMP": {
-    "marketCap": { "marketCap": 3984350910, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 2929111380, "date": "2021-05-13 17:08" },
     "price": { "price": 785, "date": "2021-05-10 13:05" },
     "ticker": "COMP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5692.png",
@@ -2907,22 +2932,24 @@
     "name": "compound",
     "exchanges": ["binance"],
     "categories": [
-      "DragonFly Capital Portfolio",
       "Yield farming",
       "DAO",
+      "lending-borowing",
+      "Paradigm XZY Screener",
+      "DeFi"
+    ],
+    "portfolios": [
+      "DragonFly Capital Portfolio",
       "Polychain Capital Portfolio",
       "Pantera Capital Portfolio",
-      "lending-borowing",
       "Alameda Research Portfolio",
-      "Paradigm XZY Screener",
-      "DeFi",
       "Three Arrows Capital Portfolio",
       "A16Z Portfolio",
       "Coinbase Ventures Portfolio"
     ]
   },
   "COCOS": {
-    "marketCap": { "marketCap": 45285327, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 5537900, "date": "2021-05-13 17:08" },
     "price": { "price": 1.08, "date": "2021-05-10 13:05" },
     "ticker": "COCOS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4275.png",
@@ -2933,10 +2960,11 @@
     "date": "2021-05-10 13:05",
     "name": "cocos-bcx",
     "exchanges": ["binance"],
-    "categories": ["Media", "collectibles-nfts", "Gaming"]
+    "categories": ["Media", "collectibles-nfts", "Gaming"],
+    "portfolios": []
   },
   "CKB": {
-    "marketCap": { "marketCap": 635728085, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 846526817, "date": "2021-05-13 17:08" },
     "price": { "price": 0.02422, "date": "2021-05-10 13:05" },
     "ticker": "CKB",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4948.png",
@@ -2947,11 +2975,11 @@
     "date": "2021-05-10 13:05",
     "name": "nervos-network",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["Huobi Capital"],
+    "portfolios": [
       "DragonFly Capital Portfolio",
       "1Confirmation Portfolio",
       "Blockchain Capital Portfolio",
-      "Huobi Capital",
       "Polychain Capital Portfolio",
       "Hashkey Capital Portfolio",
       "Multicoin Capital Portfolio",
@@ -2960,7 +2988,7 @@
     ]
   },
   "CHZ": {
-    "marketCap": { "marketCap": 2766536262, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 6385681712, "date": "2021-05-13 17:08" },
     "price": { "price": 0.4952, "date": "2021-05-10 13:05" },
     "ticker": "CHZ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4066.png",
@@ -2976,10 +3004,11 @@
       "collectibles-nfts",
       "Sports",
       "payments"
-    ]
+    ],
+    "portfolios": []
   },
   "CHR": {
-    "marketCap": { "marketCap": 148384321, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 26258032, "date": "2021-05-13 17:08" },
     "price": { "price": 0.3452, "date": "2021-05-10 13:05" },
     "ticker": "CHR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3978.png",
@@ -2990,10 +3019,11 @@
     "date": "2021-05-10 13:05",
     "name": "chromia",
     "exchanges": ["binance"],
-    "categories": ["DeFi", "collectibles-nfts", "platform"]
+    "categories": ["DeFi", "collectibles-nfts", "platform"],
+    "portfolios": []
   },
   "CFX": {
-    "marketCap": { "marketCap": 729829642, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 362441774, "date": "2021-05-13 17:08" },
     "price": { "price": 0.8789, "date": "2021-05-10 13:05" },
     "ticker": "CFX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7334.png",
@@ -3004,10 +3034,11 @@
     "date": "2021-05-10 13:05",
     "name": "conflux-network",
     "exchanges": ["binance"],
-    "categories": ["Smart Contracts", "platform", "pow", "mineable"]
+    "categories": ["Smart Contracts", "platform", "pow", "mineable"],
+    "portfolios": []
   },
   "CELR": {
-    "marketCap": { "marketCap": 311170976, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 54181898, "date": "2021-05-13 17:08" },
     "price": { "price": 0.05651, "date": "2021-05-10 13:05" },
     "ticker": "CELR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3814.png",
@@ -3020,14 +3051,14 @@
     "exchanges": ["binance"],
     "categories": [
       "Scaling",
-      "Pantera Capital Portfolio",
       "Polkadot Ecosystem",
       "Binance Launchpad",
       "platform"
-    ]
+    ],
+    "portfolios": ["Pantera Capital Portfolio"]
   },
   "CELO": {
-    "marketCap": { "marketCap": 1210637885, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 1648022933, "date": "2021-05-13 17:08" },
     "price": { "price": 5.37, "date": "2021-05-10 13:05" },
     "ticker": "CELO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5567.png",
@@ -3038,18 +3069,17 @@
     "date": "2021-05-10 13:05",
     "name": "celo",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["Smart Contracts", "payments"],
+    "portfolios": [
       "DragonFly Capital Portfolio",
-      "Smart Contracts",
       "Polychain Capital Portfolio",
       "A16Z Portfolio",
       "electric-capital-portfolio",
-      "Coinbase Ventures Portfolio",
-      "payments"
+      "Coinbase Ventures Portfolio"
     ]
   },
   "CAKE": {
-    "marketCap": { "marketCap": 6530060986, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 2746344954, "date": "2021-05-13 17:08" },
     "price": { "price": 39.6, "date": "2021-05-10 13:05" },
     "ticker": "CAKE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7186.png",
@@ -3066,10 +3096,11 @@
       "Decentralized exchange",
       "DeFi",
       "AMM"
-    ]
+    ],
+    "portfolios": []
   },
   "BZRX": {
-    "marketCap": { "marketCap": 173568329, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 11239732, "date": "2021-05-13 17:08" },
     "price": { "price": 0.9006, "date": "2021-05-10 13:05" },
     "ticker": "BZRX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5810.png",
@@ -3085,10 +3116,11 @@
       "Decentralized exchange",
       "lending-borowing",
       "DeFi"
-    ]
+    ],
+    "portfolios": []
   },
   "BUSD": {
-    "marketCap": { "marketCap": 7798655767, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 10268506659, "date": "2021-05-13 17:08" },
     "price": { "price": 1, "date": "2021-05-10 13:05" },
     "ticker": "BUSD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png",
@@ -3099,10 +3131,11 @@
     "date": "2021-05-10 13:05",
     "name": "binance-usd",
     "exchanges": ["binance"],
-    "categories": ["binance smart chain", "Stablecoin"]
+    "categories": ["binance smart chain", "Stablecoin"],
+    "portfolios": []
   },
   "BURGER": {
-    "marketCap": { "marketCap": 212027621, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 167407259, "date": "2021-05-13 17:08" },
     "price": { "price": 17.56, "date": "2021-05-10 13:05" },
     "ticker": "BURGER",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7158.png",
@@ -3119,10 +3152,11 @@
       "Decentralized exchange",
       "DeFi",
       "AMM"
-    ]
+    ],
+    "portfolios": []
   },
   "BTT": {
-    "marketCap": { "marketCap": 4842004717, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 7799791476, "date": "2021-05-13 17:08" },
     "price": { "price": 0.007337, "date": "2021-05-10 13:05" },
     "ticker": "BTT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3718.png",
@@ -3137,13 +3171,13 @@
       "Storage",
       "Filesharing",
       "Distributed Computing",
-      "Binance Labs Portfolio",
       "Binance Launchpad",
       "platform"
-    ]
+    ],
+    "portfolios": ["Binance Labs Portfolio"]
   },
   "BTS": {
-    "marketCap": { "marketCap": 388498445, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 103620120, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1297, "date": "2021-05-10 13:05" },
     "ticker": "BTS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/463.png",
@@ -3154,10 +3188,11 @@
     "date": "2021-05-10 13:05",
     "name": "bitshares",
     "exchanges": ["binance"],
-    "categories": ["Decentralized exchange", "DeFi", "Synthetics"]
+    "categories": ["Decentralized exchange", "DeFi", "Synthetics"],
+    "portfolios": []
   },
   "BTG": {
-    "marketCap": { "marketCap": 2286788024, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 753704585, "date": "2021-05-13 17:08" },
     "price": { "price": 130.57, "date": "2021-05-10 13:05" },
     "ticker": "BTG",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2083.png",
@@ -3168,10 +3203,11 @@
     "date": "2021-05-10 13:05",
     "name": "bitcoin-gold",
     "exchanges": ["upbit", "binance"],
-    "categories": ["mineable", "payments"]
+    "categories": ["mineable", "payments"],
+    "portfolios": []
   },
   "BTC": {
-    "marketCap": { "marketCap": 1112293591821, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 947658802528, "date": "2021-05-13 17:08" },
     "price": { "price": 59463.95, "date": "2021-05-10 13:05" },
     "ticker": "BTC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
@@ -3183,14 +3219,19 @@
     "name": "bitcoin",
     "exchanges": ["upbit", "binance"],
     "categories": [
+      "Winklevoss Capital",
+      "Framework Ventures",
+      "Huobi Capital",
+      "Paradigm XZY Screener",
+      "pow",
+      "mineable"
+    ],
+    "portfolios": [
       "DragonFly Capital Portfolio",
       "1Confirmation Portfolio",
       "Galaxy Digital Portfolio",
       "Blockchain Capital Portfolio",
-      "Winklevoss Capital",
       "Fabric Ventures Portfolio",
-      "Framework Ventures",
-      "Huobi Capital",
       "BoostVC Portfolio",
       "USV Portfolio",
       "DCG Portfolio",
@@ -3198,20 +3239,17 @@
       "Pantera Capital Portfolio",
       "Alameda Research Portfolio",
       "Binance Labs Portfolio",
-      "Paradigm XZY Screener",
       "Multicoin Capital Portfolio",
       "Placeholder Ventures Portfolio",
       "Three Arrows Capital Portfolio",
       "CMS Holdings Portfolio",
       "A16Z Portfolio",
       "electric-capital-portfolio",
-      "Coinbase Ventures Portfolio",
-      "pow",
-      "mineable"
+      "Coinbase Ventures Portfolio"
     ]
   },
   "BNT": {
-    "marketCap": { "marketCap": 1463570636, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 4372805574, "date": "2021-05-13 17:08" },
     "price": { "price": 8.2, "date": "2021-05-10 13:05" },
     "ticker": "BNT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1727.png",
@@ -3228,10 +3266,11 @@
       "DeFi",
       "AMM",
       "payments"
-    ]
+    ],
+    "portfolios": []
   },
   "BNB": {
-    "marketCap": { "marketCap": 104165430490, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 457128680204, "date": "2021-05-13 17:08" },
     "price": { "price": 678.9, "date": "2021-05-10 13:05" },
     "ticker": "BNB",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
@@ -3242,16 +3281,11 @@
     "date": "2021-05-10 13:05",
     "name": "binance-coin",
     "exchanges": ["binance"],
-    "categories": [
-      "binance smart chain",
-      "Alameda Research Portfolio",
-      "Multicoin Capital Portfolio",
-      "Centralized exchange",
-      "payments"
-    ]
+    "categories": ["binance smart chain", "Centralized exchange", "payments"],
+    "portfolios": ["Alameda Research Portfolio", "Multicoin Capital Portfolio"]
   },
   "BLZ": {
-    "marketCap": { "marketCap": 116927217, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 5310983, "date": "2021-05-13 17:08" },
     "price": { "price": 0.4089, "date": "2021-05-10 13:05" },
     "ticker": "BLZ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2505.png",
@@ -3271,10 +3305,11 @@
       "Kinetic Capital",
       "Polkadot Ecosystem",
       "platform"
-    ]
+    ],
+    "portfolios": []
   },
   "BEL": {
-    "marketCap": { "marketCap": 126851900, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 132421662, "date": "2021-05-13 17:08" },
     "price": { "price": 4.03, "date": "2021-05-10 13:05" },
     "ticker": "BEL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6928.png",
@@ -3290,10 +3325,11 @@
       "Binance Launchpool",
       "Yield Aggregator",
       "DeFi"
-    ]
+    ],
+    "portfolios": []
   },
   "BEAM": {
-    "marketCap": { "marketCap": 134857257, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 4114113, "date": "2021-05-13 17:08" },
     "price": { "price": 1.54, "date": "2021-05-10 13:05" },
     "ticker": "BEAM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3702.png",
@@ -3304,10 +3340,11 @@
     "date": "2021-05-10 13:05",
     "name": "beam",
     "exchanges": ["binance"],
-    "categories": ["Privacy", "DeFi", "mineable"]
+    "categories": ["Privacy", "DeFi", "mineable"],
+    "portfolios": []
   },
   "BCH": {
-    "marketCap": { "marketCap": 28994031010, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 6763276933, "date": "2021-05-13 17:08" },
     "price": { "price": 1547.78, "date": "2021-05-10 13:05" },
     "ticker": "BCH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1831.png",
@@ -3318,10 +3355,11 @@
     "date": "2021-05-10 13:05",
     "name": "bitcoin-cash",
     "exchanges": ["upbit", "binance"],
-    "categories": ["pow", "mineable", "payments"]
+    "categories": ["pow", "mineable", "payments"],
+    "portfolios": []
   },
   "BAT": {
-    "marketCap": { "marketCap": 2195833019, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 996811744, "date": "2021-05-13 17:08" },
     "price": { "price": 1.47, "date": "2021-05-10 13:05" },
     "ticker": "BAT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1697.png",
@@ -3332,18 +3370,15 @@
     "date": "2021-05-10 13:05",
     "name": "basic-attention-token",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "Marketing",
-      "Content Creation",
+    "categories": ["Marketing", "Content Creation", "DeFi", "payments"],
+    "portfolios": [
       "1Confirmation Portfolio",
       "DCG Portfolio",
-      "Pantera Capital Portfolio",
-      "DeFi",
-      "payments"
+      "Pantera Capital Portfolio"
     ]
   },
   "BAR": {
-    "marketCap": { "marketCap": 100381318, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 13152212, "date": "2021-05-13 17:08" },
     "price": { "price": 34.02, "date": "2021-05-10 13:05" },
     "ticker": "BAR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5225.png",
@@ -3354,10 +3389,11 @@
     "date": "2021-05-10 13:05",
     "name": "fc-barcelona-fan-token",
     "exchanges": ["binance"],
-    "categories": ["Fan token", "Sports"]
+    "categories": ["Fan token", "Sports"],
+    "portfolios": []
   },
   "BAND": {
-    "marketCap": { "marketCap": 366310839, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 378451476, "date": "2021-05-13 17:08" },
     "price": { "price": 17.87, "date": "2021-05-10 13:05" },
     "ticker": "BAND",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4679.png",
@@ -3370,15 +3406,15 @@
     "exchanges": ["binance"],
     "categories": [
       "Cosmos Ecosystem",
-      "Binance Labs Portfolio",
       "DeFi",
       "Oracles",
       "Binance Launchpad",
       "Solana Ecosystem"
-    ]
+    ],
+    "portfolios": ["Binance Labs Portfolio"]
   },
   "BAL": {
-    "marketCap": { "marketCap": 472633303, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 112481255, "date": "2021-05-13 17:08" },
     "price": { "price": 68.07, "date": "2021-05-10 13:05" },
     "ticker": "BAL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5728.png",
@@ -3393,17 +3429,19 @@
       "Yield farming",
       "DAO",
       "Decentralized exchange",
+      "DeFi",
+      "AMM"
+    ],
+    "portfolios": [
       "Pantera Capital Portfolio",
       "Alameda Research Portfolio",
-      "DeFi",
       "Placeholder Ventures Portfolio",
       "Three Arrows Capital Portfolio",
-      "AMM",
       "Coinfund Portfolio"
     ]
   },
   "BAKE": {
-    "marketCap": { "marketCap": 1177867549, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 970787556, "date": "2021-05-13 17:08" },
     "price": { "price": 6.24, "date": "2021-05-10 13:05" },
     "ticker": "BAKE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7064.png",
@@ -3414,10 +3452,11 @@
     "date": "2021-05-10 13:05",
     "name": "bakerytoken",
     "exchanges": ["binance"],
-    "categories": ["binance smart chain", "DeFi", "collectibles-nfts", "AMM"]
+    "categories": ["binance smart chain", "DeFi", "collectibles-nfts", "AMM"],
+    "portfolios": []
   },
   "BADGER": {
-    "marketCap": { "marketCap": 310256900, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 443011994, "date": "2021-05-13 17:08" },
     "price": { "price": 36.06, "date": "2021-05-10 13:05" },
     "ticker": "BADGER",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7859.png",
@@ -3428,16 +3467,11 @@
     "date": "2021-05-10 13:05",
     "name": "badger-dao",
     "exchanges": ["binance"],
-    "categories": [
-      "Yield farming",
-      "Blockchain Capital Portfolio",
-      "DAO",
-      "Yield Aggregator",
-      "DeFi"
-    ]
+    "categories": ["Yield farming", "DAO", "Yield Aggregator", "DeFi"],
+    "portfolios": ["Blockchain Capital Portfolio"]
   },
   "AXS": {
-    "marketCap": { "marketCap": 444372218, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 7399325, "date": "2021-05-13 17:08" },
     "price": { "price": 8.08, "date": "2021-05-10 13:05" },
     "ticker": "AXS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6783.png",
@@ -3454,10 +3488,11 @@
       "Binance Launchpad",
       "DeFiance Capital",
       "Metaverse"
-    ]
+    ],
+    "portfolios": []
   },
   "AVAX": {
-    "marketCap": { "marketCap": 5019569628, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 8897468200, "date": "2021-05-13 17:08" },
     "price": { "price": 38.95, "date": "2021-05-10 13:05" },
     "ticker": "AVAX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png",
@@ -3468,16 +3503,15 @@
     "date": "2021-05-10 13:05",
     "name": "avalanche",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["DeFi", "Avalanche Ecosystem"],
+    "portfolios": [
       "DragonFly Capital Portfolio",
       "Polychain Capital Portfolio",
-      "DeFi",
-      "CMS Holdings Portfolio",
-      "Avalanche Ecosystem"
+      "CMS Holdings Portfolio"
     ]
   },
   "AVA": {
-    "marketCap": { "marketCap": 255777023, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 440223819, "date": "2021-05-13 17:08" },
     "price": { "price": 5.13, "date": "2021-05-10 13:05" },
     "ticker": "AVA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2776.png",
@@ -3488,10 +3522,11 @@
     "date": "2021-05-10 13:05",
     "name": "travala",
     "exchanges": ["binance"],
-    "categories": ["Tourism", "binance smart chain", "Hospitality", "payments"]
+    "categories": ["Tourism", "binance smart chain", "Hospitality", "payments"],
+    "portfolios": []
   },
   "AUTO": {
-    "marketCap": { "marketCap": 45568581, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 4264801, "date": "2021-05-13 17:08" },
     "price": { "price": 3121.04, "date": "2021-05-10 13:05" },
     "ticker": "AUTO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8387.png",
@@ -3508,10 +3543,11 @@
       "Cybersecurity",
       "Yield Aggregator",
       "AMM"
-    ]
+    ],
+    "portfolios": []
   },
   "AUDIO": {
-    "marketCap": { "marketCap": 266754344, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 453155075, "date": "2021-05-13 17:08" },
     "price": { "price": 2.22, "date": "2021-05-10 13:05" },
     "ticker": "AUDIO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7455.png",
@@ -3522,17 +3558,16 @@
     "date": "2021-05-10 13:05",
     "name": "audius",
     "exchanges": ["binance"],
-    "categories": [
+    "categories": ["Music", "Solana Ecosystem"],
+    "portfolios": [
       "Pantera Capital Portfolio",
       "Binance Labs Portfolio",
       "Multicoin Capital Portfolio",
-      "Coinbase Ventures Portfolio",
-      "Music",
-      "Solana Ecosystem"
+      "Coinbase Ventures Portfolio"
     ]
   },
   "ATOM": {
-    "marketCap": { "marketCap": 6231586104, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 11183558984, "date": "2021-05-13 17:08" },
     "price": { "price": 29.57, "date": "2021-05-10 13:05" },
     "ticker": "ATOM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png",
@@ -3545,19 +3580,21 @@
     "exchanges": ["upbit", "binance"],
     "categories": [
       "Content Creation",
-      "DragonFly Capital Portfolio",
-      "1Confirmation Portfolio",
       "Cosmos Ecosystem",
-      "Polychain Capital Portfolio",
       "Paradigm XZY Screener",
-      "Hashkey Capital Portfolio",
-      "Exnetwork Capital Portfolio",
       "Interoperability",
       "platform"
+    ],
+    "portfolios": [
+      "DragonFly Capital Portfolio",
+      "1Confirmation Portfolio",
+      "Polychain Capital Portfolio",
+      "Hashkey Capital Portfolio",
+      "Exnetwork Capital Portfolio"
     ]
   },
   "ARPA": {
-    "marketCap": { "marketCap": 113390854, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 66122985, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1083, "date": "2021-05-10 13:05" },
     "ticker": "ARPA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4039.png",
@@ -3568,10 +3605,11 @@
     "date": "2021-05-10 13:05",
     "name": "arpa-chain",
     "exchanges": ["binance"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "ARDR": {
-    "marketCap": { "marketCap": 419354197, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 519011284, "date": "2021-05-13 17:08" },
     "price": { "price": 0.4198, "date": "2021-05-10 13:05" },
     "ticker": "ARDR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1320.png",
@@ -3582,10 +3620,11 @@
     "date": "2021-05-10 13:05",
     "name": "ardor",
     "exchanges": ["upbit", "binance"],
-    "categories": ["platform"]
+    "categories": ["platform"],
+    "portfolios": []
   },
   "ANT": {
-    "marketCap": { "marketCap": 412489619, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 537286631, "date": "2021-05-13 17:08" },
     "price": { "price": 10.41, "date": "2021-05-10 13:05" },
     "ticker": "ANT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1680.png",
@@ -3596,16 +3635,11 @@
     "date": "2021-05-10 13:05",
     "name": "aragon",
     "exchanges": ["binance"],
-    "categories": [
-      "DAO",
-      "Cosmos Ecosystem",
-      "BoostVC Portfolio",
-      "Placeholder Ventures Portfolio",
-      "platform"
-    ]
+    "categories": ["DAO", "Cosmos Ecosystem", "platform"],
+    "portfolios": ["BoostVC Portfolio", "Placeholder Ventures Portfolio"]
   },
   "ANKR": {
-    "marketCap": { "marketCap": 1112653567, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 3521178127, "date": "2021-05-13 17:08" },
     "price": { "price": 0.159, "date": "2021-05-10 13:05" },
     "ticker": "ANKR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3783.png",
@@ -3616,16 +3650,11 @@
     "date": "2021-05-10 13:05",
     "name": "ankr",
     "exchanges": ["upbit", "binance"],
-    "categories": [
-      "Filesharing",
-      "Pantera Capital Portfolio",
-      "DeFi",
-      "Polkadot Ecosystem",
-      "platform"
-    ]
+    "categories": ["Filesharing", "DeFi", "Polkadot Ecosystem", "platform"],
+    "portfolios": ["Pantera Capital Portfolio"]
   },
   "ALPHA": {
-    "marketCap": { "marketCap": 471481472, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 844294807, "date": "2021-05-13 17:08" },
     "price": { "price": 1.88, "date": "2021-05-10 13:05" },
     "ticker": "ALPHA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7232.png",
@@ -3640,16 +3669,15 @@
       "binance smart chain",
       "Yield farming",
       "Binance Launchpool",
-      "Alameda Research Portfolio",
       "Yield Aggregator",
       "DeFi",
-      "Multicoin Capital Portfolio",
       "Binance Launchpad",
       "DeFiance Capital"
-    ]
+    ],
+    "portfolios": ["Alameda Research Portfolio", "Multicoin Capital Portfolio"]
   },
   "ALICE": {
-    "marketCap": { "marketCap": 246778893, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 9778019, "date": "2021-05-13 17:08" },
     "price": { "price": 14.18, "date": "2021-05-10 13:05" },
     "ticker": "ALICE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8766.png",
@@ -3660,16 +3688,11 @@
     "date": "2021-05-10 13:05",
     "name": "myneighboralice",
     "exchanges": ["binance"],
-    "categories": [
-      "Entertainment",
-      "collectibles-nfts",
-      "Gaming",
-      "Exnetwork Capital Portfolio",
-      "DAO Maker"
-    ]
+    "categories": ["Entertainment", "collectibles-nfts", "Gaming", "DAO Maker"],
+    "portfolios": ["Exnetwork Capital Portfolio"]
   },
   "ALGO": {
-    "marketCap": { "marketCap": 4635854768, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 562430695, "date": "2021-05-13 17:08" },
     "price": { "price": 1.54, "date": "2021-05-10 13:05" },
     "ticker": "ALGO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4030.png",
@@ -3683,15 +3706,17 @@
     "categories": [
       "Smart Contracts",
       "Kinetic Capital",
-      "USV Portfolio",
       "Research",
-      "Multicoin Capital Portfolio",
-      "Exnetwork Capital Portfolio",
       "platform"
+    ],
+    "portfolios": [
+      "USV Portfolio",
+      "Multicoin Capital Portfolio",
+      "Exnetwork Capital Portfolio"
     ]
   },
   "AKRO": {
-    "marketCap": { "marketCap": 142270124, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 150286758, "date": "2021-05-13 17:08" },
     "price": { "price": 0.0511, "date": "2021-05-10 13:05" },
     "ticker": "AKRO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4134.png",
@@ -3703,18 +3728,17 @@
     "name": "akropolis",
     "exchanges": ["binance"],
     "categories": [
-      "LedgerPrime Portfolio",
       "DAO",
       "Kinetic Capital",
-      "Alameda Research Portfolio",
       "Yield Aggregator",
       "DeFi",
       "Polkadot Ecosystem",
       "Yearn Partnerships"
-    ]
+    ],
+    "portfolios": ["LedgerPrime Portfolio", "Alameda Research Portfolio"]
   },
   "AION": {
-    "marketCap": { "marketCap": 272295386, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 360555, "date": "2021-05-13 17:08" },
     "price": { "price": 0.553, "date": "2021-05-10 13:05" },
     "ticker": "AION",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2062.png",
@@ -3725,10 +3749,11 @@
     "date": "2021-05-10 13:05",
     "name": "aion",
     "exchanges": ["binance"],
-    "categories": ["ai-big-data", "mineable", "payments"]
+    "categories": ["ai-big-data", "mineable", "payments"],
+    "portfolios": []
   },
   "ADA": {
-    "marketCap": { "marketCap": 56095385694, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 95268503321, "date": "2021-05-13 17:08" },
     "price": { "price": 1.76, "date": "2021-05-10 13:05" },
     "ticker": "ADA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png",
@@ -3739,10 +3764,11 @@
     "date": "2021-05-10 13:05",
     "name": "cardano",
     "exchanges": ["upbit", "binance"],
-    "categories": ["Smart Contracts", "Research", "platform", "mineable"]
+    "categories": ["Smart Contracts", "Research", "platform", "mineable"],
+    "portfolios": []
   },
   "ACM": {
-    "marketCap": { "marketCap": 20132858, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 28991579, "date": "2021-05-13 17:08" },
     "price": { "price": 10.07, "date": "2021-05-10 13:05" },
     "ticker": "ACM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8538.png",
@@ -3753,10 +3779,11 @@
     "date": "2021-05-10 13:05",
     "name": "ac-milan-fan-token",
     "exchanges": ["binance"],
-    "categories": ["Fan token", "Binance Launchpad", "Sports"]
+    "categories": ["Fan token", "Binance Launchpad", "Sports"],
+    "portfolios": []
   },
   "AAVE": {
-    "marketCap": { "marketCap": 5873667286, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 3132691026, "date": "2021-05-13 17:08" },
     "price": { "price": 470.34, "date": "2021-05-10 13:05" },
     "ticker": "AAVE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7278.png",
@@ -3769,20 +3796,22 @@
     "exchanges": ["binance"],
     "categories": [
       "Yield farming",
-      "Blockchain Capital Portfolio",
       "DAO",
       "Framework Ventures",
       "ParaFi capital",
-      "Pantera Capital Portfolio",
       "lending-borowing",
-      "Alameda Research Portfolio",
       "DeFi",
-      "Three Arrows Capital Portfolio",
       "DeFiance Capital"
+    ],
+    "portfolios": [
+      "Blockchain Capital Portfolio",
+      "Pantera Capital Portfolio",
+      "Alameda Research Portfolio",
+      "Three Arrows Capital Portfolio"
     ]
   },
   "1INCH": {
-    "marketCap": { "marketCap": 1098015066, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 153730086, "date": "2021-05-13 17:08" },
     "price": { "price": 7.01, "date": "2021-05-10 13:05" },
     "ticker": "1INCH",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8104.png",
@@ -3794,20 +3823,22 @@
     "name": "1inch",
     "exchanges": ["binance"],
     "categories": [
-      "DragonFly Capital Portfolio",
       "binance smart chain",
-      "Blockchain Capital Portfolio",
-      "Fabric Ventures Portfolio",
       "Decentralized exchange",
       "ParaFi capital",
-      "Alameda Research Portfolio",
-      "Binance Labs Portfolio",
       "DeFi",
       "AMM"
+    ],
+    "portfolios": [
+      "DragonFly Capital Portfolio",
+      "Blockchain Capital Portfolio",
+      "Fabric Ventures Portfolio",
+      "Alameda Research Portfolio",
+      "Binance Labs Portfolio"
     ]
   },
   "DAWN": {
-    "marketCap": { "marketCap": 372110362, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 841662406, "date": "2021-05-13 17:08" },
     "price": { "price": 6.23, "date": "2021-05-10 13:05" },
     "ticker": "DAWN",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5618.png",
@@ -3818,10 +3849,11 @@
     "date": "2021-05-10 13:05",
     "name": "dawn-protocol",
     "exchanges": ["upbit"],
-    "categories": ["Gaming"]
+    "categories": ["Gaming"],
+    "portfolios": []
   },
   "MED": {
-    "marketCap": { "marketCap": 322162236, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 33384643, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1177, "date": "2021-05-10 13:05" },
     "ticker": "MED",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2303.png",
@@ -3832,10 +3864,11 @@
     "date": "2021-05-10 13:05",
     "name": "medibloc",
     "exchanges": ["upbit"],
-    "categories": ["Cosmos Ecosystem", "Health"]
+    "categories": ["Cosmos Ecosystem", "Health"],
+    "portfolios": []
   },
   "BSV": {
-    "marketCap": { "marketCap": 7009840283, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 1424467848, "date": "2021-05-13 17:08" },
     "price": { "price": 374.29, "date": "2021-05-10 13:05" },
     "ticker": "BSV",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3602.png",
@@ -3846,10 +3879,11 @@
     "date": "2021-05-10 13:05",
     "name": "bitcoin-sv",
     "exchanges": ["upbit"],
-    "categories": ["pow", "mineable"]
+    "categories": ["pow", "mineable"],
+    "portfolios": []
   },
   "SNT": {
-    "marketCap": { "marketCap": 721545909, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 787243742, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2079, "date": "2021-05-10 13:05" },
     "ticker": "SNT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1759.png",
@@ -3860,16 +3894,11 @@
     "date": "2021-05-10 13:05",
     "name": "status",
     "exchanges": ["upbit"],
-    "categories": [
-      "Media",
-      "Content Creation",
-      "Fabric Ventures Portfolio",
-      "Kinetic Capital",
-      "Privacy"
-    ]
+    "categories": ["Media", "Content Creation", "Kinetic Capital", "Privacy"],
+    "portfolios": ["Fabric Ventures Portfolio"]
   },
   "STRK": {
-    "marketCap": { "marketCap": 140935558, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 160332424, "date": "2021-05-13 17:08" },
     "price": { "price": 54.54, "date": "2021-05-10 13:05" },
     "ticker": "STRK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8911.png",
@@ -3880,10 +3909,11 @@
     "date": "2021-05-10 13:05",
     "name": "strike",
     "exchanges": ["upbit"],
-    "categories": ["DeFi"]
+    "categories": ["DeFi"],
+    "portfolios": []
   },
   "META": {
-    "marketCap": { "marketCap": 222896291, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 57992873, "date": "2021-05-13 17:08" },
     "price": { "price": 0.179, "date": "2021-05-10 13:05" },
     "ticker": "META",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3418.png",
@@ -3894,10 +3924,11 @@
     "date": "2021-05-10 13:05",
     "name": "metadium",
     "exchanges": ["upbit"],
-    "categories": ["Kinetic Capital", "Identity", "platform"]
+    "categories": ["Kinetic Capital", "Identity", "platform"],
+    "portfolios": []
   },
   "MLK": {
-    "marketCap": { "marketCap": 150553001, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 152478667, "date": "2021-05-13 17:08" },
     "price": { "price": 1.93, "date": "2021-05-10 13:05" },
     "ticker": "MLK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5266.png",
@@ -3908,10 +3939,11 @@
     "date": "2021-05-10 13:05",
     "name": "milk-alliance",
     "exchanges": ["upbit"],
-    "categories": ["binance smart chain"]
+    "categories": ["binance smart chain"],
+    "portfolios": []
   },
   "GAS": {
-    "marketCap": { "marketCap": 152907375, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 100481226, "date": "2021-05-13 17:08" },
     "price": { "price": 15.1, "date": "2021-05-10 13:05" },
     "ticker": "GAS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1785.png",
@@ -3922,10 +3954,11 @@
     "date": "2021-05-10 13:05",
     "name": "gas",
     "exchanges": ["upbit"],
-    "categories": ["Smart Contracts", "payments"]
+    "categories": ["Smart Contracts", "payments"],
+    "portfolios": []
   },
   "NPXSXEM": {
-    "marketCap": { "marketCap": 13743669, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": null, "date": "2021-05-13 17:08" },
     "price": { "price": 0.0007463, "date": "2021-05-10 13:05" },
     "ticker": "NPXSXEM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3096.png",
@@ -3936,10 +3969,11 @@
     "date": "2021-05-10 13:05",
     "name": "pundi-x-nem",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "MARO": {
-    "marketCap": { "marketCap": 191955607, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 268855033, "date": "2021-05-13 17:08" },
     "price": { "price": 0.3983, "date": "2021-05-10 13:05" },
     "ticker": "MARO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3175.png",
@@ -3950,10 +3984,11 @@
     "date": "2021-05-10 13:05",
     "name": "maro",
     "exchanges": ["upbit"],
-    "categories": ["Media", "Content Creation"]
+    "categories": ["Media", "Content Creation"],
+    "portfolios": []
   },
   "MVL": {
-    "marketCap": { "marketCap": 244835552, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 1559476, "date": "2021-05-13 17:08" },
     "price": { "price": 0.01921, "date": "2021-05-10 13:05" },
     "ticker": "MVL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2982.png",
@@ -3964,10 +3999,11 @@
     "date": "2021-05-10 13:05",
     "name": "mvl",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "CRO": {
-    "marketCap": { "marketCap": 4640383027, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 8485893636, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1837, "date": "2021-05-10 13:05" },
     "ticker": "CRO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3635.png",
@@ -3978,10 +4014,11 @@
     "date": "2021-05-10 13:05",
     "name": "crypto-com-coin",
     "exchanges": ["upbit"],
-    "categories": ["Cosmos Ecosystem", "Centralized exchange", "payments"]
+    "categories": ["Cosmos Ecosystem", "Centralized exchange", "payments"],
+    "portfolios": []
   },
   "ARK": {
-    "marketCap": { "marketCap": 319147154, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 385065747, "date": "2021-05-13 17:08" },
     "price": { "price": 2.47, "date": "2021-05-10 13:05" },
     "ticker": "ARK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1586.png",
@@ -3992,10 +4029,11 @@
     "date": "2021-05-10 13:05",
     "name": "ark",
     "exchanges": ["upbit"],
-    "categories": ["payments"]
+    "categories": ["payments"],
+    "portfolios": []
   },
   "CRE": {
-    "marketCap": { "marketCap": 131966559, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 138892534, "date": "2021-05-13 17:08" },
     "price": { "price": 0.01669, "date": "2021-05-10 13:05" },
     "ticker": "CRE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3946.png",
@@ -4006,10 +4044,11 @@
     "date": "2021-05-10 13:05",
     "name": "carry",
     "exchanges": ["upbit"],
-    "categories": ["Retail", "Loyalty"]
+    "categories": ["Retail", "Loyalty"],
+    "portfolios": []
   },
   "SSX": {
-    "marketCap": { "marketCap": 14583240, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": null, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1017, "date": "2021-05-10 13:05" },
     "ticker": "SSX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5612.png",
@@ -4020,10 +4059,11 @@
     "date": "2021-05-10 13:05",
     "name": "somesing",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "LAMB": {
-    "marketCap": { "marketCap": 108348716, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 97329342, "date": "2021-05-13 17:08" },
     "price": { "price": 0.07325, "date": "2021-05-10 13:05" },
     "ticker": "LAMB",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3657.png",
@@ -4040,10 +4080,11 @@
       "Cosmos Ecosystem",
       "ai-big-data",
       "platform"
-    ]
+    ],
+    "portfolios": []
   },
   "CBK": {
-    "marketCap": { "marketCap": 19406119, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 3917, "date": "2021-05-13 17:08" },
     "price": { "price": 6.91, "date": "2021-05-10 13:05" },
     "ticker": "CBK",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/8107.png",
@@ -4054,10 +4095,11 @@
     "date": "2021-05-10 13:05",
     "name": "cobak-token",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "IQ": {
-    "marketCap": { "marketCap": 197279525, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 172426900, "date": "2021-05-13 17:08" },
     "price": { "price": 0.02003, "date": "2021-05-10 13:05" },
     "ticker": "IQ",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2930.png",
@@ -4068,10 +4110,11 @@
     "date": "2021-05-10 13:05",
     "name": "everipedia",
     "exchanges": ["upbit"],
-    "categories": ["Media", "Loyalty", "Content Creation", "Masternodes"]
+    "categories": ["Media", "Loyalty", "Content Creation", "Masternodes"],
+    "portfolios": []
   },
   "STEEM": {
-    "marketCap": { "marketCap": 434888387, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 528228836, "date": "2021-05-13 17:08" },
     "price": { "price": 1.17, "date": "2021-05-10 13:05" },
     "ticker": "STEEM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1230.png",
@@ -4082,10 +4125,11 @@
     "date": "2021-05-10 13:05",
     "name": "steem",
     "exchanges": ["upbit"],
-    "categories": ["Media", "Content Creation"]
+    "categories": ["Media", "Content Creation"],
+    "portfolios": []
   },
   "PXL": {
-    "marketCap": { "marketCap": 72048116, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 57822015, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1292, "date": "2021-05-10 13:05" },
     "ticker": "PXL",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4091.png",
@@ -4096,10 +4140,11 @@
     "date": "2021-05-10 13:05",
     "name": "pixel",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "TON": {
-    "marketCap": { "marketCap": 32800588, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 30306429, "date": "2021-05-13 17:08" },
     "price": { "price": 12.03, "date": "2021-05-10 13:05" },
     "ticker": "TON",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/6731.png",
@@ -4110,10 +4155,11 @@
     "date": "2021-05-10 13:05",
     "name": "tokamak-network",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "DKA": {
-    "marketCap": { "marketCap": 170922145, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 572679, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2135, "date": "2021-05-10 13:05" },
     "ticker": "DKA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5908.png",
@@ -4124,10 +4170,11 @@
     "date": "2021-05-10 13:05",
     "name": "dkargo",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "OBSR": {
-    "marketCap": { "marketCap": 54392221, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 4492227, "date": "2021-05-13 17:08" },
     "price": { "price": 0.02368, "date": "2021-05-10 13:05" },
     "ticker": "OBSR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3698.png",
@@ -4138,10 +4185,11 @@
     "date": "2021-05-10 13:05",
     "name": "observer",
     "exchanges": ["upbit"],
-    "categories": ["mineable"]
+    "categories": ["mineable"],
+    "portfolios": []
   },
   "QTCON": {
-    "marketCap": { "marketCap": 49417328, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 55618018, "date": "2021-05-13 17:08" },
     "price": { "price": 0.07166, "date": "2021-05-10 13:05" },
     "ticker": "QTCON",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4746.png",
@@ -4152,10 +4200,11 @@
     "date": "2021-05-10 13:05",
     "name": "quiztok",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "EMC2": {
-    "marketCap": { "marketCap": 98672651, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 95790431, "date": "2021-05-13 17:08" },
     "price": { "price": 0.4452, "date": "2021-05-10 13:05" },
     "ticker": "EMC2",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/201.png",
@@ -4166,10 +4215,11 @@
     "date": "2021-05-10 13:05",
     "name": "einsteinium",
     "exchanges": ["upbit"],
-    "categories": ["Research", "mineable"]
+    "categories": ["Research", "mineable"],
+    "portfolios": []
   },
   "GRS": {
-    "marketCap": { "marketCap": 126682063, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 97645509, "date": "2021-05-13 17:08" },
     "price": { "price": 1.63, "date": "2021-05-10 13:05" },
     "ticker": "GRS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/258.png",
@@ -4180,10 +4230,11 @@
     "date": "2021-05-10 13:05",
     "name": "groestlcoin",
     "exchanges": ["upbit"],
-    "categories": ["Privacy", "pow", "mineable"]
+    "categories": ["Privacy", "pow", "mineable"],
+    "portfolios": []
   },
   "BORA": {
-    "marketCap": { "marketCap": 201782291, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 269380939, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2365, "date": "2021-05-10 13:05" },
     "ticker": "BORA",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3801.png",
@@ -4194,10 +4245,11 @@
     "date": "2021-05-10 13:05",
     "name": "bora",
     "exchanges": ["upbit"],
-    "categories": ["Gaming"]
+    "categories": ["Gaming"],
+    "portfolios": []
   },
   "ADX": {
-    "marketCap": { "marketCap": 156392003, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 154566166, "date": "2021-05-13 17:08" },
     "price": { "price": 1.32, "date": "2021-05-10 13:05" },
     "ticker": "ADX",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1768.png",
@@ -4208,10 +4260,11 @@
     "date": "2021-05-10 13:05",
     "name": "adx-net",
     "exchanges": ["upbit"],
-    "categories": ["Marketing", "Smart Contracts", "Polkadot Ecosystem"]
+    "categories": ["Marketing", "Smart Contracts", "Polkadot Ecosystem"],
+    "portfolios": []
   },
   "ORBS": {
-    "marketCap": { "marketCap": 306652582, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 46151637, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1375, "date": "2021-05-10 13:05" },
     "ticker": "ORBS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3835.png",
@@ -4222,10 +4275,11 @@
     "date": "2021-05-10 13:05",
     "name": "orbs",
     "exchanges": ["upbit"],
-    "categories": ["services"]
+    "categories": ["services"],
+    "portfolios": []
   },
   "RFR": {
-    "marketCap": { "marketCap": 87730704, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 3960803, "date": "2021-05-13 17:08" },
     "price": { "price": 0.01755, "date": "2021-05-10 13:05" },
     "ticker": "RFR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2553.png",
@@ -4236,10 +4290,11 @@
     "date": "2021-05-10 13:05",
     "name": "refereum",
     "exchanges": ["upbit"],
-    "categories": ["Media", "Content Creation", "Kinetic Capital", "Gaming"]
+    "categories": ["Media", "Content Creation", "Kinetic Capital", "Gaming"],
+    "portfolios": []
   },
   "TT": {
-    "marketCap": { "marketCap": 114923095, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 130118885, "date": "2021-05-13 17:08" },
     "price": { "price": 0.01581, "date": "2021-05-10 13:05" },
     "ticker": "TT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3930.png",
@@ -4250,15 +4305,11 @@
     "date": "2021-05-10 13:05",
     "name": "thunder-token",
     "exchanges": ["upbit"],
-    "categories": [
-      "Kinetic Capital",
-      "Huobi Capital",
-      "Pantera Capital Portfolio",
-      "platform"
-    ]
+    "categories": ["Kinetic Capital", "Huobi Capital", "platform"],
+    "portfolios": ["Pantera Capital Portfolio"]
   },
   "EDR": {
-    "marketCap": { "marketCap": 88069489, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 9895242, "date": "2021-05-13 17:08" },
     "price": { "price": 0.05995, "date": "2021-05-10 13:05" },
     "ticker": "EDR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2835.png",
@@ -4269,10 +4320,11 @@
     "date": "2021-05-10 13:05",
     "name": "endor-protocol",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "FCT": {
-    "marketCap": { "marketCap": 29179815, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 1918015, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1583, "date": "2021-05-10 13:05" },
     "ticker": "FCT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4953.png",
@@ -4283,14 +4335,11 @@
     "date": "2021-05-10 13:05",
     "name": "firmachain",
     "exchanges": ["upbit"],
-    "categories": [
-      "Fenbushi Capital Portfolio",
-      "Hashkey Capital Portfolio",
-      "services"
-    ]
+    "categories": ["services"],
+    "portfolios": ["Fenbushi Capital Portfolio", "Hashkey Capital Portfolio"]
   },
   "AQT": {
-    "marketCap": { "marketCap": 39338790, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 1338343, "date": "2021-05-13 17:08" },
     "price": { "price": 5.63, "date": "2021-05-10 13:05" },
     "ticker": "AQT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/7460.png",
@@ -4301,10 +4350,11 @@
     "date": "2021-05-10 13:05",
     "name": "alpha-quark-token",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "MOC": {
-    "marketCap": { "marketCap": 58291956, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 167292, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1587, "date": "2021-05-10 13:05" },
     "ticker": "MOC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2915.png",
@@ -4315,10 +4365,11 @@
     "date": "2021-05-10 13:05",
     "name": "moss-coin",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "TSHP": {
-    "marketCap": { "marketCap": 102539852, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 129630256, "date": "2021-05-13 17:08" },
     "price": { "price": 0.02059, "date": "2021-05-10 13:05" },
     "ticker": "TSHP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/4280.png",
@@ -4329,10 +4380,11 @@
     "date": "2021-05-10 13:05",
     "name": "12ships",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "HUM": {
-    "marketCap": { "marketCap": 74624130, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 62745, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1449, "date": "2021-05-10 13:05" },
     "ticker": "HUM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3600.png",
@@ -4343,10 +4395,11 @@
     "date": "2021-05-10 13:05",
     "name": "humanscape",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "HUNT": {
-    "marketCap": { "marketCap": 35722685, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 31032843, "date": "2021-05-13 17:08" },
     "price": { "price": 0.3237, "date": "2021-05-10 13:05" },
     "ticker": "HUNT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/5380.png",
@@ -4357,10 +4410,11 @@
     "date": "2021-05-10 13:05",
     "name": "hunt",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "AERGO": {
-    "marketCap": { "marketCap": 76951374, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 1445768, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2915, "date": "2021-05-10 13:05" },
     "ticker": "AERGO",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3637.png",
@@ -4371,10 +4425,11 @@
     "date": "2021-05-10 13:05",
     "name": "aergo",
     "exchanges": ["upbit"],
-    "categories": ["Smart Contracts", "platform"]
+    "categories": ["Smart Contracts", "platform"],
+    "portfolios": []
   },
   "UPP": {
-    "marketCap": { "marketCap": 72734933, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 754782, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1585, "date": "2021-05-10 13:05" },
     "ticker": "UPP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2866.png",
@@ -4385,10 +4440,11 @@
     "date": "2021-05-10 13:05",
     "name": "sentinel-protocol",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "GLM": {
-    "marketCap": { "marketCap": 501318253, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 81487221, "date": "2021-05-13 17:08" },
     "price": { "price": 0.5013, "date": "2021-05-10 13:05" },
     "ticker": "GLM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1455.png",
@@ -4399,10 +4455,11 @@
     "date": "2021-05-10 13:05",
     "name": "golem",
     "exchanges": ["upbit"],
-    "categories": ["Distributed Computing", "platform", "payments"]
+    "categories": ["Distributed Computing", "platform", "payments"],
+    "portfolios": []
   },
   "POLY": {
-    "marketCap": { "marketCap": 262156012, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 377623274, "date": "2021-05-13 17:08" },
     "price": { "price": 0.4295, "date": "2021-05-10 13:05" },
     "ticker": "POLY",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2496.png",
@@ -4413,10 +4470,11 @@
     "date": "2021-05-10 13:05",
     "name": "polymath-network",
     "exchanges": ["upbit"],
-    "categories": ["etc"]
+    "categories": ["etc"],
+    "portfolios": []
   },
   "DMT": {
-    "marketCap": { "marketCap": 62125723, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 9465372, "date": "2021-05-13 17:08" },
     "price": { "price": 1.09, "date": "2021-05-10 13:05" },
     "ticker": "DMT",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2503.png",
@@ -4427,10 +4485,11 @@
     "date": "2021-05-10 13:05",
     "name": "dmarket",
     "exchanges": ["upbit"],
-    "categories": ["Entertainment", "collectibles-nfts", "payments"]
+    "categories": ["Entertainment", "collectibles-nfts", "payments"],
+    "portfolios": []
   },
   "SOLVE": {
-    "marketCap": { "marketCap": 86699706, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 2379482, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2298, "date": "2021-05-10 13:05" },
     "ticker": "SOLVE",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/3724.png",
@@ -4441,10 +4500,11 @@
     "date": "2021-05-10 13:05",
     "name": "solve",
     "exchanges": ["upbit"],
-    "categories": ["Health"]
+    "categories": ["Health"],
+    "portfolios": []
   },
   "QKC": {
-    "marketCap": { "marketCap": 201227462, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 85705325, "date": "2021-05-13 17:08" },
     "price": { "price": 0.03144, "date": "2021-05-10 13:05" },
     "ticker": "QKC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2840.png",
@@ -4455,10 +4515,11 @@
     "date": "2021-05-10 13:05",
     "name": "quarkchain",
     "exchanges": ["upbit"],
-    "categories": ["payments"]
+    "categories": ["payments"],
+    "portfolios": []
   },
   "SBD": {
-    "marketCap": { "marketCap": 53884229, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 2504670, "date": "2021-05-13 17:08" },
     "price": { "price": 7.26, "date": "2021-05-10 13:05" },
     "ticker": "SBD",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1312.png",
@@ -4469,10 +4530,11 @@
     "date": "2021-05-10 13:05",
     "name": "steem-dollars",
     "exchanges": ["upbit"],
-    "categories": ["Media", "Content Creation", "Stablecoin"]
+    "categories": ["Media", "Content Creation", "Stablecoin"],
+    "portfolios": []
   },
   "LOOM": {
-    "marketCap": { "marketCap": 145800264, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 148097151, "date": "2021-05-13 17:08" },
     "price": { "price": 0.1458, "date": "2021-05-10 13:05" },
     "ticker": "LOOM",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2588.png",
@@ -4483,10 +4545,11 @@
     "date": "2021-05-10 13:05",
     "name": "loom-network",
     "exchanges": ["upbit"],
-    "categories": ["Cosmos Ecosystem", "platform"]
+    "categories": ["Cosmos Ecosystem", "platform"],
+    "portfolios": []
   },
   "WAXP": {
-    "marketCap": { "marketCap": 377536310, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 492291759, "date": "2021-05-13 17:08" },
     "price": { "price": 0.2416, "date": "2021-05-10 13:05" },
     "ticker": "WAXP",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2300.png",
@@ -4497,16 +4560,11 @@
     "date": "2021-05-10 13:05",
     "name": "wax",
     "exchanges": ["upbit"],
-    "categories": [
-      "Media",
-      "Galaxy Digital Portfolio",
-      "Kinetic Capital",
-      "collectibles-nfts",
-      "payments"
-    ]
+    "categories": ["Media", "Kinetic Capital", "collectibles-nfts", "payments"],
+    "portfolios": ["Galaxy Digital Portfolio"]
   },
   "IGNIS": {
-    "marketCap": { "marketCap": 102782190, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 97651507, "date": "2021-05-13 17:08" },
     "price": { "price": 0.135, "date": "2021-05-10 13:05" },
     "ticker": "IGNIS",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2276.png",
@@ -4517,10 +4575,11 @@
     "date": "2021-05-10 13:05",
     "name": "ignis",
     "exchanges": ["upbit"],
-    "categories": ["platform", "payments"]
+    "categories": ["platform", "payments"],
+    "portfolios": []
   },
   "POWR": {
-    "marketCap": { "marketCap": 201447243, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 322529141, "date": "2021-05-13 17:08" },
     "price": { "price": 0.4579, "date": "2021-05-10 13:05" },
     "ticker": "POWR",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2132.png",
@@ -4531,10 +4590,11 @@
     "date": "2021-05-10 13:05",
     "name": "power-ledger",
     "exchanges": ["upbit"],
-    "categories": ["Sharing Economy", "Energy"]
+    "categories": ["Sharing Economy", "Energy"],
+    "portfolios": []
   },
   "ELF": {
-    "marketCap": { "marketCap": 246313063, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 22497005, "date": "2021-05-13 17:08" },
     "price": { "price": 0.4524, "date": "2021-05-10 13:05" },
     "ticker": "ELF",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2299.png",
@@ -4545,10 +4605,11 @@
     "date": "2021-05-10 13:05",
     "name": "aelf",
     "exchanges": ["upbit"],
-    "categories": ["Huobi Capital"]
+    "categories": ["Huobi Capital"],
+    "portfolios": []
   },
   "OST": {
-    "marketCap": { "marketCap": 32627230, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 29215155, "date": "2021-05-13 17:08" },
     "price": { "price": 0.04272, "date": "2021-05-10 13:05" },
     "ticker": "OST",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/2296.png",
@@ -4559,10 +4620,11 @@
     "date": "2021-05-10 13:05",
     "name": "ost",
     "exchanges": ["upbit"],
-    "categories": ["Kinetic Capital", "services"]
+    "categories": ["Kinetic Capital", "services"],
+    "portfolios": []
   },
   "LBC": {
-    "marketCap": { "marketCap": 88056071, "date": "2021-05-10 13:05" },
+    "marketCap": { "marketCap": 87906285, "date": "2021-05-13 17:08" },
     "price": { "price": 0.169, "date": "2021-05-10 13:05" },
     "ticker": "LBC",
     "imagePath": "https://s2.coinmarketcap.com/static/img/coins/64x64/1298.png",
@@ -4573,6 +4635,7 @@
     "date": "2021-05-10 13:05",
     "name": "library-credit",
     "exchanges": ["upbit"],
-    "categories": ["Content Creation", "mineable"]
+    "categories": ["Content Creation", "mineable"],
+    "portfolios": []
   }
 }

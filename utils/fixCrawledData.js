@@ -1,4 +1,5 @@
 const categoryData = require("../crawler/crawled/category/category.json");
+const portfolioData = require("../crawler/crawled/portfolio/portfolio.json");
 const { parseNumber } = require("./parseNumber");
 const { upbitTickers } = require("../crawler/baseList/upbitList");
 const { binanceTickers } = require("../crawler/baseList/binanceList");
@@ -13,6 +14,12 @@ exports.fixCrawledData = (data) => {
   Object.entries(categoryData).forEach(([key, value]) => {
     if (value.ticker.includes(fixedData.ticker)) {
       fixedData.categories.push(key);
+    }
+  });
+
+  Object.entries(portfolioData).forEach(([key, value]) => {
+    if (value.ticker.includes(fixedData.ticker)) {
+      fixedData.portfolios.push(key);
     }
   });
 

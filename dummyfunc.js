@@ -2,20 +2,21 @@ const fs = require("fs");
 const categories = require("./crawler/crawled/category/category.json");
 const coinData = require("./crawler/crawled/coin/coinData.json");
 const { coinCategories } = require("./crawler/baseList/categoryList");
+const Coin = require("./models/coinModel");
 
-exports.foo = () => {
-  let wholeCategory = [];
-  const notInclude = [];
+exports.foo = async () => {
+  const coinDB = await Coin.find().lean();
+  const tickerList = coinDB.map((coin) => coin.ticker);
+  const dataList = Object.entries(coinData);
 
-  Object.entries(coinData).forEach(([k, v]) => {
-    wholeCategory = [...wholeCategory, ...v.categories];
-  });
+  for (let i = 0; i < dataList.length; i++) {
+    const ticker = dataList[i][0];
+    const data = dataList[i][1];
 
-  coinCategories.forEach((v) => {
-    if (!wholeCategory.includes(v)) {
-      notInclude.push(v);
+    if (tickerList.includes(ticker)) {
+      await Coin.findOneAndReplace({ ticker }, data);
+    } else {
+      await Coin.create(data);
     }
-  });
-
-  console.log(notInclude);
+  }
 };

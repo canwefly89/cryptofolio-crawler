@@ -20,9 +20,6 @@ const cryptofolioRouter = require("./routes/cryptofolioRouter");
 const { priceCrawler } = require("./crawler/priceCrawler");
 const { coinCrawler } = require("./crawler/coinCrawler");
 const { metadataCrawler } = require("./crawler/metadataCrawler");
-const { foo } = require("./dummyfunc");
-
-// foo();
 
 schedule.scheduleJob("0 6 * * *", () => {
   console.log("run price Crawler", new Date());
@@ -34,7 +31,7 @@ schedule.scheduleJob("0 7 * * *", () => {
   coinCrawler();
 });
 
-schedule.scheduleJob("* /10 * * *", () => {
+schedule.scheduleJob("*/30 * * * *", () => {
   console.log("run metadata Crawler", new Date());
   metadataCrawler();
 });
