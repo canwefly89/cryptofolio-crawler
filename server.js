@@ -20,6 +20,10 @@ const cryptofolioRouter = require("./routes/cryptofolioRouter");
 const { priceCrawler } = require("./crawler/priceCrawler");
 const { coinCrawler } = require("./crawler/coinCrawler");
 const { metadataCrawler } = require("./crawler/metadataCrawler");
+// coinCrawler();
+// const { foo } = require("./dummyfunc");
+// foo();
+// priceCrawler();
 
 schedule.scheduleJob("0 6 * * *", () => {
   console.log("run price Crawler", new Date());
@@ -61,9 +65,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
 
-app.use("/api", coinRouter);
 app.use("/api/auth", authRouter);
 app.use("/api/cryptofolio", cryptofolioRouter);
+app.use("/api/coin", coinRouter);
 
 app.use((req, res, next) => {
   const err = new Error("Not Found");

@@ -1,9 +1,14 @@
 const Cryptofolio = require("../../models/cryptofolioModel");
 const User = require("../../models/userModel");
 
-exports.mockfunc = async (req, res, next) => {
+exports.getCryptoFoliosDB = async (req, res, next) => {
   try {
-    return res.status(200).json();
+    const cryptofolios = await Cryptofolio.find().populate("createdBy").lean();
+
+    return res.status(200).json({
+      message: "success",
+      data: cryptofolios,
+    });
   } catch (err) {
     next(err);
   }

@@ -68,9 +68,9 @@ exports.priceCrawler = async () => {
           document.querySelectorAll("td .price___3rj7O")
         ).map((v) => parseFloat(v.textContent?.replace(NANRegex, "")));
 
-        const marketCap = Array.from(
-          document.querySelectorAll("td .kDEzev")
-        ).map((v) => parseInt(v.textContent?.replace(NANRegex, ""), 10));
+        const marketCap = Array.from(document.querySelectorAll("td .kDEzev"))
+          .filter((v, index) => !(index % 2))
+          .map((v) => parseInt(v.textContent?.replace(NANRegex, ""), 10));
 
         ticker.forEach((value, index) => {
           coinData.price[value] = price[index];
@@ -99,10 +99,15 @@ exports.priceCrawler = async () => {
       updatePriceLog.shift();
     }
 
+    fs.writeFileSync(
+      `${__dirname}/crawled/price/priceData_crawled.json`,
+      JSON.stringify(updatedPrice)
+    );
+
     const priceList = Object.entries(updatedPrice.price);
     const marketCapList = Object.entries(updatedPrice.marketCap);
 
-    for (let i = 0; i < priceList.length; i++) {
+    for (let i = 0; i < Math.min(priceList.length, marketCapList.length); i++) {
       await Coin.findOneAndUpdate(
         { ticker: priceList[i][0] },
         { price: { date, price: priceList[i][1] } }
@@ -124,6 +129,7 @@ exports.priceCrawler = async () => {
       JSON.stringify(updatePriceLog)
     );
 
+    console.log("done");
     await browser.close();
   } catch (err) {
     console.error(err);

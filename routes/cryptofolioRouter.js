@@ -1,8 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const cryptofolioController = require("./controllers/cryptofolioController");
+const {
+  getCryptoFoliosDB,
+  createCryptoFolioDB,
+} = require("./controllers/cryptofolioController");
 
-router.route("/").post(cryptofolioController.mockfunc);
-router.route("/new").post(cryptofolioController.createCryptoFolioDB);
+router.route("/").get(getCryptoFoliosDB);
+router.route("/new").post(createCryptoFolioDB);
 
 module.exports = router;
