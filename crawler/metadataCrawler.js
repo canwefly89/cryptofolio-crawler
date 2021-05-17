@@ -38,26 +38,25 @@ exports.metadataCrawler = async () => {
         .slice(0, 5);
     });
 
-    await page.goto("https://kr.investing.com/currencies/usd-krw");
+    await page.goto("https://kr.tradingview.com/symbols/USDKRW/");
     await page.waitForTimeout(Math.floor(Math.random() * 100 + 100));
     const rate = await page.evaluate(() => {
-      return document.querySelector("#last_last").textContent;
+      return document.querySelector(".tv-symbol-price-quote__value")
+        .textContent;
     });
 
     metadata.time = getDate();
     metadata.premium = getAverage(premium);
+    metadata.rate = parseNumber(rate);
     metadata.marketCapDollar = parseNumber(crawled[2]);
     metadata.marketCapWon = metadata.marketCapDollar * parseNumber(rate);
     metadata.dominance = crawled[4].split(":")[2].replace("ETH", "").trim();
 
-    fs.writeFileSync(
-      `${__dirname}/crawled/metadata/metadata.json`,
-      JSON.stringify(metadata)
-    );
-
     await page.close();
 
     await browser.close();
+
+    return metadata;
   } catch (err) {
     console.error(err);
   }

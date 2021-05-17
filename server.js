@@ -8,15 +8,15 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const server = require("http").Server(app);
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 6000;
 const morgan = require("morgan");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const schedule = require("node-schedule");
 
-const authRouter = require("./routes/authRouter");
-const coinRouter = require("./routes/coinRouter");
-const cryptofolioRouter = require("./routes/cryptofolioRouter");
+const { getCoinData } = require("./controller/coinDataController");
+const { getPriceData } = require("./controller/priceController");
+const { getMetadata } = require("./controller/metadataController");
 const { priceCrawler } = require("./crawler/priceCrawler");
 const { coinCrawler } = require("./crawler/coinCrawler");
 const { metadataCrawler } = require("./crawler/metadataCrawler");
@@ -65,9 +65,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
 
-app.use("/api/auth", authRouter);
-app.use("/api/cryptofolio", cryptofolioRouter);
-app.use("/api/coin", coinRouter);
+app.get("/metadata", getMetadata);
+app.get("/price", getPriceData);
+app.get("/coinData", getCoinData);
 
 app.use((req, res, next) => {
   const err = new Error("Not Found");
@@ -77,6 +77,7 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
+  console.log(err);
   res.locals.message = err.message;
   res.locals.error = req.app.get("env") === "development" ? err : {};
 

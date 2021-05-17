@@ -3,7 +3,6 @@ const fs = require("fs");
 const priceLog = require(`${__dirname}/crawled/price/priceLog.json`);
 const Coin = require("../models/coinModel");
 const { getDate } = require("../utils/getDate");
-const date = getDate();
 
 exports.priceCrawler = async () => {
   try {
@@ -89,7 +88,7 @@ exports.priceCrawler = async () => {
       await page.close();
     }
 
-    crawlResult.date = date;
+    crawlResult.date = getDate();
 
     const updatedPrice = { ...crawlResult };
     const updatePriceLog = [...priceLog, date];
