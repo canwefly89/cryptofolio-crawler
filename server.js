@@ -14,29 +14,19 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const schedule = require("node-schedule");
 
-const { getCoinData } = require("./controller/coinDataController");
 const { getPriceData } = require("./controller/priceController");
 const { getMetadata } = require("./controller/metadataController");
 const { priceCrawler } = require("./crawler/priceCrawler");
-const { coinCrawler } = require("./crawler/coinCrawler");
 const { metadataCrawler } = require("./crawler/metadataCrawler");
-// coinCrawler();
-// const { foo } = require("./dummyfunc");
-// foo();
-// priceCrawler();
+const { getDate } = require("./utils/getDate");
 
-schedule.scheduleJob("0 6 * * *", () => {
-  console.log("run price Crawler", new Date());
+schedule.scheduleJob("0 * * * *", () => {
+  console.log("run price Crawler", getDate());
   priceCrawler();
 });
 
-schedule.scheduleJob("0 7 * * *", () => {
-  console.log("run coin Crawler", new Date());
-  coinCrawler();
-});
-
-schedule.scheduleJob("*/30 * * * *", () => {
-  console.log("run metadata Crawler", new Date());
+schedule.scheduleJob("*/10 * * * *", () => {
+  console.log("run metadata Crawler", getDate());
   metadataCrawler();
 });
 
@@ -67,7 +57,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get("/metadata", getMetadata);
 app.get("/price", getPriceData);
-app.get("/coinData", getCoinData);
 
 app.use((req, res, next) => {
   const err = new Error("Not Found");

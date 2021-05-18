@@ -1,6 +1,33 @@
-{
+exports.PORTFOLIO_LIST = [
+  "DragonFly Capital Portfolio",
+  "Fenbushi Capital Portfolio",
+  "1Confirmation Portfolio",
+  "Galaxy Digital Portfolio",
+  "Blockchain Capital Portfolio",
+  "Fabric Ventures Portfolio",
+  "LedgerPrime Portfolio",
+  "BoostVC Portfolio",
+  "USV Portfolio",
+  "DCG Portfolio",
+  "Polychain Capital Portfolio",
+  "Pantera Capital Portfolio",
+  "Alameda Research Portfolio",
+  "Binance Labs Portfolio",
+  "Hashkey Capital Portfolio",
+  "Multicoin Capital Portfolio",
+  "Placeholder Ventures Portfolio",
+  "Three Arrows Capital Portfolio",
+  "CMS Holdings Portfolio",
+  "A16Z Portfolio",
+  "electric-capital-portfolio",
+  "Exnetwork Capital Portfolio",
+  "Coinbase Ventures Portfolio",
+  "Coinfund Portfolio",
+];
+
+exports.PORTFOLIO_DATA = {
   "DragonFly Capital Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Cosmos",
@@ -12,9 +39,9 @@
       "Celo",
       "1inch",
       "Nervos Network",
-      "Nebulas"
+      "Nebulas",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "ATOM",
@@ -26,11 +53,11 @@
       "CELO",
       "1INCH",
       "CKB",
-      "NAS"
-    ]
+      "NAS",
+    ],
   },
   "Fenbushi Capital Portfolio": {
-    "name": [
+    name: [
       "Polkadot",
       "VeChain",
       "EOS",
@@ -39,12 +66,12 @@
       "Ripio Credit Network",
       "Tierion",
       "Factom",
-      "TenX"
+      "TenX",
     ],
-    "ticker": ["DOT", "VET", "EOS", "ZEC", "SC", "RCN", "TNT", "FCT", "PAY"]
+    ticker: ["DOT", "VET", "EOS", "ZEC", "SC", "RCN", "TNT", "FCT", "PAY"],
   },
   "1Confirmation Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Polkadot",
@@ -53,16 +80,16 @@
       "Kusama",
       "Basic Attention Token",
       "Nervos Network",
-      "Augur"
+      "Augur",
     ],
-    "ticker": ["BTC", "ETH", "DOT", "ATOM", "MKR", "KSM", "BAT", "CKB", "REP"]
+    ticker: ["BTC", "ETH", "DOT", "ATOM", "MKR", "KSM", "BAT", "CKB", "REP"],
   },
   "Galaxy Digital Portfolio": {
-    "name": ["Bitcoin", "XRP", "EOS", "Monero", "SKALE Network", "WAX", "Kin"],
-    "ticker": ["BTC", "XRP", "EOS", "XMR", "SKL", "WAXP", "KIN"]
+    name: ["Bitcoin", "XRP", "EOS", "Monero", "SKALE Network", "WAX", "Kin"],
+    ticker: ["BTC", "XRP", "EOS", "XMR", "SKL", "WAXP", "KIN"],
   },
   "Blockchain Capital Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Polkadot",
@@ -78,9 +105,9 @@
       "Arweave",
       "Nervos Network",
       "Badger DAO",
-      "Orchid"
+      "Orchid",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "DOT",
@@ -96,11 +123,11 @@
       "AR",
       "CKB",
       "BADGER",
-      "OXT"
-    ]
+      "OXT",
+    ],
   },
   "Fabric Ventures Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Polkadot",
@@ -117,9 +144,9 @@
       "Streamr",
       "Radicle",
       "Raiden Network Token",
-      "Bloom"
+      "Bloom",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "DOT",
@@ -136,11 +163,11 @@
       "DATA",
       "RAD",
       "RDN",
-      "BLT"
-    ]
+      "BLT",
+    ],
   },
   "LedgerPrime Portfolio": {
-    "name": [
+    name: [
       "The Graph",
       "Flow",
       "Rally",
@@ -151,9 +178,9 @@
       "saffron.finance",
       "PowerPool",
       "PowerTrade Fuel",
-      "Edgeless"
+      "Edgeless",
     ],
-    "ticker": [
+    ticker: [
       "GRT",
       "FLOW",
       "RLY",
@@ -164,11 +191,11 @@
       "SFI",
       "CVP",
       "PTF",
-      "EDG"
-    ]
+      "EDG",
+    ],
   },
   "BoostVC Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Polkadot",
@@ -183,9 +210,9 @@
       "Keep Network",
       "Handshake",
       "district0x",
-      "Ripio Credit Network"
+      "Ripio Credit Network",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "DOT",
@@ -200,22 +227,15 @@
       "KEEP",
       "HNS",
       "DNT",
-      "RCN"
-    ]
+      "RCN",
+    ],
   },
   "USV Portfolio": {
-    "name": [
-      "Bitcoin",
-      "Ethereum",
-      "Algorand",
-      "Stacks",
-      "Helium",
-      "Numeraire"
-    ],
-    "ticker": ["BTC", "ETH", "ALGO", "STX", "HNT", "NMR"]
+    name: ["Bitcoin", "Ethereum", "Algorand", "Stacks", "Helium", "Numeraire"],
+    ticker: ["BTC", "ETH", "ALGO", "STX", "HNT", "NMR"],
   },
   "DCG Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Ethereum Classic",
@@ -235,9 +255,9 @@
       "Handshake",
       "API3",
       "Tierion",
-      "DECENT"
+      "DECENT",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "ETC",
@@ -257,11 +277,11 @@
       "HNS",
       "API3",
       "TNT",
-      "DCT"
-    ]
+      "DCT",
+    ],
   },
   "Polychain Capital Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Polkadot",
@@ -281,9 +301,9 @@
       "Orchid",
       "Keep Network",
       "Mina",
-      "Internet Computer"
+      "Internet Computer",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "DOT",
@@ -303,11 +323,11 @@
       "OXT",
       "KEEP",
       "MINA",
-      "ICP"
-    ]
+      "ICP",
+    ],
   },
   "Pantera Capital Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "XRP",
@@ -352,9 +372,9 @@
       "Reflexer Ungovernance Token",
       "Bloom",
       "Flexacoin",
-      "Kyber Network Crystal v2"
+      "Kyber Network Crystal v2",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "XRP",
@@ -399,11 +419,11 @@
       "FLX",
       "BLT",
       "FXC",
-      "KNC"
-    ]
+      "KNC",
+    ],
   },
   "Alameda Research Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Binance Coin",
@@ -444,9 +464,9 @@
       "dHedge DAO",
       "KeeperDAO",
       "Hedget",
-      "LINA"
+      "LINA",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "BNB",
@@ -487,11 +507,11 @@
       "DHT",
       "ROOK",
       "HGET",
-      "LINA"
-    ]
+      "LINA",
+    ],
   },
   "Binance Labs Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Terra",
@@ -508,9 +528,9 @@
       "Audius",
       "CertiK",
       "Cred",
-      "HOPR"
+      "HOPR",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "LUNA",
@@ -527,11 +547,11 @@
       "AUDIO",
       "CTK",
       "LBA",
-      "HOPR"
-    ]
+      "HOPR",
+    ],
   },
   "Hashkey Capital Portfolio": {
-    "name": [
+    name: [
       "Ethereum",
       "Polkadot",
       "Stellar",
@@ -550,9 +570,9 @@
       "Tierion",
       "Factom",
       "Edgeless",
-      "Casper"
+      "Casper",
     ],
-    "ticker": [
+    ticker: [
       "ETH",
       "DOT",
       "XLM",
@@ -571,11 +591,11 @@
       "TNT",
       "FCT",
       "EDG",
-      "CSPR"
-    ]
+      "CSPR",
+    ],
   },
   "Multicoin Capital Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Binance Coin",
@@ -594,9 +614,9 @@
       "Audius",
       "Perpetual Protocol",
       "Kadena",
-      "saffron.finance"
+      "saffron.finance",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "BNB",
@@ -615,11 +635,11 @@
       "AUDIO",
       "PERP",
       "KDA",
-      "SFI"
-    ]
+      "SFI",
+    ],
   },
   "Placeholder Ventures Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Polkadot",
@@ -635,9 +655,9 @@
       "Enzyme",
       "API3",
       "Radicle",
-      "FOAM"
+      "FOAM",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "DOT",
@@ -653,11 +673,11 @@
       "MLN",
       "API3",
       "RAD",
-      "FOAM"
-    ]
+      "FOAM",
+    ],
   },
   "Three Arrows Capital Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Polkadot",
@@ -676,9 +696,9 @@
       "dHedge DAO",
       "KeeperDAO",
       "Compound Uni",
-      "Kyber Network Crystal v2"
+      "Kyber Network Crystal v2",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "DOT",
@@ -697,11 +717,11 @@
       "DHT",
       "ROOK",
       "CUNI",
-      "KNC"
-    ]
+      "KNC",
+    ],
   },
   "CMS Holdings Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Polkadot",
@@ -722,9 +742,9 @@
       "Opium",
       "PowerTrade Fuel",
       "Siren",
-      "LINA"
+      "LINA",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "DOT",
@@ -745,11 +765,11 @@
       "OPIUM",
       "PTF",
       "SI",
-      "LINA"
-    ]
+      "LINA",
+    ],
   },
   "A16Z Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "XRP",
@@ -763,9 +783,9 @@
       "Keep Network",
       "Orchid",
       "Handshake",
-      "Rally"
+      "Rally",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "XRP",
@@ -779,11 +799,11 @@
       "KEEP",
       "OXT",
       "HNS",
-      "RLY"
-    ]
+      "RLY",
+    ],
   },
   "electric-capital-portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Monero",
@@ -792,12 +812,12 @@
       "Elrond",
       "NEAR Protocol",
       "Celo",
-      "Nervos Network"
+      "Nervos Network",
     ],
-    "ticker": ["BTC", "ETH", "XMR", "MKR", "ZEC", "EGLD", "NEAR", "CELO", "CKB"]
+    ticker: ["BTC", "ETH", "XMR", "MKR", "ZEC", "EGLD", "NEAR", "CELO", "CKB"],
   },
   "Exnetwork Capital Portfolio": {
-    "name": [
+    name: [
       "Polkadot",
       "Cosmos",
       "FTX Token",
@@ -884,9 +904,9 @@
       "MobiFi",
       "DeFi Wizard",
       "GIVLY Coin",
-      "Internet Computer"
+      "Internet Computer",
     ],
-    "ticker": [
+    ticker: [
       "DOT",
       "ATOM",
       "FTT",
@@ -973,11 +993,11 @@
       "MoFi",
       "DWZ",
       "GIV",
-      "ICP"
-    ]
+      "ICP",
+    ],
   },
   "Coinbase Ventures Portfolio": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Uniswap",
@@ -1002,9 +1022,9 @@
       "SmartCoin",
       "Unlock Protocol",
       "Mina",
-      "Compound Uni"
+      "Compound Uni",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "UNI",
@@ -1029,11 +1049,11 @@
       "SMC",
       "UDT",
       "MINA",
-      "CUNI"
-    ]
+      "CUNI",
+    ],
   },
   "Coinfund Portfolio": {
-    "name": [
+    name: [
       "Polkadot",
       "The Graph",
       "NEAR Protocol",
@@ -1047,9 +1067,9 @@
       "Kadena",
       "NFTX",
       "API3",
-      "Rarible"
+      "Rarible",
     ],
-    "ticker": [
+    ticker: [
       "DOT",
       "GRT",
       "NEAR",
@@ -1063,7 +1083,7 @@
       "KDA",
       "NFTX",
       "API3",
-      "RARI"
-    ]
-  }
-}
+      "RARI",
+    ],
+  },
+};

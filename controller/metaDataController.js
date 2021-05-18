@@ -7,14 +7,15 @@ exports.getMetadata = async (req, res, next) => {
     await MetaData.deleteMany();
     const crawledMetadata = await metadataCrawler();
 
-    const savedMetadata = new MetaData(crawledMetadata);
-    savedMetadata.save();
+    const savedMetadata = await MetaData.create(crawledMetadata);
 
     if (!savedMetadata) {
       return res.status(400).json({
         message: "fail",
       });
     }
+
+    console.log(savedMetadata);
 
     return res.status(200).json({
       message: "success",

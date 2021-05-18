@@ -1,6 +1,80 @@
-{
-  "Tourism": {
-    "name": [
+exports.CATEGORY_LIST = [
+  "Tourism",
+  "Retail",
+  "Media",
+  "Sharing Economy",
+  "Entertainment",
+  "Loyalty",
+  "Marketing",
+  "Content Creation",
+  "Energy",
+  "binance smart chain",
+  "Yield farming",
+  "Storage",
+  "Analytics",
+  "Video",
+  "Logistics",
+  "Fan token",
+  "Filesharing",
+  "Distributed Computing",
+  "Winklevoss Capital",
+  "Scaling",
+  "DAO",
+  "Framework Ventures",
+  "Smart Contracts",
+  "Asset management",
+  "Cosmos Ecosystem",
+  "Kinetic Capital",
+  "Huobi Capital",
+  "Masternodes",
+  "IoT",
+  "Decentralized exchange",
+  "Cybersecurity",
+  "Privacy",
+  "Binance Launchpool",
+  "Research",
+  "ParaFi capital",
+  "lending-borowing",
+  "Yield Aggregator",
+  "Paradigm XZY Screener",
+  "Health",
+  "DeFi",
+  "Memes",
+  "collectibles-nfts",
+  "Centralized exchange",
+  "Oracles",
+  "Derivatives",
+  "Synthetics",
+  "Gaming",
+  "Polkadot Ecosystem",
+  "Binance Launchpad",
+  "Yearn Partnerships",
+  "ai-big-data",
+  "Hospitality",
+  "Identity",
+  "Insurance",
+  "Interoperability",
+  "Music",
+  "AMM",
+  "DeFiance Capital",
+  "DAO Maker",
+  "Avalanche Ecosystem",
+  "Wrapped Tokens",
+  "Metaverse",
+  "Sports",
+  "Gambling",
+  "Stablecoin",
+  "Solana Ecosystem",
+  "platform",
+  "pow",
+  "mineable",
+  "services",
+  "payments",
+];
+
+exports.CATEGORY_DATA = {
+  Tourism: {
+    name: [
       "Travala.com",
       "LockTrip",
       "XcelToken Plus",
@@ -18,9 +92,9 @@
       "Rilcoin Criptomoneda",
       "ELDORADO TOKEN",
       "TriipMiles",
-      "Touriva"
+      "Touriva",
     ],
-    "ticker": [
+    ticker: [
       "AVA",
       "LOC",
       "XLAB",
@@ -38,15 +112,15 @@
       "RIL",
       "ERD",
       "TIIM",
-      "TOUR"
-    ]
+      "TOUR",
+    ],
   },
-  "Retail": {
-    "name": ["Carry", "Nucleus Vision", "Curate", "Particl"],
-    "ticker": ["CRE", "NCASH", "XCUR", "PART"]
+  Retail: {
+    name: ["Carry", "Nucleus Vision", "Curate", "Particl"],
+    ticker: ["CRE", "NCASH", "XCUR", "PART"],
   },
-  "Media": {
-    "name": [
+  Media: {
+    name: [
       "THETA",
       "TRON",
       "Enjin Coin",
@@ -120,9 +194,9 @@
       "EtherSportz",
       "Jesus Coin",
       "Concensum",
-      "Oasis City"
+      "Oasis City",
     ],
-    "ticker": [
+    ticker: [
       "THETA",
       "TRX",
       "ENJ",
@@ -196,11 +270,11 @@
       "ESZ",
       "JC",
       "CEN",
-      "OSC"
-    ]
+      "OSC",
+    ],
   },
   "Sharing Economy": {
-    "name": [
+    name: [
       "IOTA",
       "Power Ledger",
       "LockTrip",
@@ -214,9 +288,9 @@
       "Emphy",
       "bitJob",
       "Bee Token",
-      "PKT"
+      "PKT",
     ],
-    "ticker": [
+    ticker: [
       "MIOTA",
       "POWR",
       "LOC",
@@ -230,11 +304,11 @@
       "EPY",
       "STU",
       "BEE",
-      "1PKT"
-    ]
+      "1PKT",
+    ],
   },
-  "Entertainment": {
-    "name": [
+  Entertainment: {
+    name: [
       "MyNeighborAlice",
       "Alien Worlds",
       "Vulcan Forged PYR",
@@ -272,9 +346,9 @@
       "Concensum",
       "RAC",
       "Fyooz NFT",
-      "Ethermon"
+      "Ethermon",
     ],
-    "ticker": [
+    ticker: [
       "ALICE",
       "TLM",
       "PYR",
@@ -312,11 +386,11 @@
       "CEN",
       "RAC",
       "FYZNFT",
-      "EMON"
-    ]
+      "EMON",
+    ],
   },
-  "Loyalty": {
-    "name": [
+  Loyalty: {
+    name: [
       "StormX",
       "Everipedia",
       "Carry",
@@ -329,9 +403,9 @@
       "More Coin",
       "FirstBlood",
       "Bitbook Gambling",
-      "Goodomy"
+      "Goodomy",
     ],
-    "ticker": [
+    ticker: [
       "STMX",
       "IQ",
       "CRE",
@@ -344,11 +418,11 @@
       "MORE",
       "1ST",
       "BXK",
-      "GOOD"
-    ]
+      "GOOD",
+    ],
   },
-  "Marketing": {
-    "name": [
+  Marketing: {
+    name: [
       "Basic Attention Token",
       "AdEx Network",
       "Wabi",
@@ -367,9 +441,9 @@
       "Content and AD Network",
       "RefToken",
       "Sether",
-      "AdHive"
+      "AdHive",
     ],
-    "ticker": [
+    ticker: [
       "BAT",
       "ADX",
       "WABI",
@@ -388,11 +462,11 @@
       "CAN",
       "REF",
       "SETH",
-      "ADH"
-    ]
+      "ADH",
+    ],
   },
   "Content Creation": {
-    "name": [
+    name: [
       "THETA",
       "Cosmos",
       "Chiliz",
@@ -453,9 +527,9 @@
       "Sether",
       "AdHive",
       "Aladdin",
-      "Joystream"
+      "Joystream",
     ],
-    "ticker": [
+    ticker: [
       "THETA",
       "ATOM",
       "CHZ",
@@ -516,11 +590,11 @@
       "SETH",
       "ADH",
       "ADN",
-      "joystream"
-    ]
+      "joystream",
+    ],
   },
-  "Energy": {
-    "name": [
+  Energy: {
+    name: [
       "Energy Web Token",
       "Power Ledger",
       "EFFORCE",
@@ -534,9 +608,9 @@
       "Candela Coin",
       "Robotina",
       "VoltPotCoin",
-      "MODEL3"
+      "MODEL3",
     ],
-    "ticker": [
+    ticker: [
       "EWT",
       "POWR",
       "WOZX",
@@ -550,11 +624,11 @@
       "CLA",
       "ROX",
       "VPC",
-      "TESLA"
-    ]
+      "TESLA",
+    ],
   },
   "binance smart chain": {
-    "name": [
+    name: [
       "Binance Coin",
       "Binance USD",
       "PancakeSwap",
@@ -654,9 +728,9 @@
       "PayRue (Propel)",
       "Wault Finance (OLD)",
       "Zero Exchange",
-      "Evolution"
+      "Evolution",
     ],
-    "ticker": [
+    ticker: [
       "BNB",
       "BUSD",
       "CAKE",
@@ -756,11 +830,11 @@
       "PROPEL",
       "WAULT",
       "ZERO",
-      "GEN"
-    ]
+      "GEN",
+    ],
   },
   "Yield farming": {
-    "name": [
+    name: [
       "Uniswap",
       "PancakeSwap",
       "Aave",
@@ -860,9 +934,9 @@
       "BSCEX",
       "DEUS Finance",
       "TosDis",
-      "CoFiX"
+      "CoFiX",
     ],
-    "ticker": [
+    ticker: [
       "UNI",
       "CAKE",
       "AAVE",
@@ -962,11 +1036,11 @@
       "BSCX",
       "DEUS",
       "DIS",
-      "COFI"
-    ]
+      "COFI",
+    ],
   },
-  "Storage": {
-    "name": [
+  Storage: {
+    name: [
       "Filecoin",
       "BitTorrent",
       "Holo",
@@ -998,9 +1072,9 @@
       "Shift",
       "Edge",
       "Dat Protocol",
-      "Coldstack"
+      "Coldstack",
     ],
-    "ticker": [
+    ticker: [
       "FIL",
       "BTT",
       "HOT",
@@ -1032,11 +1106,11 @@
       "SHIFT",
       "DADI",
       "DAT",
-      "CLS"
-    ]
+      "CLS",
+    ],
   },
-  "Analytics": {
-    "name": [
+  Analytics: {
+    name: [
       "The Graph",
       "PARSIQ",
       "DEXTools",
@@ -1045,9 +1119,9 @@
       "ChartEx",
       "Graphlinq Protocol",
       "UniWhales",
-      "APY Vision"
+      "APY Vision",
     ],
-    "ticker": [
+    ticker: [
       "GRT",
       "PRQ",
       "DEXT",
@@ -1056,11 +1130,11 @@
       "CHART",
       "GLQ",
       "UWL",
-      "VISION"
-    ]
+      "VISION",
+    ],
   },
-  "Video": {
-    "name": [
+  Video: {
+    name: [
       "THETA",
       "Verasity",
       "MovieBloc",
@@ -1071,9 +1145,9 @@
       "Streamit Coin",
       "POP Network Token",
       "Viuly",
-      "Show"
+      "Show",
     ],
-    "ticker": [
+    ticker: [
       "THETA",
       "VRA",
       "MBL",
@@ -1084,11 +1158,11 @@
       "STREAM",
       "POP",
       "VIU",
-      "SHOW"
-    ]
+      "SHOW",
+    ],
   },
-  "Logistics": {
-    "name": [
+  Logistics: {
+    name: [
       "VeChain",
       "Populous",
       "OriginTrail",
@@ -1104,9 +1178,9 @@
       "Electra Protocol",
       "Release Project",
       "Ecobit",
-      "Block Array"
+      "Block Array",
     ],
-    "ticker": [
+    ticker: [
       "VET",
       "PPT",
       "TRAC",
@@ -1122,11 +1196,11 @@
       "XEP",
       "REL",
       "ECOB",
-      "ARY"
-    ]
+      "ARY",
+    ],
   },
   "Fan token": {
-    "name": [
+    name: [
       "FC Barcelona Fan Token",
       "Paris Saint-Germain Fan Token",
       "Galatasaray Fan Token",
@@ -1145,9 +1219,9 @@
       "Sint-Truidense Voetbalvereniging Fan Token",
       "İstanbul Başakşehir Fan Token",
       "Novara Calcio Fan Token",
-      "Professional Fighters League Fan Token"
+      "Professional Fighters League Fan Token",
     ],
-    "ticker": [
+    ticker: [
       "BAR",
       "PSG",
       "GAL",
@@ -1166,11 +1240,11 @@
       "STV",
       "IBFK",
       "NOV",
-      "PFL"
-    ]
+      "PFL",
+    ],
   },
-  "Filesharing": {
-    "name": [
+  Filesharing: {
+    name: [
       "Filecoin",
       "BitTorrent",
       "Holo",
@@ -1211,9 +1285,9 @@
       "FileStar",
       "Shift",
       "Edge",
-      "Coldstack"
+      "Coldstack",
     ],
-    "ticker": [
+    ticker: [
       "FIL",
       "BTT",
       "HOT",
@@ -1254,11 +1328,11 @@
       "STAR",
       "SHIFT",
       "DADI",
-      "CLS"
-    ]
+      "CLS",
+    ],
   },
   "Distributed Computing": {
-    "name": [
+    name: [
       "Filecoin",
       "BitTorrent",
       "Holo",
@@ -1315,9 +1389,9 @@
       "Edge",
       "Maximine Coin",
       "Internet Computer",
-      "Coldstack"
+      "Coldstack",
     ],
-    "ticker": [
+    ticker: [
       "FIL",
       "BTT",
       "HOT",
@@ -1374,15 +1448,15 @@
       "DADI",
       "MXM",
       "ICP",
-      "CLS"
-    ]
+      "CLS",
+    ],
   },
   "Winklevoss Capital": {
-    "name": ["Bitcoin", "Ethereum", "Filecoin", "Tezos", "Zcash"],
-    "ticker": ["BTC", "ETH", "FIL", "XTZ", "ZEC"]
+    name: ["Bitcoin", "Ethereum", "Filecoin", "Tezos", "Zcash"],
+    ticker: ["BTC", "ETH", "FIL", "XTZ", "ZEC"],
   },
-  "Scaling": {
-    "name": [
+  Scaling: {
+    name: [
       "Fantom",
       "Harmony",
       "iExec RLC",
@@ -1400,9 +1474,9 @@
       "DDKoin",
       "Cellframe",
       "Locus Chain",
-      "Plasm Network"
+      "Plasm Network",
     ],
-    "ticker": [
+    ticker: [
       "FTM",
       "ONE",
       "RLC",
@@ -1420,11 +1494,11 @@
       "DDK",
       "CELL",
       "LOCUS",
-      "PLM"
-    ]
+      "PLM",
+    ],
   },
-  "DAO": {
-    "name": [
+  DAO: {
+    name: [
       "Uniswap",
       "Aave",
       "Maker",
@@ -1513,9 +1587,9 @@
       "Unbound",
       "xETH-G",
       "ADAM Oracle",
-      "Kyber Network Crystal v2"
+      "Kyber Network Crystal v2",
     ],
-    "ticker": [
+    ticker: [
       "UNI",
       "AAVE",
       "MKR",
@@ -1604,11 +1678,11 @@
       "UNB",
       "XETH-G",
       "ADAM",
-      "KNC"
-    ]
+      "KNC",
+    ],
   },
   "Framework Ventures": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Chainlink",
@@ -1624,9 +1698,9 @@
       "dHedge DAO",
       "PowerTrade Fuel",
       "Fractal",
-      "Edgeless"
+      "Edgeless",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "LINK",
@@ -1642,11 +1716,11 @@
       "DHT",
       "PTF",
       "FCL",
-      "EDG"
-    ]
+      "EDG",
+    ],
   },
   "Smart Contracts": {
-    "name": [
+    name: [
       "Ethereum",
       "Cardano",
       "Chainlink",
@@ -1746,9 +1820,9 @@
       "Ecoreal Estate",
       "Amoveo",
       "MOAC",
-      "Release Project"
+      "Release Project",
     ],
-    "ticker": [
+    ticker: [
       "ETH",
       "ADA",
       "LINK",
@@ -1848,11 +1922,11 @@
       "ECOREAL",
       "VEO",
       "MOAC",
-      "REL"
-    ]
+      "REL",
+    ],
   },
   "Asset management": {
-    "name": [
+    name: [
       "SwissBorg",
       "Voyager Token",
       "Numeraire",
@@ -1925,9 +1999,9 @@
       "Jibrel Network",
       "Sharpe Platform Token",
       "LALA World",
-      "Linkey"
+      "Linkey",
     ],
-    "ticker": [
+    ticker: [
       "CHSB",
       "VGX",
       "NMR",
@@ -2000,11 +2074,11 @@
       "JNT",
       "SHP",
       "LALA",
-      "LKY"
-    ]
+      "LKY",
+    ],
   },
   "Cosmos Ecosystem": {
-    "name": [
+    name: [
       "Terra",
       "Cosmos",
       "Crypto.com Coin",
@@ -2052,9 +2126,9 @@
       "BitSong",
       "Dfinance",
       "Iungo",
-      "Spendcoin"
+      "Spendcoin",
     ],
-    "ticker": [
+    ticker: [
       "LUNA",
       "ATOM",
       "CRO",
@@ -2102,11 +2176,11 @@
       "BTSG",
       "XFI",
       "ING",
-      "SPND"
-    ]
+      "SPND",
+    ],
   },
   "Kinetic Capital": {
-    "name": [
+    name: [
       "Ethereum",
       "Polkadot",
       "Solana",
@@ -2161,9 +2235,9 @@
       "FirstBlood",
       "SifChain",
       "LINA",
-      "Kyber Network Crystal v2"
+      "Kyber Network Crystal v2",
     ],
-    "ticker": [
+    ticker: [
       "ETH",
       "DOT",
       "SOL",
@@ -2218,11 +2292,11 @@
       "1ST",
       "erowan",
       "LINA",
-      "KNC"
-    ]
+      "KNC",
+    ],
   },
   "Huobi Capital": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "THETA",
@@ -2233,9 +2307,9 @@
       "Ren",
       "Nervos Network",
       "aelf",
-      "Thunder Token"
+      "Thunder Token",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "THETA",
@@ -2246,11 +2320,11 @@
       "REN",
       "CKB",
       "ELF",
-      "TT"
-    ]
+      "TT",
+    ],
   },
-  "Masternodes": {
-    "name": [
+  Masternodes: {
+    name: [
       "Dash",
       "Horizen",
       "Syscoin",
@@ -2350,9 +2424,9 @@
       "BitCore",
       "MYCE",
       "01coin",
-      "ColossusXT"
+      "ColossusXT",
     ],
-    "ticker": [
+    ticker: [
       "DASH",
       "ZEN",
       "SYS",
@@ -2452,11 +2526,11 @@
       "BTX",
       "YCE",
       "ZOC",
-      "COLX"
-    ]
+      "COLX",
+    ],
   },
-  "IoT": {
-    "name": [
+  IoT: {
+    name: [
       "VeChain",
       "IOTA",
       "DigiByte",
@@ -2507,9 +2581,9 @@
       "Cranepay",
       "Benscoin",
       "DataHighway",
-      "Nodle IoT"
+      "Nodle IoT",
     ],
-    "ticker": [
+    ticker: [
       "VET",
       "MIOTA",
       "DGB",
@@ -2560,11 +2634,11 @@
       "CRP",
       "BSC",
       "DHX",
-      "Nodle"
-    ]
+      "Nodle",
+    ],
   },
   "Decentralized exchange": {
-    "name": [
+    name: [
       "Uniswap",
       "Stellar",
       "PancakeSwap",
@@ -2664,9 +2738,9 @@
       "USD Bancor",
       "One DEX",
       "IDEX Membership",
-      "Bitpayer Token"
+      "Bitpayer Token",
     ],
-    "ticker": [
+    ticker: [
       "UNI",
       "XLM",
       "CAKE",
@@ -2766,11 +2840,11 @@
       "USDB",
       "ODEX",
       "IDXM",
-      "BPT"
-    ]
+      "BPT",
+    ],
   },
-  "Cybersecurity": {
-    "name": [
+  Cybersecurity: {
+    name: [
       "Utrust",
       "CertiK",
       "Hacken Token",
@@ -2779,12 +2853,12 @@
       "HAPI",
       "Cube",
       "Remme",
-      "disBalancer"
+      "disBalancer",
     ],
-    "ticker": ["UTK", "CTK", "HAI", "QSP", "NCT", "HAPI", "AUTO", "REM", "DDOS"]
+    ticker: ["UTK", "CTK", "HAI", "QSP", "NCT", "HAPI", "AUTO", "REM", "DDOS"],
   },
-  "Privacy": {
-    "name": [
+  Privacy: {
+    name: [
       "Monero",
       "Dash",
       "Zcash",
@@ -2864,9 +2938,9 @@
       "LitecoinZ",
       "Gunclear",
       "ZeroChain",
-      "pLibra"
+      "pLibra",
     ],
-    "ticker": [
+    ticker: [
       "XMR",
       "DASH",
       "ZEC",
@@ -2946,11 +3020,11 @@
       "LTZ",
       "Gunclear",
       "ZeroChain",
-      "PLIBRA"
-    ]
+      "PLIBRA",
+    ],
   },
   "Binance Launchpool": {
-    "name": [
+    name: [
       "Venus",
       "Bitcoin Standard Hashrate Token",
       "Alpha Finance Lab",
@@ -2959,9 +3033,9 @@
       "Bella Protocol",
       "HARD Protocol",
       "Unifi Protocol DAO",
-      "Wing"
+      "Wing",
     ],
-    "ticker": [
+    ticker: [
       "XVS",
       "BTCST",
       "ALPHA",
@@ -2970,11 +3044,11 @@
       "BEL",
       "HARD",
       "UNFI",
-      "WING"
-    ]
+      "WING",
+    ],
   },
-  "Research": {
-    "name": [
+  Research: {
+    name: [
       "Cardano",
       "Algorand",
       "Fantom",
@@ -2988,9 +3062,9 @@
       "MEXC Token",
       "EncrypGen",
       "FoldingCoin",
-      "MineBee"
+      "MineBee",
     ],
-    "ticker": [
+    ticker: [
       "ADA",
       "ALGO",
       "FTM",
@@ -3004,11 +3078,11 @@
       "MEXC",
       "DNA",
       "FLDC",
-      "MB"
-    ]
+      "MB",
+    ],
   },
   "ParaFi capital": {
-    "name": [
+    name: [
       "Uniswap",
       "Aave",
       "yearn.finance",
@@ -3020,9 +3094,9 @@
       "RAMP",
       "BarnBridge",
       "mStable Governance Token: Meta (MTA)",
-      "Kyber Network Crystal v2"
+      "Kyber Network Crystal v2",
     ],
-    "ticker": [
+    ticker: [
       "UNI",
       "AAVE",
       "YFI",
@@ -3034,11 +3108,11 @@
       "RAMP",
       "BOND",
       "MTA",
-      "KNC"
-    ]
+      "KNC",
+    ],
   },
   "lending-borowing": {
-    "name": [
+    name: [
       "Aave",
       "Maker",
       "Compound",
@@ -3062,9 +3136,9 @@
       "Inverse Finance",
       "DeFiPie",
       "KUN",
-      "Agave"
+      "Agave",
     ],
-    "ticker": [
+    ticker: [
       "AAVE",
       "MKR",
       "COMP",
@@ -3088,11 +3162,11 @@
       "INV",
       "PIE",
       "KUN",
-      "AGVE"
-    ]
+      "AGVE",
+    ],
   },
   "Yield Aggregator": {
-    "name": [
+    name: [
       "yearn.finance",
       "Alpha Finance Lab",
       "Badger DAO",
@@ -3120,9 +3194,9 @@
       "JaguarSwap",
       "Inverse Finance",
       "Bearn",
-      "BT.Finance"
+      "BT.Finance",
     ],
-    "ticker": [
+    ticker: [
       "YFI",
       "ALPHA",
       "BADGER",
@@ -3150,11 +3224,11 @@
       "JAGUAR",
       "INV",
       "BFI",
-      "BT"
-    ]
+      "BT",
+    ],
   },
   "Paradigm XZY Screener": {
-    "name": [
+    name: [
       "Bitcoin",
       "Ethereum",
       "Uniswap",
@@ -3163,12 +3237,12 @@
       "Compound",
       "Siacoin",
       "Numeraire",
-      "Keep Network"
+      "Keep Network",
     ],
-    "ticker": ["BTC", "ETH", "UNI", "ATOM", "MKR", "COMP", "SC", "NMR", "KEEP"]
+    ticker: ["BTC", "ETH", "UNI", "ATOM", "MKR", "COMP", "SC", "NMR", "KEEP"],
   },
-  "Health": {
-    "name": [
+  Health: {
+    name: [
       "MediBloc",
       "SOLVE",
       "Dentacoin",
@@ -3183,9 +3257,9 @@
       "ZOM",
       "Babytoken",
       "FoldingCoin",
-      "Paragon"
+      "Paragon",
     ],
-    "ticker": [
+    ticker: [
       "MED",
       "SOLVE",
       "DCN",
@@ -3200,11 +3274,11 @@
       "ZOM",
       "BABY",
       "FLDC",
-      "PRG"
-    ]
+      "PRG",
+    ],
   },
-  "DeFi": {
-    "name": [
+  DeFi: {
+    name: [
       "Chainlink",
       "Uniswap",
       "Wrapped Bitcoin",
@@ -3304,9 +3378,9 @@
       "Bella Protocol",
       "Dego Finance",
       "Rari Governance Token",
-      "saffron.finance"
+      "saffron.finance",
     ],
-    "ticker": [
+    ticker: [
       "LINK",
       "UNI",
       "WBTC",
@@ -3406,11 +3480,11 @@
       "BEL",
       "DEGO",
       "RGT",
-      "SFI"
-    ]
+      "SFI",
+    ],
   },
-  "Memes": {
-    "name": [
+  Memes: {
+    name: [
       "Dogecoin",
       "SHIBA INU",
       "ERC20",
@@ -3453,9 +3527,9 @@
       "PajeetCoin",
       "Yolo",
       "MECHAZILLA",
-      "DogeMoon"
+      "DogeMoon",
     ],
-    "ticker": [
+    ticker: [
       "DOGE",
       "SHIB",
       "ERC20",
@@ -3498,11 +3572,11 @@
       "PAJEET",
       "YOLO",
       "MECHAZ",
-      "DOGEMOON"
-    ]
+      "DOGEMOON",
+    ],
   },
   "collectibles-nfts": {
-    "name": [
+    name: [
       "THETA",
       "Chiliz",
       "Decentraland",
@@ -3602,9 +3676,9 @@
       "DomRaider",
       "Showcase",
       "MU DANK",
-      "Machi X"
+      "Machi X",
     ],
-    "ticker": [
+    ticker: [
       "THETA",
       "CHZ",
       "MANA",
@@ -3704,11 +3778,11 @@
       "DRT",
       "SHO",
       "DANK",
-      "MCX"
-    ]
+      "MCX",
+    ],
   },
   "Centralized exchange": {
-    "name": [
+    name: [
       "Binance Coin",
       "FTX Token",
       "Huobi Token",
@@ -3773,9 +3847,9 @@
       "Trade Token X",
       "BHEX Token",
       "Hotbit Token",
-      "Resfinex Token"
+      "Resfinex Token",
     ],
-    "ticker": [
+    ticker: [
       "BNB",
       "FTT",
       "HT",
@@ -3840,11 +3914,11 @@
       "TIOX",
       "BHC",
       "HTB",
-      "RES"
-    ]
+      "RES",
+    ],
   },
-  "Oracles": {
-    "name": [
+  Oracles: {
+    name: [
       "Chainlink",
       "UMA",
       "iExec RLC",
@@ -3876,9 +3950,9 @@
       "UTU Protocol",
       "Orakuru",
       "DREP [old]",
-      "ADAM Oracle"
+      "ADAM Oracle",
     ],
-    "ticker": [
+    ticker: [
       "LINK",
       "UMA",
       "RLC",
@@ -3910,11 +3984,11 @@
       "UTU",
       "ORK",
       "DREP",
-      "ADAM"
-    ]
+      "ADAM",
+    ],
   },
-  "Derivatives": {
-    "name": [
+  Derivatives: {
+    name: [
       "FTX Token",
       "Synthetix",
       "UMA",
@@ -3950,9 +4024,9 @@
       "Globe Derivative Exchange",
       "Leverj",
       "Oiler Network",
-      "dTrade"
+      "dTrade",
     ],
-    "ticker": [
+    ticker: [
       "FTT",
       "SNX",
       "UMA",
@@ -3988,11 +4062,11 @@
       "GDT",
       "LEV",
       "OIL",
-      "DET"
-    ]
+      "DET",
+    ],
   },
-  "Synthetics": {
-    "name": [
+  Synthetics: {
+    name: [
       "Synthetix",
       "UMA",
       "BitShares",
@@ -4024,9 +4098,9 @@
       "sDASH",
       "iXRP",
       "sETC",
-      "iXTZ"
+      "iXTZ",
     ],
-    "ticker": [
+    ticker: [
       "SNX",
       "UMA",
       "BTS",
@@ -4058,11 +4132,11 @@
       "SDASH",
       "IXRP",
       "SETC",
-      "IXTZ"
-    ]
+      "IXTZ",
+    ],
   },
-  "Gaming": {
-    "name": [
+  Gaming: {
+    name: [
       "Decentraland",
       "Enjin Coin",
       "The Sandbox",
@@ -4137,9 +4211,9 @@
       "EtherSportz",
       "Intergalactic Gold",
       "SOLAR Token",
-      "Ethermon"
+      "Ethermon",
     ],
-    "ticker": [
+    ticker: [
       "MANA",
       "ENJ",
       "SAND",
@@ -4214,11 +4288,11 @@
       "ESZ",
       "IGG",
       "SOLAR",
-      "EMON"
-    ]
+      "EMON",
+    ],
   },
   "Polkadot Ecosystem": {
-    "name": [
+    name: [
       "Polkadot",
       "Chainlink",
       "Kusama",
@@ -4310,9 +4384,9 @@
       "Laminar",
       "Paralink Network",
       "Bifrost (BNC)",
-      "Moonriver"
+      "Moonriver",
     ],
-    "ticker": [
+    ticker: [
       "DOT",
       "LINK",
       "KSM",
@@ -4404,11 +4478,11 @@
       "Laminar",
       "PARA",
       "BNC",
-      "RIVER"
-    ]
+      "RIVER",
+    ],
   },
   "Binance Launchpad": {
-    "name": [
+    name: [
       "Polygon",
       "BitTorrent",
       "Elrond",
@@ -4432,9 +4506,9 @@
       "Gifto",
       "Bread",
       "AC Milan Fan Token",
-      "Oxbull.tech"
+      "Oxbull.tech",
     ],
-    "ticker": [
+    ticker: [
       "MATIC",
       "BTT",
       "EGLD",
@@ -4458,11 +4532,11 @@
       "GTO",
       "BRD",
       "ACM",
-      "OXB"
-    ]
+      "OXB",
+    ],
   },
   "Yearn Partnerships": {
-    "name": [
+    name: [
       "SushiSwap",
       "yearn.finance",
       "Akropolis",
@@ -4472,9 +4546,9 @@
       "COVER Protocol",
       "Pickle Finance",
       "Cream",
-      "xSUSHI"
+      "xSUSHI",
     ],
-    "ticker": [
+    ticker: [
       "SUSHI",
       "YFI",
       "AKRO",
@@ -4484,11 +4558,11 @@
       "COVER",
       "PICKLE",
       "CRM",
-      "XSUSHI"
-    ]
+      "XSUSHI",
+    ],
   },
   "ai-big-data": {
-    "name": [
+    name: [
       "The Graph",
       "iExec RLC",
       "Ocean Protocol",
@@ -4543,9 +4617,9 @@
       "AdHive",
       "Qubitica",
       "FABRK",
-      "MineBee"
+      "MineBee",
     ],
-    "ticker": [
+    ticker: [
       "GRT",
       "RLC",
       "OCEAN",
@@ -4600,15 +4674,15 @@
       "ADH",
       "QBIT",
       "FAB",
-      "MB"
-    ]
+      "MB",
+    ],
   },
-  "Hospitality": {
-    "name": ["Travala.com", "LockTrip", "Tripio", "Emphy"],
-    "ticker": ["AVA", "LOC", "TRIO", "EPY"]
+  Hospitality: {
+    name: ["Travala.com", "LockTrip", "Tripio", "Emphy"],
+    ticker: ["AVA", "LOC", "TRIO", "EPY"],
   },
-  "Identity": {
-    "name": [
+  Identity: {
+    name: [
       "Ontology",
       "Energy Web Token",
       "Civic",
@@ -4622,9 +4696,9 @@
       "Ink",
       "Shyft Network",
       "Verify",
-      "Bloom"
+      "Bloom",
     ],
-    "ticker": [
+    ticker: [
       "ONT",
       "EWT",
       "CVC",
@@ -4638,11 +4712,11 @@
       "INK",
       "SHFT",
       "CRED",
-      "BLT"
-    ]
+      "BLT",
+    ],
   },
-  "Insurance": {
-    "name": [
+  Insurance: {
+    name: [
       "NXM",
       "inSure DeFi",
       "Wrapped NXM",
@@ -4664,9 +4738,9 @@
       "Armor NXM",
       "YAM v1",
       "Foresight",
-      "SAFE2"
+      "SAFE2",
     ],
-    "ticker": [
+    ticker: [
       "NXM",
       "SURE",
       "WNXM",
@@ -4688,11 +4762,11 @@
       "arNXM",
       "YAM",
       "FORS",
-      "SAFE2"
-    ]
+      "SAFE2",
+    ],
   },
-  "Interoperability": {
-    "name": [
+  Interoperability: {
+    name: [
       "Cosmos",
       "ICON",
       "Quant",
@@ -4717,9 +4791,9 @@
       "Meter Stable",
       "Keysians Network",
       "Open Trading Network",
-      "Moonriver"
+      "Moonriver",
     ],
-    "ticker": [
+    ticker: [
       "ATOM",
       "ICX",
       "QNT",
@@ -4744,11 +4818,11 @@
       "MTR",
       "KEN",
       "OTN",
-      "RIVER"
-    ]
+      "RIVER",
+    ],
   },
-  "Music": {
-    "name": [
+  Music: {
+    name: [
       "Audius",
       "Viberate",
       "AudioCoin",
@@ -4760,9 +4834,9 @@
       "Utopia Genesis Foundation",
       "Voise",
       "Vezt",
-      "RAC"
+      "RAC",
     ],
-    "ticker": [
+    ticker: [
       "AUDIO",
       "VIB",
       "ADC",
@@ -4774,11 +4848,11 @@
       "UOP",
       "VOISE",
       "VZT",
-      "RAC"
-    ]
+      "RAC",
+    ],
   },
-  "AMM": {
-    "name": [
+  AMM: {
+    name: [
       "Uniswap",
       "PancakeSwap",
       "SushiSwap",
@@ -4818,9 +4892,9 @@
       "Unbound",
       "Unbound Dollar",
       "Kyber Network Crystal v2",
-      "Dfyn Network"
+      "Dfyn Network",
     ],
-    "ticker": [
+    ticker: [
       "UNI",
       "CAKE",
       "SUSHI",
@@ -4860,11 +4934,11 @@
       "UNB",
       "UND",
       "KNC",
-      "DFYN"
-    ]
+      "DFYN",
+    ],
   },
   "DeFiance Capital": {
-    "name": [
+    name: [
       "Uniswap",
       "Aave",
       "SushiSwap",
@@ -4874,9 +4948,9 @@
       "Axie Infinity",
       "Switcheo",
       "mStable Governance Token: Meta (MTA)",
-      "Index Cooperative"
+      "Index Cooperative",
     ],
-    "ticker": [
+    ticker: [
       "UNI",
       "AAVE",
       "SUSHI",
@@ -4886,11 +4960,11 @@
       "AXS",
       "SWTH",
       "MTA",
-      "INDEX"
-    ]
+      "INDEX",
+    ],
   },
   "DAO Maker": {
-    "name": [
+    name: [
       "MyNeighborAlice",
       "ECOMI",
       "Orion Protocol",
@@ -4916,9 +4990,9 @@
       "LOCGame",
       "The Crypto Prophecies",
       "Mochi.Market",
-      "Cere Network"
+      "Cere Network",
     ],
-    "ticker": [
+    ticker: [
       "ALICE",
       "OMI",
       "ORN",
@@ -4944,11 +5018,11 @@
       "LOCG",
       "TCP",
       "MOMA",
-      "CERE"
-    ]
+      "CERE",
+    ],
   },
   "Avalanche Ecosystem": {
-    "name": [
+    name: [
       "Avalanche",
       "TrueUSD",
       "Frax",
@@ -4956,12 +5030,12 @@
       "Frax Share",
       "Spore Finance",
       "BiLira",
-      "Zero Exchange"
+      "Zero Exchange",
     ],
-    "ticker": ["AVAX", "TUSD", "FRAX", "PNG", "FXS", "SPORE", "TRYB", "ZERO"]
+    ticker: ["AVAX", "TUSD", "FRAX", "PNG", "FXS", "SPORE", "TRYB", "ZERO"],
   },
   "Wrapped Tokens": {
-    "name": [
+    name: [
       "Wrapped Bitcoin",
       "renBTC",
       "Wrapped BNB",
@@ -4984,9 +5058,9 @@
       "Wrapped Huobi Token",
       "Matic Aave Interest Bearing USDC",
       "Matic Aave Interest Bearing YFI",
-      "Wrapped Matic"
+      "Wrapped Matic",
     ],
-    "ticker": [
+    ticker: [
       "WBTC",
       "RENBTC",
       "WBNB",
@@ -5009,11 +5083,11 @@
       "WHT",
       "MAUSDC",
       "MAYFI",
-      "WMATIC"
-    ]
+      "WMATIC",
+    ],
   },
-  "Metaverse": {
-    "name": [
+  Metaverse: {
+    name: [
       "Decentraland",
       "Enjin Coin",
       "The Sandbox",
@@ -5023,9 +5097,9 @@
       "Tower token",
       "OVR",
       "Somnium Space Cubes",
-      "Battle Pets"
+      "Battle Pets",
     ],
-    "ticker": [
+    ticker: [
       "MANA",
       "ENJ",
       "SAND",
@@ -5035,11 +5109,11 @@
       "TOWER",
       "OVR",
       "CUBE",
-      "PET"
-    ]
+      "PET",
+    ],
   },
-  "Sports": {
-    "name": [
+  Sports: {
+    name: [
       "Chiliz",
       "FC Barcelona Fan Token",
       "Paris Saint-Germain Fan Token",
@@ -5073,9 +5147,9 @@
       "İstanbul Başakşehir Fan Token",
       "Novara Calcio Fan Token",
       "FC Bitcoin",
-      "Mangocoin"
+      "Mangocoin",
     ],
-    "ticker": [
+    ticker: [
       "CHZ",
       "BAR",
       "PSG",
@@ -5109,11 +5183,11 @@
       "IBFK",
       "NOV",
       "FCBTC",
-      "MNG"
-    ]
+      "MNG",
+    ],
   },
-  "Gambling": {
-    "name": [
+  Gambling: {
+    name: [
       "FUNToken",
       "Lotto",
       "Atari Token",
@@ -5162,9 +5236,9 @@
       "CRYPTOLANDY",
       "Honk Honk",
       "CSC JACKPOT",
-      "SBET"
+      "SBET",
     ],
-    "ticker": [
+    ticker: [
       "FUN",
       "LOTTO",
       "ATRI",
@@ -5213,11 +5287,11 @@
       "CRYPL",
       "HONK",
       "CSCJ",
-      "SBET"
-    ]
+      "SBET",
+    ],
   },
-  "Stablecoin": {
-    "name": [
+  Stablecoin: {
+    name: [
       "Tether",
       "USD Coin",
       "Wrapped Bitcoin",
@@ -5281,9 +5355,9 @@
       "EURBASE",
       "Unbound Ethereum",
       "Alchemix USD",
-      "Celo Euro"
+      "Celo Euro",
     ],
-    "ticker": [
+    ticker: [
       "USDT",
       "USDC",
       "WBTC",
@@ -5347,11 +5421,11 @@
       "EBASE",
       "UETH",
       "ALUSD",
-      "CEUR"
-    ]
+      "CEUR",
+    ],
   },
   "Solana Ecosystem": {
-    "name": [
+    name: [
       "Tether",
       "Chainlink",
       "Solana",
@@ -5382,9 +5456,9 @@
       "Holy Trinity",
       "Mango Market Caps",
       "Synthetify",
-      "Mercurial Finance"
+      "Mercurial Finance",
     ],
-    "ticker": [
+    ticker: [
       "USDT",
       "LINK",
       "SOL",
@@ -5415,11 +5489,11 @@
       "HOLY",
       "MCAPS",
       "SNY",
-      "MER"
-    ]
+      "MER",
+    ],
   },
-  "platform": {
-    "name": [
+  platform: {
+    name: [
       "Cardano",
       "Chainlink",
       "Ethereum Classic",
@@ -5519,9 +5593,9 @@
       "Mobius",
       "LiquidApps",
       "Namecoin",
-      "FOAM"
+      "FOAM",
     ],
-    "ticker": [
+    ticker: [
       "ADA",
       "LINK",
       "ETC",
@@ -5621,11 +5695,11 @@
       "MOBI",
       "DAPP",
       "NMC",
-      "FOAM"
-    ]
+      "FOAM",
+    ],
   },
-  "pow": {
-    "name": [
+  pow: {
+    name: [
       "Bitcoin",
       "Ethereum",
       "Dogecoin",
@@ -5725,9 +5799,9 @@
       "GravityCoin",
       "BowsCoin",
       "FuzzBalls",
-      "SpreadCoin"
+      "SpreadCoin",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "DOGE",
@@ -5827,11 +5901,11 @@
       "GXX",
       "BSC",
       "FUZZ",
-      "SPR"
-    ]
+      "SPR",
+    ],
   },
-  "mineable": {
-    "name": [
+  mineable: {
+    name: [
       "Bitcoin",
       "Ethereum",
       "Dogecoin",
@@ -5931,9 +6005,9 @@
       "Myriad",
       "TERA",
       "EUNO",
-      "DECOIN"
+      "DECOIN",
     ],
-    "ticker": [
+    ticker: [
       "BTC",
       "ETH",
       "DOGE",
@@ -6033,11 +6107,11 @@
       "XMY",
       "TERA",
       "EUNO",
-      "DTEP"
-    ]
+      "DTEP",
+    ],
   },
-  "services": {
-    "name": [
+  services: {
+    name: [
       "Nexo",
       "Synthetix",
       "Dent",
@@ -6093,9 +6167,9 @@
       "UNIVERSAL CASH",
       "Clipper Coin",
       "MineBee",
-      "Destiny Success"
+      "Destiny Success",
     ],
-    "ticker": [
+    ticker: [
       "NEXO",
       "SNX",
       "DENT",
@@ -6151,11 +6225,11 @@
       "UCASH",
       "CCC",
       "MB",
-      "DXTS"
-    ]
+      "DXTS",
+    ],
   },
-  "payments": {
-    "name": [
+  payments: {
+    name: [
       "Binance Coin",
       "Dogecoin",
       "Tether",
@@ -6255,9 +6329,9 @@
       "Bitcoin Plus",
       "AmonD",
       "UREEQA",
-      "Tokes"
+      "Tokes",
     ],
-    "ticker": [
+    ticker: [
       "BNB",
       "DOGE",
       "USDT",
@@ -6357,7 +6431,7 @@
       "XBC",
       "AMON",
       "URQA",
-      "TKS"
-    ]
-  }
-}
+      "TKS",
+    ],
+  },
+};

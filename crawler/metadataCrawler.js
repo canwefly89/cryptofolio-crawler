@@ -1,5 +1,5 @@
 const puppeteer = require("puppeteer");
-const fs = require("fs");
+const MetaData = require("../models/metadataModel");
 const { getDate } = require("../utils/getDate");
 const { getAverage } = require("../utils/getAverage");
 const { parseNumber } = require("../utils/parseNumber");
@@ -53,8 +53,10 @@ exports.metadataCrawler = async () => {
     metadata.dominance = crawled[4].split(":")[2].replace("ETH", "").trim();
 
     await page.close();
-
     await browser.close();
+
+    await MetaData.deleteMany();
+    await MetaData.create(metadata);
 
     return metadata;
   } catch (err) {

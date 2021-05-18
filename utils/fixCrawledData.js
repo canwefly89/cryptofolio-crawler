@@ -1,8 +1,10 @@
-const categoryData = require("../crawler/crawled/category/category.json");
-const portfolioData = require("../crawler/crawled/portfolio/portfolio.json");
+const { CATEGORY_DATA } = require("../crawler/baseData/CATEGORY_DATA");
+const { PORTFOLIO_DATA } = require("../crawler/baseData/PORTFOLIO_DATA");
 const { parseNumber } = require("./parseNumber");
-const { upbitTickers } = require("../crawler/baseList/upbitList");
-const { binanceTickers } = require("../crawler/baseList/binanceList");
+const {
+  COIN_TICKERS_UPBIT,
+  COIN_TICKERS_BINANCE,
+} = require("../crawler/baseData/coinData");
 /**
  *
  * @param {object} inputData Option for audioContext
@@ -11,13 +13,13 @@ const { binanceTickers } = require("../crawler/baseList/binanceList");
 exports.fixCrawledData = (data) => {
   let fixedData = { ...data, categories: [], portfolios: [] };
 
-  Object.entries(categoryData).forEach(([key, value]) => {
+  Object.entries(CATEGORY_DATA).forEach(([key, value]) => {
     if (value.ticker.includes(fixedData.ticker)) {
       fixedData.categories.push(key);
     }
   });
 
-  Object.entries(portfolioData).forEach(([key, value]) => {
+  Object.entries(PORTFOLIO_DATA).forEach(([key, value]) => {
     if (value.ticker.includes(fixedData.ticker)) {
       fixedData.portfolios.push(key);
     }
@@ -27,11 +29,11 @@ exports.fixCrawledData = (data) => {
     fixedData.categories.push("etc");
   }
 
-  if (upbitTickers.includes(fixedData.ticker)) {
+  if (COIN_TICKERS_UPBIT.includes(fixedData.ticker)) {
     fixedData.exchanges.unshift("upbit");
   }
 
-  if (binanceTickers.includes(fixedData.ticker)) {
+  if (COIN_TICKERS_BINANCE.includes(fixedData.ticker)) {
     fixedData.exchanges.push("binance");
   }
 

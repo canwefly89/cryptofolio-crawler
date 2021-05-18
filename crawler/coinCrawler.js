@@ -1,8 +1,7 @@
 const puppeteer = require("puppeteer");
-const fs = require("fs");
-const { fixCrawledData } = require("../utils/fixCrawledData");
-const { coinNames } = require("./baseList/coinList");
 const Coin = require("../models/coinModel");
+const { fixCrawledData } = require("../utils/fixCrawledData");
+const { COIN_NAMES } = require("./baseData/coinList");
 const { getDate } = require("../utils/getDate");
 
 const crawler = async () => {
@@ -13,7 +12,7 @@ const crawler = async () => {
     });
 
     const result = {};
-    const coins = [...coinNames];
+    const coins = [...COIN_NAMES];
 
     for (let i = 0; i < coins.length; i++) {
       const correctedName = coins[i].replace(/ /gi, "-").toLowerCase();
@@ -107,16 +106,6 @@ exports.coinCrawler = async () => {
     const crawledData = await crawler();
     const date = getDate();
     const coinLog = [date];
-
-    fs.writeFileSync(
-      `${__dirname}/crawled/coin/coinData_${getDate()}.json`,
-      JSON.stringify(crawledData)
-    );
-
-    fs.writeFileSync(
-      `${__dirname}/crawled/coin/coinLog.json`,
-      JSON.stringify(coinLog)
-    );
   } catch (err) {
     console.error(err);
   }
