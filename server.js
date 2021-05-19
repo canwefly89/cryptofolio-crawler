@@ -8,7 +8,8 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const server = require("http").Server(app);
-const port = process.env.PORT || 6000;
+const ip = process.env.IP || "0.0.0.0";
+const port = process.env.PORT || 8080;
 const morgan = require("morgan");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
@@ -81,6 +82,6 @@ app.use((err, req, res, next) => {
   });
 });
 
-server.listen(port, () => {
+app.listen(port, ip, () => {
   console.log(`Listening to PORT: ${port}`);
 });
