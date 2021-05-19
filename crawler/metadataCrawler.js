@@ -9,7 +9,12 @@ exports.metadataCrawler = async () => {
   try {
     const browser = await puppeteer.launch({
       headless: true,
-      args: ["--window-size=1920, 1080", "--disable-notifications"],
+      args: [
+        "--window-size=1920, 1080",
+        "--disable-notifications",
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+      ],
     });
 
     const page = await browser.newPage();
