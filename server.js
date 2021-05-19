@@ -15,7 +15,7 @@ const cors = require("cors");
 const schedule = require("node-schedule");
 
 const { getPriceData } = require("./controller/priceController");
-const { getMetadata } = require("./controller/metadataController");
+const { getMetadata } = require("./controller/metaDataController");
 const { priceCrawler } = require("./crawler/priceCrawler");
 const { metadataCrawler } = require("./crawler/metadataCrawler");
 const { getDate } = require("./utils/getDate");
@@ -55,6 +55,12 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
 
+app.get("/", (req, res, next) =>
+  res.status(200).json({
+    message: "success",
+  })
+);
+app.get("/favicon.ico", (req, res, next) => res.status(204));
 app.get("/metadata", getMetadata);
 app.get("/price", getPriceData);
 

@@ -5,6 +5,7 @@ const { getAverage } = require("../utils/getAverage");
 const { parseNumber } = require("../utils/parseNumber");
 
 exports.metadataCrawler = async () => {
+  console.log("start metadata crawler");
   try {
     const browser = await puppeteer.launch({
       headless: true,
@@ -58,6 +59,7 @@ exports.metadataCrawler = async () => {
     await MetaData.deleteMany();
     await MetaData.create(metadata);
 
+    console.log("end metadata crawler");
     return metadata;
   } catch (err) {
     console.error(err);

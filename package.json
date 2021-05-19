@@ -1,7 +1,10 @@
 {
   "name": "cryptofolio-back",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "server.js",
+  "engines": {
+    "node": "14.16.0"
+  },
   "scripts": {
     "test": "mocha spec --sort",
     "start": "node server.js"

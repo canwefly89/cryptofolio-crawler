@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 const Coin = require("../models/coinModel");
 const { fixCrawledData } = require("../utils/fixCrawledData");
-const { COIN_NAMES } = require("./baseData/coinList");
+const { COIN_NAMES } = require("./baseData/coinData");
 const { getDate } = require("../utils/getDate");
 
 const crawler = async () => {

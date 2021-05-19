@@ -98,6 +98,7 @@ const savePriceDB = async (date, priceList, marketCapList, i) => {
 };
 
 exports.priceCrawler = async () => {
+  console.log("start price crawler");
   try {
     const finalResult = {
       marketCap: {},
@@ -146,6 +147,7 @@ exports.priceCrawler = async () => {
       savedResult[coin.ticker] = coin;
     });
 
+    console.log("end price crawler");
     return savedResult;
   } catch (err) {
     console.error(err);
