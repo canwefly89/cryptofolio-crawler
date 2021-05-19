@@ -1,54 +1,61 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
+const { Mixed } = Schema.Types;
 
 const CoinSchema = new Schema({
   name: {
     type: String,
     trim: true,
-    required: true,
     unique: true,
+  },
+  date: {
+    type: String,
   },
   ticker: {
     type: String,
-    required: true,
   },
   imagePath: {
     type: String,
-    required: true,
   },
   categories: {
-    type: [Sting],
+    type: [String],
     default: [],
-    required: true,
   },
-  supply: {
-    circulatingSupply: {
-      type: Number,
-      required: true,
-    },
-    totalSupply: {
-      type: Number,
-      required: true,
-    },
-    maxSupply: {
-      type: Number,
-      required: true,
-    },
+  portfolios: {
+    type: [String],
+    default: [],
+  },
+  circulatingSupply: {
+    type: Mixed,
+  },
+  totalSupply: {
+    type: Mixed,
+  },
+  maxSupply: {
+    type: Mixed,
+  },
+  dominance: {
+    type: Mixed,
   },
   price: {
-    time: {
-      type: Date,
-      required: true,
+    date: {
+      type: String,
     },
     price: {
-      type: Number,
-      required: true,
+      type: Mixed,
+    },
+  },
+  marketCap: {
+    date: {
+      type: String,
+    },
+    marketCap: {
+      type: Mixed,
     },
   },
   exchanges: {
     type: [String],
     default: [],
-    required: true,
   },
 });
 
