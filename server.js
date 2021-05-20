@@ -20,16 +20,17 @@ const { getMetadata } = require("./controller/metaDataController");
 const { priceCrawler } = require("./crawler/priceCrawler");
 const { metadataCrawler } = require("./crawler/metadataCrawler");
 const { getDate } = require("./utils/getDate");
+// metadataCrawler();
 
-schedule.scheduleJob("0 * * * *", () => {
-  console.log("run price Crawler", getDate());
-  priceCrawler();
-});
+// schedule.scheduleJob("0 * * * *", () => {
+//   console.log("run price Crawler", getDate());
+//   priceCrawler();
+// });
 
-schedule.scheduleJob("*/10 * * * *", () => {
-  console.log("run metadata Crawler", getDate());
-  metadataCrawler();
-});
+// schedule.scheduleJob("*/10 * * * *", () => {
+//   console.log("run metadata Crawler", getDate());
+//   metadataCrawler();
+// });
 
 const mongoURL = process.env.MONGO_URL.replace(
   "<PASSWORD>",

@@ -57,9 +57,9 @@ const crawlPricePage = async (page, i) => {
         document.querySelectorAll("td .price___3rj7O")
       ).map((v) => parseFloat(v.textContent?.replace(NANRegex, "")));
 
-      const marketCap = Array.from(document.querySelectorAll("td .kDEzev"))
-        .filter((v, index) => !(index % 2))
-        .map((v) => parseInt(v.textContent?.replace(NANRegex, ""), 10));
+      const marketCap = Array.from(
+        document.querySelectorAll(".ftvydZ")
+      ).map((v) => parseInt(v.textContent?.replace(NANRegex, ""), 10));
 
       ticker.forEach((value, index) => {
         coinData.price[value] = price[index];
