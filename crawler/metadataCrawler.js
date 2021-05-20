@@ -52,6 +52,7 @@ exports.metadataCrawler = async () => {
         "--no-sandbox",
         "--disable-setuid-sandbox",
       ],
+      // executablePath: "/usr/bin/chromium-browser",
     });
 
     const page1 = await browser.newPage();
