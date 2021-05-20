@@ -7,7 +7,6 @@ dotenv.config({
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const server = require("http").Server(app);
 const ip = process.env.IP || "0.0.0.0";
 const port = process.env.PORT || 8080;
 const morgan = require("morgan");
@@ -20,17 +19,16 @@ const { getMetadata } = require("./controller/metaDataController");
 const { priceCrawler } = require("./crawler/priceCrawler");
 const { metadataCrawler } = require("./crawler/metadataCrawler");
 const { getDate } = require("./utils/getDate");
-// metadataCrawler();
 
-// schedule.scheduleJob("0 * * * *", () => {
-//   console.log("run price Crawler", getDate());
-//   priceCrawler();
-// });
+schedule.scheduleJob("0 * * * *", () => {
+  console.log("run price Crawler", getDate());
+  priceCrawler();
+});
 
-// schedule.scheduleJob("*/10 * * * *", () => {
-//   console.log("run metadata Crawler", getDate());
-//   metadataCrawler();
-// });
+schedule.scheduleJob("*/10 * * * *", () => {
+  console.log("run metadata Crawler", getDate());
+  metadataCrawler();
+});
 
 const mongoURL = process.env.MONGO_URL.replace(
   "<PASSWORD>",
