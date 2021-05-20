@@ -105,7 +105,8 @@ exports.coinCrawler = async () => {
   try {
     const crawledData = await crawler();
     const date = getDate();
-    const coinLog = [date];
+
+    return { crawledData, date };
   } catch (err) {
     console.error(err);
   }

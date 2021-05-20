@@ -19,31 +19,31 @@ const crawlPricePage = async (page, i) => {
     await page.setDefaultNavigationTimeout(0);
     await page.goto(`https://coinmarketcap.com/?page=${i}`);
 
-    await page.waitForTimeout(Math.floor(Math.random() * 500 + 1000));
+    await page.waitForTimeout(Math.floor(Math.random() * 500 + 500));
     await page.evaluate(async () => {
       window.scrollBy(0, 1500);
     });
-    await page.waitForTimeout(Math.floor(Math.random() * 500 + 1000));
+    await page.waitForTimeout(Math.floor(Math.random() * 500 + 500));
     await page.evaluate(async () => {
       window.scrollBy(0, 1500);
     });
-    await page.waitForTimeout(Math.floor(Math.random() * 500 + 1000));
+    await page.waitForTimeout(Math.floor(Math.random() * 500 + 500));
     await page.evaluate(async () => {
       window.scrollBy(0, 1500);
     });
-    await page.waitForTimeout(Math.floor(Math.random() * 500 + 1000));
+    await page.waitForTimeout(Math.floor(Math.random() * 500 + 500));
     await page.evaluate(async () => {
       window.scrollBy(0, 1500);
     });
-    await page.waitForTimeout(Math.floor(Math.random() * 500 + 1000));
+    await page.waitForTimeout(Math.floor(Math.random() * 500 + 500));
     await page.evaluate(async () => {
       window.scrollBy(0, 1500);
     });
-    await page.waitForTimeout(Math.floor(Math.random() * 500 + 1000));
+    await page.waitForTimeout(Math.floor(Math.random() * 500 + 500));
     await page.evaluate(async () => {
       window.scrollBy(0, 1500);
     });
-    await page.waitForTimeout(Math.floor(Math.random() * 1000 + 2000));
+    await page.waitForTimeout(Math.floor(Math.random() * 1000 + 1000));
 
     const crawledData = await page.evaluate(() => {
       const coinData = { price: {}, marketCap: {} };
