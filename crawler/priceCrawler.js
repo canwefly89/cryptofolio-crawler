@@ -106,7 +106,7 @@ exports.priceCrawler = async () => {
     };
 
     const browser = await puppeteer.launch({
-      headless: true,
+      headless: false,
       args: [
         "--window-size=1920, 1080",
         "--disable-notifications",
@@ -116,15 +116,29 @@ exports.priceCrawler = async () => {
       executablePath: "/usr/bin/google-chrome-stable",
     });
 
-    const pageCrawlPromises = [];
+    let pageCrawlPromises = [];
     const savePromises = [];
 
-    for (let i = 1; i < 11; i++) {
+    for (let i = 1; i < 6; i++) {
       const page = await browser.newPage();
       pageCrawlPromises.push(crawlPricePage(page, i));
     }
 
-    const pageCrawlResult = await Promise.all(pageCrawlPromises);
+    let pageCrawlResult = await Promise.all(pageCrawlPromises);
+
+    pageCrawlResult.forEach((data) => {
+      finalResult.marketCap = { ...finalResult.marketCap, ...data.marketCap };
+      finalResult.price = { ...finalResult.price, ...data.price };
+    });
+
+    pageCrawlPromises = [];
+
+    for (let i = 6; i < 11; i++) {
+      const page = await browser.newPage();
+      pageCrawlPromises.push(crawlPricePage(page, i));
+    }
+
+    pageCrawlResult = await Promise.all(pageCrawlPromises);
 
     pageCrawlResult.forEach((data) => {
       finalResult.marketCap = { ...finalResult.marketCap, ...data.marketCap };
