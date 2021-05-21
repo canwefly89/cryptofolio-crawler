@@ -121,7 +121,7 @@ exports.priceCrawler = async () => {
 
     for (let i = 1; i < 6; i++) {
       const page = await browser.newPage();
-      page.setDefaultNavigationTimeout(1200000);
+      await page.setDefaultNavigationTimeout(1200000);
       pageCrawlPromises.push(crawlPricePage(page, i));
     }
 
