@@ -52,6 +52,7 @@ exports.metadataCrawler = async () => {
         "--no-sandbox",
         "--disable-setuid-sandbox",
       ],
+      executablePath: "/usr/bin/google-chrome-stable",
       // executablePath: "/usr/bin/chromium-browser",
     });
 

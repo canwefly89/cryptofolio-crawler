@@ -2,6 +2,7 @@ const { metadataCrawler } = require("../crawler/metadataCrawler");
 const MetaData = require("../models/metadataModel");
 
 exports.getMetadata = async (req, res, next) => {
+  console.log(res.executablePath);
   try {
     console.log("MetaData");
     await MetaData.deleteMany();

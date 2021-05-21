@@ -113,7 +113,7 @@ exports.priceCrawler = async () => {
         "--no-sandbox",
         "--disable-setuid-sandbox",
       ],
-      executablePath: "/usr/bin/chromium-browser",
+      executablePath: "/usr/bin/google-chrome-stable",
     });
 
     const pageCrawlPromises = [];
